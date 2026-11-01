@@ -42,6 +42,19 @@
     <div class="mast-meta"><span>Sunday, November 1, 2026</span><span>Sunday, November 1, 2026</span></div>
   </header>
   <nav class="doors"><a href="https://claypnw.github.io/menu/admin-menu.html">Admin Menu</a><span class="sep">|</span><a href="https://claypnw.github.io/morning-scroll/?from=admin">Morning Scroll</a><span class="sep">|</span><a href="sources.html">Sources</a></nav>
+  <div class="listen" style="border:2px solid #8a6d3b; background:#fbf6e9; padding:14px; margin:14px auto 4px; max-width:980px; text-align:center;">
+    <button id="listenBtn" type="button" style="font-size:22px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight:bold; padding:14px 26px; background:#8a6d3b; color:#fff; border:0; border-radius:8px; cursor:pointer; width:100%;">▶ Listen to this review</button>
+    <p style="margin:8px 0; font-size:16px;">18 stories across 7 subjects · the reading plays 16 minutes 47 seconds</p>
+    <audio id="revAudio" src="review-voice-2026-11-01.mp3" controls preload="metadata" style="width:100%;"></audio>
+  </div>
+  <script>
+    var lb = document.getElementById('listenBtn');
+    var ra = document.getElementById('revAudio');
+    lb.addEventListener('click', function () { if (ra.paused) { ra.play(); } else { ra.pause(); } });
+    ra.addEventListener('play', function () { lb.textContent = '⏸ Pause the reading'; });
+    ra.addEventListener('pause', function () { lb.textContent = '▶ Listen to this review'; });
+    ra.addEventListener('ended', function () { lb.textContent = '▶ Listen to this review'; });
+  </script>
   <p class="dateline">Sunday, November 1, 2026 — the day's news on the subjects on Clay's list. Stories are from October 29 to November 1, 2026, from the named source list, and each story is carried once across the four days.</p>
   <section>
     <div class="section-head"><h2>New breakthroughs in AI and its uses</h2><p class="subnote">Up to 5 stories. 5 found today.</p></div>
