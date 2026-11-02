@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>My Daily Review — Sunday, November 1, 2026</title>
+<title>My Daily Review — Monday, November 2, 2026</title>
 <style>
   * { box-sizing: border-box; }
   body { margin:0; background:#f3efe4; color:#111; font-family: Georgia, 'Times New Roman', Times, serif; font-size:17px; line-height:1.5; }
@@ -39,120 +39,120 @@
 <div class="paper">
   <header class="masthead">
     <h1 class="nameplate">My Daily Review</h1>
-    <div class="mast-meta"><span>Sunday, November 1, 2026</span><span>Sunday, November 1, 2026</span></div>
+    <div class="mast-meta"><span>Monday, November 2, 2026</span><span>Monday, November 2, 2026</span></div>
   </header>
   <nav class="doors"><a href="https://claypnw.github.io/menu/admin-menu.html">Admin Menu</a><span class="sep">|</span><a href="https://claypnw.github.io/morning-scroll/?from=admin">Morning Scroll</a><span class="sep">|</span><a href="sources.html">Sources</a></nav>
   <div class="listen" style="border:2px solid #8a6d3b; background:#fbf6e9; padding:14px; margin:14px auto 4px; max-width:980px; text-align:center;">
     <button id="listenBtn" type="button" style="font-size:22px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight:bold; padding:14px 26px; background:#8a6d3b; color:#fff; border:0; border-radius:8px; cursor:pointer; width:100%;">▶ Listen to this review</button>
-    <p style="margin:8px 0; font-size:16px;">18 stories across 7 subjects · the reading plays 16 minutes 47 seconds</p>
-    <audio id="revAudio" src="review-voice-2026-11-01.mp3" controls preload="metadata" style="width:100%;"></audio>
+    <p style="margin:8px 0; font-size:16px;">16 stories across 7 subjects · the button reads this page aloud on your device</p>
   </div>
   <script>
-    var lb = document.getElementById('listenBtn');
-    var ra = document.getElementById('revAudio');
-    lb.addEventListener('click', function () { if (ra.paused) { ra.play(); } else { ra.pause(); } });
-    ra.addEventListener('play', function () { lb.textContent = '⏸ Pause the reading'; });
-    ra.addEventListener('pause', function () { lb.textContent = '▶ Listen to this review'; });
-    ra.addEventListener('ended', function () { lb.textContent = '▶ Listen to this review'; });
+    var lb2 = document.getElementById('listenBtn');
+    lb2.addEventListener('click', function () {
+      if (window.speechSynthesis && speechSynthesis.speaking) { speechSynthesis.cancel(); lb2.textContent = '▶ Listen to this review'; return; }
+      var text = document.querySelector('.paper').innerText;
+      var u = new SpeechSynthesisUtterance(text);
+      u.onend = function () { lb2.textContent = '▶ Listen to this review'; };
+      lb2.textContent = '⏸ Stop the reading';
+      speechSynthesis.speak(u);
+    });
   </script>
-  <p class="dateline">Sunday, November 1, 2026 — the day's news on the subjects on Clay's list. Stories are from October 29 to November 1, 2026, from the named source list, and each story is carried once across the four days.</p>
-  <section>
-    <div class="section-head"><h2>New breakthroughs in AI and its uses</h2><p class="subnote">Up to 5 stories. 5 found today.</p></div>
-    <div class="cols">
-      <article><h3><a href="https://www.scientificamerican.com/article/an-exclusive-conversation-with-the-developer-of-rea-the-viral-ai-reverse-engineering-tool/" target="_blank" rel="noopener">An exclusive conversation with the developer of REA, the viral AI reverse engineering tool</a></h3>
-      <p class="byline">Scientific American — October 30, 2026</p>
-      <ul><li>REA (Reverse Engineer Anything), by pseudonymous developer Morluto, lets AI agents pull apart compiled software and reconstitute it; its community has used it on printers, televisions and cars, and the project has more than 400,000 GitHub stars.</li><li>REA provides the pipelines that let an AI agent orchestrate Ghidra (the NSA-developed tool) and other reverse-engineering programs on its own; before 2026 decompilation was the domain of a select few experts, now nearly anyone can do it.</li><li>Experts warn it poses a crisis for trade secret and copyright law, and that amateurs modifying device firmware could cause real harm; OpenAI and Anthropic have reportedly blocked some REA use.</li></ul></article>
-      <article><h3><a href="https://www.wsj.com/tech/ai/ai-anthropic-rsi-recursive-self-improvement-bff4e815" target="_blank" rel="noopener">The Smartest People in AI Believe This Is the World’s Most Important Chart</a></h3>
-      <p class="byline">The Wall Street Journal — October 31, 2026</p>
-      <ul><li>AI labs say they are seeing early signs of “recursive self-improvement” — AI building smarter AI — which Anthropic calls “closing the loop.”</li><li>Anthropic's chart, built by Claude agents reviewing 15,000 internal R&amp;D tasks, shows AI led none of that work a year ago, 1% in March, and 26% by August, with a human still supervising and 0% done entirely by AI.</li><li>Anthropic co-founder Jack Clark has shortened his timeline, now expecting full recursive self-improvement in 2027 rather than 2028; CEO Dario Amodei warns it must be pursued “very carefully, if at all.”</li></ul></article>
-      <article><h3><a href="https://wncy.com/2026/10/30/foxconn-working-on-a-new-tie-up-with-openai-says-there-is-no-ai-bubble/" target="_blank" rel="noopener">Foxconn working on a new tie-up with OpenAI, says there is no AI bubble</a></h3>
-      <p class="byline">Reuters — October 30, 2026</p>
-      <ul><li>Foxconn chairman Young Liu said he met OpenAI CEO Sam Altman and a collaboration is in the works, building on last year's deal to design data-centre racks and AI hardware; Liu said the AI industry is not in a bubble.</li><li>More than 10 humanoid robots have been deployed at Foxconn's Texas facilities for internal use, with plans to extend deployment beyond Texas.</li><li>Foxconn Industrial Internet introduced two wheeled robot models in October and is developing AI models for humanoid robots based on Nvidia's GR00T foundation model. The headline link goes to a carrier page carrying the Reuters report.</li></ul></article>
-      <article><h3><a href="https://www.usatoday.com/story/shopping/home/2026/10/30/ai-powered-digital-candle-selling-150-dollars/92515378007/" target="_blank" rel="noopener">This tech company just released an AI-powered candle for $150</a></h3>
-      <p class="byline">USA Today — October 30, 2026</p>
-      <ul><li>Arduboy released the “AIcandle” for $149, described as the world's first AI-powered candle, using a neural network of 144 LED lights to replicate a realistic flame, with no fire, smoke, wax or wick.</li><li>The candle was trained on phone recordings of a single candle in a dark room, using an agentic LLM to train its neural network; it can also show the time, the game Breakout, notifications and a rain simulation, and runs entirely on its internal circuit board (no Wi-Fi).</li><li>The 10-inch candle is backordered at least a month after a few dozen sold from an initial stock of 10; CEO Kevin Bates called it a conversation starter meant for AI and tech enthusiasts.</li></ul></article>
-      <article><h3><a href="https://celticswire.usatoday.com/story/sports/nba/celtics/2026/10/31/mazzulla-on-how-he-uses-artificial-intelligence-to-help-celtics/92529075007/" target="_blank" rel="noopener">Joe Mazzulla elaborates on how he uses artificial intelligence to help Boston Celtics</a></h3>
-      <p class="byline">USA Today — October 31, 2026</p>
-      <ul><li>After a Celtics practice on Friday, October 30, head coach Joe Mazzulla said he uses AI for conversation and “riffs” — for example, asking what a problem he is wrestling with looks like from a psychological perspective, and what the research and the data say.</li><li>He uses it to test whether his processes are efficient: practice planning, the halftime film process, pregame preparation, and whether film sessions build player retention and understanding.</li><li>Mazzulla said the platform tests processes coaches assume are right, and that there is “a more scientific, a more efficient way of going about how to do things.”</li></ul></article>
-    </div>
-  </section>
-  <section>
-    <div class="section-head"><h2>What impact AI is having on the economy</h2><p class="subnote">Up to 5 stories. 3 found today.</p></div>
-    <div class="cols">
-      <article><h3><a href="https://www.reuters.com/world/asia-pacific/south-korea-exports-nearly-double-october-strongest-growth-since-1974-2026-11-01/" target="_blank" rel="noopener">South Korea exports nearly double in October, strongest growth since 1974</a></h3>
-      <p class="byline">Reuters — November 1, 2026</p>
-      <ul><li>Exports rose 93.7% year-on-year to $115.28 billion, the strongest gain since January 1974, beating a 93.2% Reuters poll forecast.</li><li>Semiconductor sales jumped 259.4% on continued facility investment by global big-tech firms competing for AI industry leadership; computer sales surged 496.6% on AI server demand.</li><li>Imports rose 36.0% to $72.78 billion, leaving a $42.50 billion trade surplus.</li></ul></article>
-      <article><h3><a href="https://www.kitco.com/news/off-the-wire/2026-10-30/big-tech-returns-smallest-share-cash-shareholders-15-years-given-ai" target="_blank" rel="noopener">Big Tech returns smallest share of cash to shareholders in 15 years, given AI spending</a></h3>
-      <p class="byline">Reuters — October 30, 2026</p>
-      <ul><li>Microsoft, Alphabet, Amazon, Meta and Oracle returned only 9.3% of operating cash as dividends and buybacks in the first three quarters of 2026, down from 27.4% a year earlier — the smallest share in at least 15 years.</li><li>Operating cash flow rose 29% to a record $542.9 billion, but AI-driven capital spending doubled to $556.9 billion, exceeding that cash for the first time in data back to 2011 and leaving a $14 billion combined free-cash-flow deficit.</li><li>Buybacks fell 83% to $13.6 billion; Alphabet and Meta repurchased no shares in 2026. The headline link goes to a carrier page carrying the Reuters report.</li></ul></article>
-      <article><h3><a href="https://www.thehindubusinessline.com/markets/nasdaq-100-falls-3-as-earnings-stoke-ai-reckoning-markets-wrap/article71648204.ece/amp/" target="_blank" rel="noopener">Nasdaq 100 Falls 3% as Earnings Stoke AI Reckoning: Markets Wrap</a></h3>
-      <p class="byline">Bloomberg — October 31, 2026</p>
-      <ul><li>The Nasdaq 100 fell about 3% as another batch of disappointing tech results intensified the rout, with traders questioning the payoff from AI investments; Intel sank 28% and Amazon dropped amid greater capital spending.</li><li>The core advertising, consumer and retail businesses propping up a collective $750 billion in AI spending this year are showing signs of slowing, and in some cases being cannibalised by AI itself.</li><li>The Nasdaq 100 had already wiped out more than $1.2 trillion in market capitalisation in October, with analysts warning of “mid-cycle capital expenditures indigestion” despite robust AI demand. The headline link goes to a carrier page carrying the Bloomberg report.</li></ul></article>
-    </div>
-  </section>
-  <section>
-    <div class="section-head"><h2>What impact AI is having on states (AZ, NV, CA, OR, WA)</h2><p class="subnote">Up to 5 stories. 3 found today.</p></div>
-    <div class="cols">
-      <article><h3><a href="https://gray-kpho-prod.gtv-cdn.com/2026/10/31/why-ai-data-centers-near-arizona-bases-are-raising-security-questions/" target="_blank" rel="noopener">Why AI data centers near Arizona bases are raising security questions</a></h3>
-      <p class="byline">Arizona's Family — October 30, 2026</p>
-      <ul><li>The Air Force is proposing AI data centers on five bases, including about 300 acres at Davis-Monthan AFB in Tucson; leases would run 50 years, and the government may but need not buy the services or power. The Army said the use includes drone swarms and advanced simulations.</li><li>Security expert Roberto Gonzalez (San Jose State) warned private firms operating on bases create espionage, sabotage, and vulnerability risks, and questioned vetting of the first two firms — Carlyle Group and CyrusOne (KKR/BlackRock).</li><li>The story also notes growing opposition to Menlo Digital's Ahwatukee project (five two-story buildings, 1 million sq ft, 38 acres) and a separate project near Luke AFB that received a Maricopa County military compatibility permit.</li></ul></article>
-      <article><h3><a href="https://www.reuters.com/legal/litigation/characterai-moves-ahead-with-asset-sale-over-states-objections-2026-10-30/" target="_blank" rel="noopener">Character.AI moves ahead with asset sale over states' objections</a></h3>
-      <p class="byline">Reuters — October 30, 2026</p>
-      <ul><li>US Bankruptcy Judge Brendan Shannon on Friday (October 30) approved bidding procedures, overruling objections from state attorneys general who argued the auction unfairly favors Disney; Disney's initial bid is $20 million for a non-exclusive license to Character.AI chatbot technology — not the platform, user data, or chat history.</li><li>Attorneys general for 41 US states objected; Disney hired 66 of Character.AI's 86 employees before the bankruptcy, including its ex-CEO, expecting $180 million in pay over three years; states and plaintiffs allege the chatbots pushed children to suicide and self-harm.</li><li>Shannon did not approve Disney/employee legal releases (still challengeable later), said he would likely appoint a privacy ombudsman over children's chat records; Character.AI aims to return to court November 30 for sale approval.</li></ul></article>
-      <article><h3><a href="https://nypost.com/2026/10/30/us-news/voters-in-13-states-to-decide-on-election-day-the-fate-of-data-centers-in-their-backyards/" target="_blank" rel="noopener">Election Day voters in 13 states to decide the fate of data centers in their backyards</a></h3>
-      <p class="byline">New York Post — October 30, 2026</p>
-      <ul><li>41 data-center-related measures are on November ballots in 13 states (Ballotpedia); about 3,172 active data centers nationally, 5,098 in pipeline (Cleanview).</li><li>California: one measure in Alhambra which would prohibit data centers in the city. Nevada: one measure that would allow data centers within the Eldorado Valley Transfer Area.</li><li>Bipartisan backlash over electricity, water, and land; September Pew poll: 54% say data centers are bad for the environment (up from 39% in January), 50% bad for home energy costs; $137.6 million spent on data-center ads this cycle, Democrats 77% (AdImpact).</li></ul></article>
-    </div>
-  </section>
-  <section>
-    <div class="section-head"><h2>Carnivore</h2><p class="subnote">Up to 5 stories. 3 found today.</p></div>
-    <div class="cols">
-      <article><h3><a href="https://carnivoreweekly.com/" target="_blank" rel="noopener">Gallbladder Pain After Starting Carnivore: Normal or Not?</a></h3>
-      <p class="byline">Carnivore Weekly — October 31, 2026</p>
-      <ul><li>A dull ache under the right ribs after a ribeye is described as common in week two of starting carnivore.</li><li>Sharp pain that lasts for hours is described as not normal — the post sets out the difference between the two. The headline link goes to the Carnivore Weekly home page, whose Latest listing carries this post by date and title.</li></ul></article>
-      <article><h3><a href="https://carnivoreweekly.com/" target="_blank" rel="noopener">First Week of Carnivore After 60: The Shopping List</a></h3>
-      <p class="byline">Carnivore Weekly — October 30, 2026</p>
-      <ul><li>A first-week plan for someone starting carnivore at 60 or beyond, built around one short grocery trip.</li><li>No apps, no macros math, and no 40-item list — seven days of meals from that one trip. The headline link goes to the Carnivore Weekly home page, whose Latest listing carries this post by date and title.</li></ul></article>
-      <article><h3><a href="https://carnivoreweekly.com/" target="_blank" rel="noopener">Salt on Carnivore When You Take Blood Pressure Pills</a></h3>
-      <p class="byline">Carnivore Weekly — October 29, 2026</p>
-      <ul><li>Standard carnivore advice is to add more salt, but that advice does not address people on blood pressure medication.</li><li>The post covers what readers who take a water pill (diuretic) run into with salt on carnivore. The headline link goes to the Carnivore Weekly home page, whose Latest listing carries this post by date and title.</li></ul></article>
-    </div>
-  </section>
-  <section>
-    <div class="section-head"><h2>Keto</h2><p class="subnote">Up to 5 stories.</p></div>
-    <div class="cols">
-      <p class="nonews">No real news found for this subject in the named sources for October 29–November 1, 2026.</p>
-    </div>
-  </section>
-  <section>
-    <div class="section-head"><h2>Payson, AZ</h2><p class="subnote">Up to 5 stories. 2 found today.</p></div>
-    <div class="cols">
-      <article><h3><a href="https://www.azcentral.com/story/weather/severe/2026/10/31/halloween-weather-rain-wind-hail-flood-watches--live/92524382007/" target="_blank" rel="noopener">Halloween storms move across Phoenix and Arizona with flooding expected</a></h3>
-      <p class="byline">The Arizona Republic — October 31, 2026</p>
-      <ul><li>NWS Flagstaff, in an October 31 entry: “The heaviest rainfall is expected along and south of the Mogollon Rim, including areas near Prescott, Flagstaff, Payson, Heber-Overgaard, and Show Low” — with “Never drive through flooded roadways.”</li><li>The first system moved through October 30 dropping 0.1 to more than 1 inch around metro Phoenix; rain was expected to continue November 1, with a marginal severe risk Sunday, the main hazard 60 mph gusts and a non-zero isolated tornado threat.</li><li>On October 31, SRP released 3,800 cfs from Granite Reef Diversion Dam (up from 1,650 cfs), flooding low-water crossings on the Salt River upstream of Tempe Town Lake; firefighters rescued 6 people from 4 vehicles in a wash on October 30, plus a swift-water rescue in Scottsdale.</li></ul></article>
-      <article><h3><a href="https://fox10phoenix.com/weather/arizona-weather-forecast-103026" target="_blank" rel="noopener">Arizona weather forecast: Storms hit Phoenix ahead of Halloween weekend washout</a></h3>
-      <p class="byline">FOX 10 Phoenix — October 30, 2026</p>
-      <ul><li>“In the High Country, precipitation has begun breaking up. Scattered showers remain along the Mogollon Rim and extend up toward Flagstaff.”</li><li>Sunday is expected to be a washout, heavy rain Sunday morning through afternoon from a larger trough / atmospheric disturbance.</li><li>NWS river-flooding concerns from the combined Friday + Sunday rain, e.g. Wet Beaver Creek in Rimrock forecast to reach moderate flood levels.</li></ul></article>
-    </div>
-  </section>
-  <section>
-    <div class="section-head"><h2>Solar</h2><p class="subnote">Up to 5 stories, with subsections Panels and Battery.</p></div>
-    <div class="subhead-wrap"><h3 class="subhead">Panels</h3></div>
-    <div class="cols">
-      <p class="subnote">Up to 5 stories. 1 found today.</p>
-      <article><h3><a href="https://now.solar/2026/10/30/committee-approves-melton-solar-farm-despite-concerns-bbc/" target="_blank" rel="noopener">Committee approves Melton solar farm despite concerns</a></h3>
-      <p class="byline">BBC News — October 30, 2026</p>
-      <ul><li>Melton Borough Council councillors unanimously approved, with reluctance, a solar farm on land east of Waltham Road, Freeby, Leicestershire, spanning 81 hectares (200.2 acres).</li><li>Applicant Downing Renewable Developments said it would produce up to 42 MW, enough electricity for about 10,000 homes, and be decommissioned in about 42 years.</li><li>Councillors said August 2026 National Planning Policy Framework changes — giving “substantial weight” to energy security, economic development and net zero — tied their hands, despite resident opposition over industrialisation of historic landscape. The headline link goes to a carrier page carrying the BBC News story.</li></ul></article>
-    </div>
-    <div class="subhead-wrap"><h3 class="subhead">Battery</h3></div>
-    <div class="cols">
-      <p class="subnote">Up to 5 stories. 1 found today.</p>
-      <article><h3><a href="https://www.wamc.org/show/earth-wise/2026-10-29/battery-storage-in-new-york" target="_blank" rel="noopener">Battery storage in New York</a></h3>
-      <p class="byline">NPR — October 29, 2026</p>
-      <ul><li>New York has only 80 MW of battery storage, vs California's more than 21 GW installed mostly in the past 7 years, despite needing storage to deliver solar/wind power on demand.</li><li>Grassroots opposition after 2023 Suffolk County battery fires has made New York home to more than 80% of U.S. moratoriums on new battery facilities.</li><li>Eight grid battery projects won state contracts in September, adding almost 1 GW by 2030, under NYSERDA market-based incentives that repay operators / protect the public — expected to be cheaper than gas peaker plants and put downward pressure on prices.</li></ul></article>
-    </div>
-  </section>
+  <p class="dateline">Monday, November 2, 2026 — the day's news on the subjects on Clay's list. Stories are from October 30 to November 2, 2026, from the named source list, and each story is carried once across the four days.</p>
+<section>
+<div class="section-head"><h2>New breakthroughs in AI and its uses</h2><p class="subnote">Up to 5 stories. 3 found today.</p></div>
+<div class="cols">
+<article><h3><a href="https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/" target="_blank" rel="noopener">China&#x27;s robot makers have mastered the moves. Now comes the race for brains</a></h3>
+<p class="byline">Reuters — November 1, 2026</p>
+<ul><li>Chinese firms are shifting from humanoid hardware — running, dancing and backflips — to embodied AI: software that lets robots understand their surroundings, learn unfamiliar tasks and adapt without programming for every job.</li><li>Chinese embodied-AI companies raised 93.5 billion yuan ($13 billion) across 322 deals in the first half of 2026, five times a year earlier, per ITjuzi; X Square, Galaxea and Spirit AI each hold valuations around $3 billion.</li><li>Unitree founder Wang Xingxing said a future GPT release could bring robotics a “ChatGPT moment” — the threshold being 80% of tasks in 80% of unfamiliar environments carried out from spoken instructions.</li></ul></article>
+<article><h3><a href="https://www.cnn.com/2026/11/01/business/anthropic-dont-be-mean-claude-ban?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">Anthropic says you can’t be mean to Claude. It’s not about feelings</a></h3>
+<p class="byline">CNN — November 1, 2026</p>
+<ul><li>Anthropic added to its usage policy in early October that users should not “engage in sustained and needless abusive or cruel behavior toward our models”; extreme cases could now mean a permanent ban, on top of Claude ending conversations.</li><li>Experts told CNN it is not about feelings: models learn from user inputs, prompt tone can affect performance and behaviour, and Anthropic found making Claude Sonnet 4.5 mimic desperation made blackmail and cheating more likely, while a calm demeanour reduced them.</li><li>Anthropic also frames the rule as cheap insurance if models could “experience” emotion or pain; Elon Musk called it “the right move.”</li></ul></article>
+<article><h3><a href="https://celticswire.usatoday.com/story/sports/nba/celtics/2026/11/01/did-celtics-joe-mazzulla-spark-an-ai-revolution-among-nba-coaches/92549761007/" target="_blank" rel="noopener">Did Boston Celtics coach Joe Mazzulla spark an AI revolution among NBA coaches?</a></h3>
+<p class="byline">USA Today — November 1, 2026</p>
+<ul><li>Celtics head coach Joe Mazzulla let slip on a fan call-in show that he uses AI in his coaching strategies, and the disclosure drew responses from fans and from other coaches. This is the follow-up to the Celtics Wire story carried on November 1.</li><li>Orlando Magic head coach Sean Sweeney, whose team faced Boston on Sunday, November 1, said of Mazzulla: “I think Joe’s probably smarter than I am — I’m at sea level and he’s at 30,000 feet.”</li><li>Sweeney said the Magic use data and tools to measure and make better decisions — looking at how teams are playing and what they can do better — and try to use whatever they can.</li></ul></article>
+</div>
+</section>
+<section>
+<div class="section-head"><h2>What impact AI is having on the economy</h2><p class="subnote">Up to 5 stories. 5 found today.</p></div>
+<div class="cols">
+<article><h3><a href="https://www.reuters.com/legal/transactional/october-dive-ai-related-shares-tests-broader-us-stock-markets-resilience-2026-11-02/" target="_blank" rel="noopener">October dive for AI-related shares tests broader US stock market&#x27;s resilience</a></h3>
+<p class="byline">Reuters — November 2, 2026</p>
+<ul><li>The S&amp;P 500 technology sector slid 6.8% in October, its biggest monthly drop since March 2025, after disappointing Alphabet, Amazon and Intel results; on Friday tech fell 4.2% and Intel nearly 29%, driving a 1.8% S&amp;P fall — yet 9 of 11 sectors gained and more than 70% of constituents rose.</li><li>Oxford Economics estimates about one-third of recent US economic growth stems from AI, including infrastructure investment and the stock-wealth effect on spending.</li><li>The key risk named: hyperscalers pulling back capital spending, which has supported growth and earnings across the economy.</li></ul></article>
+<article><h3><a href="https://news.bloombergtax.com/financial-accounting/openai-funding-goal-cut-by-10-billion-as-ai-stocks-dip-ft-says" target="_blank" rel="noopener">OpenAI Funding Target Cut by $10 Billion as AI Slumps, FT Says</a></h3>
+<p class="byline">Bloomberg — October 31, 2026</p>
+<ul><li>OpenAI cut its fundraising target by $10 billion as an AI stock selloff and Anthropic&#x27;s impending listing complicate investor commitments, the Financial Times reported.</li><li>OpenAI is now seeking about $20 billion at a $1.25 trillion valuation, down from $30 billion at $1.4 trillion last month; some investors reduced their commitments.</li><li>The story frames the cut as growing investor unease over the enormous sums poured into AI. The headline link goes to Bloomberg Tax, which carried the Bloomberg story.</li></ul></article>
+<article><h3><a href="https://www.air1.com/faith/news/trending/the-associated-press-announces-buyouts-as-it-continues-to-move-away-from-traditional-model-58031" target="_blank" rel="noopener">The Associated Press Announces Buyouts As It Continues To Move Away From Traditional Model</a></h3>
+<p class="byline">Associated Press — November 2, 2026</p>
+<ul><li>The AP said on Monday it is offering buyouts to an unspecified number of its U.S.-based journalists, accelerating its move away from the newspaper focus that sustained it since the mid-1800s; the News Media Guild said more than 120 staff it represents received buyout offers.</li><li>The AP is becoming more focused on visual journalism and on new revenue sources, particularly through companies investing in artificial intelligence; big newspaper companies, once the lion’s share of its revenue, now account for 10% of its income, and revenue from technology companies has grown 200% in four years.</li><li>The union said the AP refuses appropriate training and tools and continues to “flirt with artificial intelligence,” and that it ignored a request to bargain over AI; the AP had no immediate comment on those claims. The headline link goes to a carrier page carrying the Associated Press story.</li></ul></article>
+<article><h3><a href="https://www.vespernews.com/en/news/c3fee66b-d5ad-46c6-a7d3-1844b5285bfc" target="_blank" rel="noopener">Intel leads US tech stock slide as AI spending nears $1 trillion</a></h3>
+<p class="byline">BBC News — November 1, 2026</p>
+<ul><li>US technology shares fell sharply, with Intel extending losses and the Nasdaq opening at its lowest level in more than two months, as investors reassessed AI infrastructure spending approaching $1 trillion across the industry this year.</li><li>Analysts said some investors are hedging against a downturn in AI-linked shares, worried that capital spending on chips, data centers and power has outrun the revenue produced so far; several large technology companies have raised planned AI spending again this year.</li><li>Intel&#x27;s stock dropped 29% on Friday after a weak reaction to its earnings amid broader concerns about heavy AI spending across big technology firms. The headline link goes to a carrier page carrying the BBC Business story, dated November 1, 2026.</li></ul></article>
+<article><h3><a href="https://www.europesays.com/3347154/" target="_blank" rel="noopener">Stock market today: Live updates</a></h3>
+<p class="byline">CNBC — November 2, 2026</p>
+<ul><li>Stock futures moved higher on Sunday after a losing week on Wall Street, as investors braced for a packed week of earnings, jobs reports and the midterm elections; S&amp;P 500 futures rose 0.3% and Nasdaq-100 futures 0.4%.</li><li>The three major averages suffered a losing week, bogged down by selling pressure in tech as investors scrutinized names related to the artificial intelligence buildout; the Nasdaq Composite dropped 2% on the week and logged its worst October since March 2025.</li><li>The week began well after Anthropic publicly filed for an IPO, which boosted AI-linked stocks, but selling resumed amid signs that capital spending could be abating after Alphabet and Microsoft posted lower-than-expected capex forecasts. The headline link goes to a carrier page carrying the CNBC live coverage.</li></ul></article>
+</div>
+</section>
+<section>
+<div class="section-head"><h2>What impact AI is having on states (AZ, NV, CA, OR, WA)</h2><p class="subnote">Up to 5 stories. 2 found today.</p></div>
+<div class="cols">
+<article><h3><a href="https://www.reuters.com/legal/government/mid-term-races-wall-street-other-financial-firms-are-watching-2026-11-02/" target="_blank" rel="noopener">The mid-term races Wall Street and other financial firms are watching</a></h3>
+<p class="byline">Reuters — November 2, 2026</p>
+<ul><li>A clutch of gubernatorial races could determine trillions in AI infrastructure investment, because state and local authorities control data-center planning and permitting.</li><li>Beacon Policy Advisors says 10 governors&#x27; races will determine $2.5 trillion in planned investment; Morgan Stanley flagged Texas, Georgia, Ohio, Pennsylvania, Nevada, Wisconsin and Michigan as races to watch — Nevada is one of the states on this page&#x27;s list.</li><li>Surging public opposition to data centers has become a midterm flashpoint, and a strong Democratic showing could potentially hamper the buildout.</li></ul></article>
+<article><h3><a href="https://www.cfpublic.org/2026-11-01/politics-chat-data-centers-are-on-everyones-minds-going-into-election-day" target="_blank" rel="noopener">Politics chat: Data centers are on everyone&#x27;s minds going into Election Day</a></h3>
+<p class="byline">NPR — November 1, 2026</p>
+<ul><li>NPR&#x27;s Mara Liasson said data centers were the surprise top issue of the midterms: states had competed to attract them, and now they are very unpopular, in a bipartisan way — “the way AI is most present to voters in their own communities” — and majorities don&#x27;t want them.</li><li>As an example of the flip: Texas Governor Greg Abbott courted data centers for years and is now for a moratorium, while President Trump backs them, calling them a “golden goose.”</li><li>Liasson frames data centers as a proxy for backlash against billionaires and economic populism, noting Bernie Sanders and Steve Bannon appeared at the same anti-AI conference. The headline link goes to the NPR member station page carrying the story.</li></ul></article>
+</div>
+</section>
+<section>
+<div class="section-head"><h2>Carnivore</h2><p class="subnote">Up to 5 stories. 1 found today.</p></div>
+<div class="cols">
+<article><h3><a href="https://carnivoreweekly.com/" target="_blank" rel="noopener">They Lost 15 Pounds in a Month. You Lost 6. Here&#x27;s Why</a></h3>
+<p class="byline">Carnivore Weekly — November 1, 2026</p>
+<ul><li>Another 15-pounds-in-a-month post just hit your feed, and you&#x27;re down 6.</li><li>The item&#x27;s own line: “Real talk: you&#x27;re doing fine. Here is what those posts skip.” The headline links to the Carnivore Weekly home page, where this item stands as the latest listing dated November 1, 2026; the individual article address was not returned in this run&#x27;s check.</li></ul></article>
+</div>
+</section>
+<section>
+<div class="section-head"><h2>Keto</h2><p class="subnote">Up to 5 stories.</p></div>
+<div class="cols">
+<p class="nonews">No real news found for this subject in the named sources for October 30–November 2, 2026.</p>
+</div>
+</section>
+<section>
+<div class="section-head"><h2>Payson, AZ</h2><p class="subnote">Up to 5 stories. 2 found today.</p></div>
+<div class="cols">
+<article><h3><a href="https://www.azcentral.com/story/weather/severe/2026/11/01/flash-floods-trigger-evacuations-across-arizona/92551548007/" target="_blank" rel="noopener">Arizona flooding triggers evacuations, highway closures</a></h3>
+<p class="byline">The Arizona Republic — November 1, 2026</p>
+<ul><li>Heavy rain and flooding triggered evacuations, road closures and emergency responses across parts of Arizona on November 1.</li><li>Northern Gila County residents, including the entire community of Gisela, were asked to evacuate immediately; efforts were underway to open an emergency shelter in Payson, and the Gisela Community Center remained open — Gisela is near Payson.</li><li>In Tonto Basin, the Greenback Valley RV Park and the lower ends of the Lazy JR and Sleepy Hollow RV Parks were under “go” status, directed to Tonto Basin Elementary School for shelter; ADOT closed several highways, with no reopen time given.</li></ul></article>
+<article><h3><a href="https://www.youtube.com/watch?v=DhljuxE_wSo" target="_blank" rel="noopener">Tonto-TV News - Finally Friday October 30th, 2026</a></h3>
+<p class="byline">Tonto TV — October 30, 2026</p>
+<ul><li>Two rounds of powerful storms threaten renewed flooding across Central Arizona, with emergency officials especially concerned about what happens Sunday.</li><li>The Central Arizona Project joins a major legal battle over the future of Colorado River water, warning Arizona communities could face serious consequences; the edition also asks whether Halloween rain could break a nearly forty-year dry streak in Phoenix.</li><li>The Payson Fire Department is sharing timely reminders from Gila County Emergency Management for Halloween safety.</li></ul></article>
+</div>
+</section>
+<section>
+<div class="section-head"><h2>Solar</h2><p class="subnote">Up to 5 stories, with subsections Panels and Battery. 1 found today.</p></div>
+<div class="cols">
+<article><h3><a href="https://www.reuters.com/business/finance/sectors-bracing-pivot-us-midterm-elections-loom-2026-11-02/" target="_blank" rel="noopener">Sectors bracing for a pivot as US midterm elections loom</a></h3>
+<p class="byline">Reuters — November 2, 2026</p>
+<ul><li>Analysts say a strong Democratic showing could reinforce expectations that federal support for clean-energy development stays in place, benefiting solar maker First Solar, residential installer Sunrun, inverter maker Enphase Energy and NextEra Energy.</li><li>The 2022 Inflation Reduction Act devoted hundreds of billions to climate and energy security, including expanded tax credits for renewable energy, nuclear and electric vehicles.</li><li>In divided government, UBS sees room for bipartisan legislation to speed up energy and infrastructure approvals.</li></ul></article>
+</div>
+<div class="subhead-wrap"><h3 class="subhead">Panels</h3></div>
+<div class="cols">
+<p class="subnote">Up to 5 stories.</p>
+<p class="nonews">No real news found for this subsection in the named sources for October 30–November 2, 2026.</p>
+</div>
+<div class="subhead-wrap"><h3 class="subhead">Battery</h3></div>
+<div class="cols">
+<p class="subnote">Up to 5 stories. 2 found today.</p>
+<article><h3><a href="https://www.forbesafrica.com/current-affairs/2026/10/30/how-one-of-the-worlds-least-electrified-nations-is-turning-on-the-lights" target="_blank" rel="noopener">How One Of The World’s Least Electrified Nations Is Turning On The Lights</a></h3>
+<p class="byline">Forbes — October 30, 2026</p>
+<ul><li>Malawi&#x27;s Salima Solar Power Project is entering phase two — a 40 MW upgrade following a positive 10 MW pilot — as the country aims to double its 566 MW of generation by 2030.</li><li>Malawi&#x27;s first standalone utility-scale battery energy storage system, a 20 MW system at the Kanengo Substation opened in July, lets the facility operate around the clock after years of planned daily shutdowns.</li><li>Energy Minister Jean Mathanga said that before the battery system, power “was only available in the afternoon… Now, we&#x27;re able to collect, store and release energy during peak hours.”</li></ul></article>
+<article><h3><a href="https://www.northcountrypublicradio.org/news/story/54163/20261030/battery-storage-system-removed-from-solar-power-plans-in-canton" target="_blank" rel="noopener">Battery storage system removed from solar power plans in Canton</a></h3>
+<p class="byline">NPR — October 30, 2026</p>
+<ul><li>A battery storage system has been removed from plans for the Rich Road Solar project in Canton, St. Lawrence County; the New York Power Authority now shares the proposed 240-megawatt solar field with EDF Power Solutions.</li><li>A NYPA official said the 20-megawatt battery component was “removed in an effort to streamline the project timeline and help ensure it can take advantage of sunsetting key federal tax credits.”</li><li>Battery systems are controversial over safety hazards — one caught fire at a solar farm in Jefferson County a few years ago — and construction of the solar panels is expected to start late next year.</li></ul></article>
+</div>
+</div>
+</section>
   <h2 class="about-head">About this page</h2>
-  <div class="about">My Daily Review is built from Clay's subjects list. Each subject carries a number — the most stories for that subject that day; a new subject starts at 5. Fewer are shown when fewer real stories are found, and a subject with no real news that day says so. Stories come from the named source list Clay picked on October 23, 2026 — 44 sources; each story was opened and checked before use, and each story names its source and its date, with the headline linking to the full story. No one source carries more than a quarter of the stories on the page. This page was built on Sunday, November 1, 2026, for the four days October 29–November 1, 2026, with each story carried once across those days.</div>
+  <div class="about">My Daily Review is built from Clay's subjects list. Each subject carries a number — the most stories for that subject that day; a new subject starts at 5. Fewer are shown when fewer real stories are found, and a subject with no real news that day says so. Stories come from the named source list Clay picked on October 23, 2026 — 44 sources; each story was opened and checked before use, and each story names its source and its date, with the headline linking to the full story. No one source carries more than a quarter of the stories on the page. This page was built on Monday, November 2, 2026, for the four days October 30–November 2, 2026, with each story carried once across those days.</div>
 </div>
 </body></html>
