@@ -39,6 +39,17 @@
   .about { border:1px solid #999; background:#f7f3e6; padding:12px 16px; font-size:15.5px; line-height:1.55; }
   @media (max-width: 1050px) { .cols { column-count:2; } .nameplate { font-size:52px; } }
   @media (max-width: 680px) { .cols { column-count:1; } .paper { padding:20px 18px 30px; } .nameplate { font-size:40px; } .mast-meta { flex-direction:column; text-align:center; gap:2px; } .section-head { flex-direction:column; gap:2px; } .subnote { white-space:normal; } }
+  .whole-player { text-align:center; margin:14px auto 0; max-width:980px; }
+  .whole-player .wp-btn { font-family: Arial, Helvetica, sans-serif; font-size:16px; font-weight:700; padding:9px 18px; margin:2px 5px; background:#111; color:#fffdf5; border:2px solid #111; border-radius:4px; cursor:pointer; line-height:1.4; }
+  .whole-player .wp-btn:active { background:#444; }
+  .whole-player .wp-skip { background:#fffdf5; color:#111; }
+  .whole-player .wp-skip:active { background:#e8e2cf; }
+  .whole-player #now-playing { font-weight:700; margin:8px 0 0; font-size:15.5px; }
+  .whole-player .wp-btn { width:31%; min-height:72px; margin:2px 1%; vertical-align:top; box-sizing:border-box; }
+  .whole-player .wp-btn .sym { display:block; font-size:26px; line-height:1.2; }
+  .whole-player .wp-btn .word { display:block; font-size:13px; margin-top:2px; }
+  .whole-player .wp-time { margin:2px 0 8px; font-size:14px; color:#333; font-variant-numeric:tabular-nums; }
+  .whole-player #now-playing { margin:8px 0 0; }
 </style></head><body>
 <div class="paper">
   <header class="masthead">
@@ -47,7 +58,146 @@
   </header>
   <nav class="doors"><a href="https://claypnw.github.io/menu/admin-menu.html">Admin Menu</a><span class="sep">|</span><a href="https://claypnw.github.io/morning-scroll/?from=admin">Morning Scroll</a><span class="sep">|</span><a href="sources.html">Sources</a></nav>
   <p class="dateline">Monday, November 9, 2026 — the day's news on the subjects on Clay's list. Stories are from November 6 to November 9, 2026, from the named source list, and each story is carried once across the four days.</p>
-  <section>
+  <div class="listen whole-player">
+    <p id="now-playing">Story 1 of 8 — Trump says AI risks can be managed, signals openness to guardrails</p>
+    <p class="wp-time" id="time-line">0:00 of 0:00</p>
+    <button class="wp-btn" id="btn-begin" type="button"><span class="sym">&#9198;</span><span class="word">Beginning</span></button>
+    <button class="wp-btn" id="btn-back" type="button"><span class="sym">&#9194;</span><span class="word">Back 10 seconds</span></button>
+    <button class="wp-btn" id="btn-play" type="button"><span class="sym">&#9654;</span><span class="word">Play all stories</span></button>
+    <button class="wp-btn" id="btn-fwd" type="button"><span class="sym">&#9195;</span><span class="word">Forward 10 seconds</span></button>
+    <button class="wp-btn wp-skip" id="btn-skip" type="button"><span class="sym">&#9197;</span><span class="word">Skip — next story</span></button>
+    <button class="wp-btn" id="btn-stop" type="button"><span class="sym">&#9209;</span><span class="word">Stop</span></button>
+    <audio id="edition-audio" preload="metadata"></audio>
+<script>
+(function () {
+  var TRACKS = [
+  {
+    "title": "Trump says AI risks can be managed, signals openness to guardrails",
+    "href": "story-2026-11-09-trump-says-ai-risks-can-be-managed-signals-openness-to-guardrails.mp3",
+    "size_bytes": 200101
+  },
+  {
+    "title": "Jensen Huang: Silicon Valley superstar engulfed by personal scandal",
+    "href": "story-2026-11-09-jensen-huang-silicon-valley-superstar-engulfed-by-personal-scandal.mp3",
+    "size_bytes": 351781
+  },
+  {
+    "title": "\u2018AI clog\u2019: UK public bodies battle onslaught of chatbot-generated complaints",
+    "href": "story-2026-11-09-ai-clog-uk-public-bodies-battle-onslaught-of-chatbot-generated-complaints.mp3",
+    "size_bytes": 392677
+  },
+  {
+    "title": "Staff at the US center for AI safety are reporting to the White House, raising independence concerns",
+    "href": "story-2026-11-09-staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-in.mp3",
+    "size_bytes": 457381
+  },
+  {
+    "title": "Tech set to still sway US stock market's course despite AI-driven swoon",
+    "href": "story-2026-11-09-tech-set-to-still-sway-us-stock-market-s-course-despite-ai-driven-swoon.mp3",
+    "size_bytes": 302053
+  },
+  {
+    "title": "NPR's 'Machine Gods' podcast: What the midterms could change about AI Policy",
+    "href": "story-2026-11-09-npr-s-machine-gods-podcast-what-the-midterms-could-change-about-ai-policy.mp3",
+    "size_bytes": 307813
+  },
+  {
+    "title": "What's going on with the stock market?",
+    "href": "story-2026-11-09-what-s-going-on-with-the-stock-market.mp3",
+    "size_bytes": 263461
+  },
+  {
+    "title": "Cramer's week ahead: AI data center stocks face another hurdle and so does the Fed",
+    "href": "story-2026-11-09-cramer-s-week-ahead-ai-data-center-stocks-face-another-hurdle-and-so-does-the-fe.mp3",
+    "size_bytes": 288613
+  }
+];
+  var audio = document.getElementById('edition-audio');
+  var nowEl = document.getElementById('now-playing');
+  var timeEl = document.getElementById('time-line');
+  var playBtn = document.getElementById('btn-play');
+  var idx = 0, done = false;
+  function fmt(s) {
+    if (!isFinite(s) || s < 0) s = 0;
+    s = Math.floor(s);
+    return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
+  }
+  function setPlayLabel() {
+    if (audio.paused) {
+      playBtn.innerHTML = '<span class="sym">&#9654;</span><span class="word">' + (done ? 'Play again from the start' : 'Play all stories') + '</span>';
+    } else {
+      playBtn.innerHTML = '<span class="sym">&#9208;</span><span class="word">Pause</span>';
+    }
+  }
+  function showLine() {
+    if (done) {
+      nowEl.textContent = 'All ' + TRACKS.length + ' stories are done';
+    } else {
+      nowEl.textContent = 'Story ' + (idx + 1) + ' of ' + TRACKS.length + ' \u2014 ' + TRACKS[idx].title;
+    }
+    timeEl.textContent = fmt(audio.currentTime) + ' of ' + fmt(audio.duration);
+    if ('mediaSession' in navigator) {
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({ title: TRACKS[idx].title, artist: 'My Daily Review' });
+      } catch (e) {}
+    }
+  }
+  function load(i, autoplay) {
+    idx = i; done = false;
+    audio.src = TRACKS[i].href;
+    audio.load();
+    showLine(); setPlayLabel();
+    if (autoplay) { audio.play(); }
+  }
+  playBtn.addEventListener('click', function () {
+    if (done) { load(0, true); return; }
+    if (audio.paused) { audio.play(); } else { audio.pause(); }
+  });
+  document.getElementById('btn-stop').addEventListener('click', function () {
+    audio.pause(); load(0, false);
+  });
+  document.getElementById('btn-begin').addEventListener('click', function () {
+    if (done) { load(0, false); return; }
+    audio.currentTime = 0; showLine();
+  });
+  document.getElementById('btn-back').addEventListener('click', function () {
+    audio.currentTime = Math.max(0, audio.currentTime - 10); showLine();
+  });
+  document.getElementById('btn-fwd').addEventListener('click', function () {
+    var d = audio.duration;
+    if (isFinite(d) && audio.currentTime + 10 >= d) {
+      if (idx < TRACKS.length - 1) { load(idx + 1, !audio.paused); }
+      else { audio.currentTime = d; }
+    } else {
+      audio.currentTime = Math.min(d || 0, audio.currentTime + 10);
+    }
+    showLine();
+  });
+  document.getElementById('btn-skip').addEventListener('click', function () {
+    if (done) { load(0, true); return; }
+    if (idx < TRACKS.length - 1) { load(idx + 1, true); }
+  });
+  audio.addEventListener('play', setPlayLabel);
+  audio.addEventListener('pause', setPlayLabel);
+  audio.addEventListener('timeupdate', showLine);
+  audio.addEventListener('loadedmetadata', showLine);
+  audio.addEventListener('ended', function () {
+    if (idx < TRACKS.length - 1) { load(idx + 1, true); }
+    else { done = true; showLine(); setPlayLabel(); }
+  });
+  if ('mediaSession' in navigator) {
+    try {
+      navigator.mediaSession.setActionHandler('nexttrack', function () {
+        if (idx < TRACKS.length - 1) load(idx + 1, true);
+      });
+      navigator.mediaSession.setActionHandler('previoustrack', function () { audio.currentTime = 0; showLine(); });
+    } catch (e) { /* older browser: buttons still work */ }
+  }
+  load(0, false);
+})();
+</script>
+  </div>
+<section>
     <div class="section-head"><h2>New breakthroughs in AI and its uses</h2><p class="subnote">Up to 5 stories. 4 found today.</p></div>
     <div class="cols">
       <article><h3><a href="https://www.reuters.com/world/trump-says-ai-risks-can-be-managed-signals-openness-guardrails-2026-11-09/" target="_blank" rel="noopener">Trump says AI risks can be managed, signals openness to guardrails</a> <a class="story-listen" href="story-2026-11-09-trump-says-ai-risks-can-be-managed-signals-openness-to-guardrails.mp3">▶ Listen</a></h3>
