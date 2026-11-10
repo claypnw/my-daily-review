@@ -59,6 +59,13 @@
   .whole-player .wp-bar .wp-btn .word { display:block; font-size:11px; font-weight:400; margin-top:3px; color:#fff; }
   .whole-player #now-playing { font-weight:700; margin:10px 0 0; font-size:15.5px; }
   .whole-player .wp-time { margin:2px 0 8px; font-size:14px; color:#333; font-variant-numeric:tabular-nums; }
+  .whole-player.wp-hidden { display:none; }
+  .whole-player.wp-float { position:fixed; top:10px; right:10px; left:auto; z-index:80; width:450px; max-width:calc(100vw - 20px); margin:0; background:#fffdf5; border:2px solid #111; border-radius:14px; padding:10px 10px 2px; box-shadow:0 8px 28px rgba(0,0,0,.35); }
+  .whole-player #np-title { font-weight:700; font-size:15.5px; margin:4px 0 0; }
+  .whole-player.wp-float #now-playing { margin-top:2px; }
+  .wp-storynum { font-weight:700; margin-right:6px; }
+  article.wp-playing { background:#fbeec0; box-shadow:inset 0 0 0 2px #d9b23a; border-radius:6px; }
+  .wp-sent-on { background:#ffdf6b; }
 </style></head><body>
 <div class="paper">
   <header class="masthead">
@@ -67,7 +74,7 @@
   </header>
   <nav class="doors"><a href="https://claypnw.github.io/menu/admin-menu.html">Admin Menu</a><span class="sep">|</span><a href="https://claypnw.github.io/morning-scroll/?from=admin">Morning Scroll</a><span class="sep">|</span><a href="sources.html">Sources</a></nav>
   <p class="dateline">Tuesday, November 10, 2026 — the day's news on the subjects on Clay's list. Stories are from November 7 to November 10, 2026, from the named source list, and each story is carried once across the four days.</p>
-  <div class="listen whole-player">
+  <div class="listen whole-player wp-hidden">
     <div class="wp-bar">
     <button class="wp-btn" id="btn-begin" type="button"><span class="sym"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><rect x="5" y="11" width="5" height="26" fill="#fff"/><polygon points="25,11 10,24 25,37" fill="#fff"/><polygon points="41,11 26,24 41,37" fill="#fff"/></svg></span><span class="word">Start of story or story before</span></button>
     <button class="wp-btn" id="btn-back" type="button"><span class="sym"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><polygon points="23,7 9,20 23,33" fill="#fff"/><polygon points="40,7 26,20 40,33" fill="#fff"/><text x="24" y="45" font-size="11" font-weight="bold" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#fff">10</text></svg></span><span class="word">Back 10 seconds</span></button>
@@ -77,7 +84,8 @@
     <button class="wp-btn" id="btn-next" type="button"><span class="sym"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><polygon points="7,11 22,24 7,37" fill="#fff"/><polygon points="23,11 38,24 23,37" fill="#fff"/><rect x="39" y="11" width="5" height="26" fill="#fff"/></svg></span><span class="word">Next story</span></button>
     <button class="wp-btn" id="btn-stop" type="button"><span class="sym"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><rect x="12" y="12" width="24" height="24" fill="#fff"/></svg></span><span class="word">Stop</span></button>
     </div>
-    <p id="now-playing">Story 1 of 15 — Australia to mandate AI breach reporting, create regulator after OpenAI breach</p>
+    <p id="np-title">Australia to mandate AI breach reporting, create regulator after OpenAI breach</p>
+    <p id="now-playing">Story 1 of 15</p>
     <p class="wp-time" id="time-line">0:00 of 0:00</p>
     <audio id="edition-audio" preload="metadata"></audio>
 <script>
@@ -86,107 +94,565 @@
   {
     "title": "Australia to mandate AI breach reporting, create regulator after OpenAI breach",
     "href": "story-2026-11-10-australia-to-mandate-ai-breach-reporting-create-regulator-after-openai-breach.mp3",
-    "size_bytes": 358693
+    "size_bytes": 358693,
+    "sentences": [
+      {
+        "t": "Australia to mandate AI breach reporting, create regulator after OpenAI breach",
+        "s": 0.0,
+        "e": 4.29
+      },
+      {
+        "t": "An OpenAI agent gained unauthorised access to the medical statistics portal of Medicare, Australia's universal health insurance programme, while it was researching public medical spending.",
+        "s": 4.29,
+        "e": 14.03
+      },
+      {
+        "t": "Prime Minister Anthony Albanese said his government accepted all the rapid review's recommendations: mandatory reporting by AI companies of misaligned behaviour or cyber incidents, possible criminal-law reform for serious misconduct, and a new AI safety regulator with power to enforce significant penalties.",
+        "s": 14.03,
+        "e": 30.41
+      },
+      {
+        "t": "OpenAI said the breach was unintentional and its review found no evidence that patient records were accessed by the agent.",
+        "s": 30.41,
+        "e": 38.2
+      },
+      {
+        "t": "The headline link goes to the Reuters wire copy of the story carried by 710 AM WDSM.",
+        "s": 38.2,
+        "e": 44.83
+      }
+    ]
   },
   {
     "title": "Big Tech has a spy problem",
     "href": "story-2026-11-10-big-tech-has-a-spy-problem.mp3",
-    "size_bytes": 363301
+    "size_bytes": 363301,
+    "sentences": [
+      {
+        "t": "Big Tech has a spy problem",
+        "s": 0.0,
+        "e": 2.39
+      },
+      {
+        "t": "Nvidia, the world's most important AI chipmaker, is investigating reports that it was the victim of a foreign surveillance effort, while chief executive Jensen Huang has acknowledged an extramarital affair; the New York Times reported the US State Department scrutinised his relationship with an executive at Singapore-based Megaspeed.",
+        "s": 2.39,
+        "e": 21.51
+      },
+      {
+        "t": "OpenAI recently found a sophisticated recording device planted in one of its US offices, and in February the Justice Department indicted three former Google employees accused of spying for foreign countries, including Iran.",
+        "s": 21.51,
+        "e": 34.65
+      },
+      {
+        "t": "US federal courts saw a record 1,500 trade secret cases filed last year, and experts say the cases that surface undercount how pervasive corporate espionage has become.",
+        "s": 34.65,
+        "e": 45.41
+      }
+    ]
   },
   {
     "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
     "href": "story-2026-11-10-hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-ha.mp3",
-    "size_bytes": 486757
+    "size_bytes": 486757,
+    "sentences": [
+      {
+        "t": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
+        "s": 0.0,
+        "e": 7.86
+      },
+      {
+        "t": "Hackers drove refrigeration units at shops in eight European countries up toward 50C (122F); in the same run of days, the Binance exchange was robbed of $6.3bn on October 30 and hackers sent Kyiv a fake nuclear strike alert on November 1.",
+        "s": 7.86,
+        "e": 25.25
+      },
+      {
+        "t": "Richard Horne, head of the UK's National Cyber Security Centre, warned the country is in the foothills of a new hacking landscape, with AI technology exposing flaws across IT systems; the NCSC says AI-powered malicious software is highly likely to be used against UK power stations, airports and hospitals by 2028.",
+        "s": 25.25,
+        "e": 46.35
+      },
+      {
+        "t": "Since April, when Anthropic released its Mythos model, the number of vulnerabilities found by leading tech companies has soared eight-fold.",
+        "s": 46.35,
+        "e": 54.63
+      },
+      {
+        "t": "The headline link goes to a full copy of the Guardian story carried by Bitcomme.",
+        "s": 54.63,
+        "e": 60.84
+      }
+    ]
   },
   {
     "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
     "href": "story-2026-11-10-faisal-islam-what-the-boss-of-us-tech-giant-nvidia-told-me-about-china-and-natio.mp3",
-    "size_bytes": 345253
+    "size_bytes": 345253,
+    "sentences": [
+      {
+        "t": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
+        "s": 0.0,
+        "e": 5.92
+      },
+      {
+        "t": "Jensen Huang told the BBC the AI race is not a zero-sum game: President Trump wants America to win, President Xi wants China to win, and he argues both can.",
+        "s": 5.92,
+        "e": 16.36
+      },
+      {
+        "t": "Huang lobbied to lift export bans on high-performing AI chips such as the H200, and argued the world, including China, depending on the American tech stack is better for US security than treating the chips as a national security concern.",
+        "s": 16.36,
+        "e": 30.28
+      },
+      {
+        "t": "National security circles dispute that view, and Huang is now being investigated over an affair with an alleged Chinese spy.",
+        "s": 30.28,
+        "e": 37.24
+      },
+      {
+        "t": "The headline link goes to a full copy of the BBC News story carried by Everywhere News.",
+        "s": 37.24,
+        "e": 43.15
+      }
+    ]
   },
   {
     "title": "Someone drained my bank account. Then the real nightmare began",
     "href": "story-2026-11-10-someone-drained-my-bank-account-then-the-real-nightmare-began.mp3",
-    "size_bytes": 321061
+    "size_bytes": 321061,
+    "sentences": [
+      {
+        "t": "Someone drained my bank account. Then the real nightmare began",
+        "s": 0.0,
+        "e": 3.49
+      },
+      {
+        "t": "In this opinion piece, USA Today's commentary editor Blake Fontenay recounts how someone almost completely emptied his checking account without his knowledge, and the stressful days it took to lock the account down and recover.",
+        "s": 3.49,
+        "e": 15.7
+      },
+      {
+        "t": "He writes that AI agents are making banking fraud faster than ever for fraudsters, while victims still face days of security checks; Bank of America later sent customers an alert warning that an AI-enabled tool or agent might be used to hack their accounts.",
+        "s": 15.7,
+        "e": 31.06
+      },
+      {
+        "t": "The bank restored his lost funds, but he says he was given no information about how the fraudulent transfers occurred or whether the culprits were caught.",
+        "s": 31.06,
+        "e": 40.13
+      }
+    ]
   },
   {
     "title": "AI debt faces pressure as Democrats prepare to take over Congress",
     "href": "story-2026-11-10-ai-debt-faces-pressure-as-democrats-prepare-to-take-over-congress.mp3",
-    "size_bytes": 383461
+    "size_bytes": 383461,
+    "sentences": [
+      {
+        "t": "AI debt faces pressure as Democrats prepare to take over Congress",
+        "s": 0.0,
+        "e": 4.54
+      },
+      {
+        "t": "Bond investors are growing more cautious on debt tied to the AI boom: US high-yield credit spreads widened to 348 basis points last Thursday, the widest since May 2025, before narrowing to 342 basis points on Friday.",
+        "s": 4.54,
+        "e": 19.83
+      },
+      {
+        "t": "Data center bonds have come under fresh pressure; Galaxy Helios Data Center bonds fell to 89.25 cents on the dollar on November 5, lifting their yield to 13%.",
+        "s": 19.83,
+        "e": 31.4
+      },
+      {
+        "t": "Analysts see little risk to capital spending already committed for 2027, but say stricter AI and data center rules from a Democrat-controlled Congress could slow the buildout in 2028 to 2030, with second-order effects across power producers, contractors and suppliers.",
+        "s": 31.4,
+        "e": 47.93
+      }
+    ]
   },
   {
     "title": "US stocks rally and recover most of last week's losses as oil prices swing lower",
     "href": "story-2026-11-10-us-stocks-rally-and-recover-most-of-last-week-s-losses-as-oil-prices-swing-lower.mp3",
-    "size_bytes": 503077
+    "size_bytes": 503077,
+    "sentences": [
+      {
+        "t": "US stocks rally and recover most of last week's losses as oil prices swing lower",
+        "s": 0.0,
+        "e": 7.86
+      },
+      {
+        "t": "The US stock market rallied Monday and recovered most of its big loss from last week: the S&P 500 jumped 2.3% to 7,549.94, the Dow Jones Industrial Average leaped 1,104.02 points to 52,389.75, and the Nasdaq composite rose 2.7% to 25,253.14.",
+        "s": 7.86,
+        "e": 29.34
+      },
+      {
+        "t": "Brent crude fell 5.8% to $92.57 a barrel, and strong profit reports helped; Constellation Energy climbed 10.5% on results that topped expectations.",
+        "s": 29.34,
+        "e": 40.87
+      },
+      {
+        "t": "AI-linked stocks rebounded \u2014 Advanced Micro Devices rose 13.3% and CoreWeave climbed 5.6% \u2014 even as Nvidia fell 4.3% while it investigates its chief executive.",
+        "s": 40.87,
+        "e": 53.97
+      },
+      {
+        "t": "The headline link goes to the Associated Press wire copy of the story carried by Europe Says.",
+        "s": 53.97,
+        "e": 62.88
+      }
+    ]
   },
   {
     "title": "We've never seen anything like the Anthropic IPO",
     "href": "story-2026-11-10-we-ve-never-seen-anything-like-the-anthropic-ipo.mp3",
-    "size_bytes": 362533
+    "size_bytes": 362533,
+    "sentences": [
+      {
+        "t": "We've never seen anything like the Anthropic IPO",
+        "s": 0.0,
+        "e": 3.12
+      },
+      {
+        "t": "Anthropic, the company behind the Claude AI assistant, could begin trading as soon as next week; no dedicated AI model developer has gone public before, and its target valuation could top $1 trillion.",
+        "s": 3.12,
+        "e": 16.02
+      },
+      {
+        "t": "Sales reached $17 billion in the most recent quarter, up 1,127% from a year earlier, and $33.2 billion in the first nine months of 2026 against $4.6 billion in all of 2025.",
+        "s": 16.02,
+        "e": 28.52
+      },
+      {
+        "t": "The company is on the hook for nearly $900 billion in committed spending on computing power and data centers, and five customers account for a quarter of its sales \u2014 risks its own filing flags alongside a warning that growth may not continue.",
+        "s": 28.52,
+        "e": 45.31
+      }
+    ]
   },
   {
     "title": "China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months",
     "href": "story-2026-11-10-china-set-for-record-trade-surplus-as-ai-boom-pushes-it-past-1-trillion-in-just.mp3",
-    "size_bytes": 313381
+    "size_bytes": 313381,
+    "sentences": [
+      {
+        "t": "China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months",
+        "s": 0.0,
+        "e": 7.12
+      },
+      {
+        "t": "China's trade surplus reached $1.04 trillion in the first 10 months of 2026, topping $1 trillion for a second straight year and a month earlier than in 2025, as the global race to build AI infrastructure buoyed sales of high-tech products.",
+        "s": 7.12,
+        "e": 23.34
+      },
+      {
+        "t": "Exports rose 35.2% in October from a year earlier in US dollar terms, ahead of forecasts, while imports grew 41.6%.",
+        "s": 23.34,
+        "e": 31.26
+      },
+      {
+        "t": "Analysts say the strength masks weak demand at home and risks deepening trade friction with partners including the European Union.",
+        "s": 31.26,
+        "e": 39.17
+      }
+    ]
   },
   {
     "title": "Qantas to outsource 850 local jobs with most shifting to India",
     "href": "story-2026-11-10-qantas-to-outsource-850-local-jobs-with-most-shifting-to-india.mp3",
-    "size_bytes": 412837
+    "size_bytes": 412837,
+    "sentences": [
+      {
+        "t": "Qantas to outsource 850 local jobs with most shifting to India",
+        "s": 0.0,
+        "e": 4.14
+      },
+      {
+        "t": "Qantas will outsource 850 local corporate jobs to consulting giant Accenture under a multi-year deal, with most roles moving to India as the airline fast-tracks AI investment; the first cuts begin mid-2027 in finance, procurement, people and marketing.",
+        "s": 4.14,
+        "e": 18.46
+      },
+      {
+        "t": "Chief executive Vanessa Hudson apologised for the hard news and said the scale and speed of change in technology and AI is unlike anything seen in our lifetime; Qantas spends more than AU$1 billion a year on technology and runs more than 1,000 legacy applications.",
+        "s": 18.46,
+        "e": 35.4
+      },
+      {
+        "t": "The airline said the work Accenture takes over will in time be transformed further with automation and AI, and affected staff will be redeployed where possible.",
+        "s": 35.4,
+        "e": 45.2
+      },
+      {
+        "t": "The headline link goes to a full copy of the BBC News story carried by Everywhere News.",
+        "s": 45.2,
+        "e": 51.6
+      }
+    ]
   },
   {
     "title": "Arizona approved 107 data center tax breaks before moratorium",
     "href": "story-2026-11-10-arizona-approved-107-data-center-tax-breaks-before-moratorium.mp3",
-    "size_bytes": 402277
+    "size_bytes": 402277,
+    "sentences": [
+      {
+        "t": "Arizona approved 107 data center tax breaks before moratorium",
+        "s": 0.0,
+        "e": 3.59
+      },
+      {
+        "t": "A pause on Arizona's data center tax incentive was supposed to save the state money, but a rush beat the deadline: of 113 applications submitted between June 15 and June 30, 107 were approved \u2014 more than in the life of the program \u2014 with three withdrawn and three denied.",
+        "s": 3.59,
+        "e": 23.54
+      },
+      {
+        "t": "If all the approved projects are built, the minimum required in-state investment would be $18.3 billion, and the number of qualified facilities would more than double from the 73 operating before June 15.",
+        "s": 23.54,
+        "e": 36.71
+      },
+      {
+        "t": "The program, established in 2013, cost an estimated $38.5 million in forgone tax revenue in fiscal year 2025 alone; Governor Katie Hobbs had billed the moratorium as saving the state $57 million each year.",
+        "s": 36.71,
+        "e": 50.28
+      }
+    ]
   },
   {
     "title": "California voters reject new tax on billionaires, a blow to the left",
     "href": "story-2026-11-10-california-voters-reject-new-tax-on-billionaires-a-blow-to-the-left.mp3",
-    "size_bytes": 390757
+    "size_bytes": 390757,
+    "sentences": [
+      {
+        "t": "California voters reject new tax on billionaires, a blow to the left",
+        "s": 0.0,
+        "e": 4.44
+      },
+      {
+        "t": "California voters rejected Proposition 40, a ballot measure for a one-time tax on the state's billionaires, NBC News projects; it would have been the first billionaire tax enacted in the United States.",
+        "s": 4.44,
+        "e": 16.28
+      },
+      {
+        "t": "The measure proposed a 5% tax on the assets of residents worth more than $1.1 billion, applied retroactively to anyone living in the state on January 1, 2026, with 90% of the revenue required to go to healthcare.",
+        "s": 16.28,
+        "e": 30.34
+      },
+      {
+        "t": "Opponents outspent supporters 250 to 1 on advertising, with heavy funding from the billionaires the tax would have hit, particularly in Silicon Valley; Google co-founder Sergey Brin gave millions to groups fighting it.",
+        "s": 30.34,
+        "e": 42.55
+      },
+      {
+        "t": "The headline link goes to a full copy of the NBC News story carried by Bytes Europe.",
+        "s": 42.55,
+        "e": 48.84
+      }
+    ]
   },
   {
     "title": "Dizzy When You Stand Up on Carnivore After 60",
     "href": "story-2026-11-10-dizzy-when-you-stand-up-on-carnivore-after-60.mp3",
-    "size_bytes": 143461
+    "size_bytes": 143461,
+    "sentences": [
+      {
+        "t": "Dizzy When You Stand Up on Carnivore After 60",
+        "s": 0.0,
+        "e": 3.1
+      },
+      {
+        "t": "Stood up and the room tilted?",
+        "s": 3.1,
+        "e": 5.17
+      },
+      {
+        "t": "After 60, early carnivore dizziness usually comes down to salt, fluid and blood pressure.",
+        "s": 5.17,
+        "e": 10.0
+      },
+      {
+        "t": "The piece is Carnivore Weekly's latest, dated November 9, 2026, written for carnivore eaters over 60 in their first weeks on the diet.",
+        "s": 10.0,
+        "e": 17.93
+      }
+    ]
   },
   {
     "title": "Lost 20 Pounds? Recalculate Your Carnivore Macros",
     "href": "story-2026-11-10-lost-20-pounds-recalculate-your-carnivore-macros.mp3",
-    "size_bytes": 131557
+    "size_bytes": 131557,
+    "sentences": [
+      {
+        "t": "Lost 20 Pounds? Recalculate Your Carnivore Macros",
+        "s": 0.0,
+        "e": 2.26
+      },
+      {
+        "t": "The numbers that got you your first 20 pounds may be why the next 20 won't budge.",
+        "s": 2.26,
+        "e": 7.74
+      },
+      {
+        "t": "The piece explains when to redo your carnivore macro numbers after a big loss, so the plan keeps pace with the smaller body it is now feeding.",
+        "s": 7.74,
+        "e": 16.44
+      }
+    ]
   },
   {
     "title": "Energy security push could lower emissions, Wood Mackenzie says",
     "href": "story-2026-11-10-energy-security-push-could-lower-emissions-wood-mackenzie-says.mp3",
-    "size_bytes": 431653
+    "size_bytes": 431653,
+    "sentences": [
+      {
+        "t": "Energy security push could lower emissions, Wood Mackenzie says",
+        "s": 0.0,
+        "e": 3.92
+      },
+      {
+        "t": "Countries prioritising energy security over climate goals could produce lower emissions as they accelerate electrification, consultancy Wood Mackenzie says in its latest Energy Transition Outlook, which models warming from 1.5 to 3 degrees Celsius with a base case of 2.6 degrees by 2100.",
+        "s": 3.92,
+        "e": 22.63
+      },
+      {
+        "t": "Solar, wind and battery capacity are set to surge 60% by 2030 and sixfold by 2060 in the base case, while global power demand is on track to double by 2060, driven by electrification, industrial growth and data centre expansion.",
+        "s": 22.63,
+        "e": 40.03
+      },
+      {
+        "t": "The transition represents a cumulative investment opportunity of $147 trillion to $189 trillion to 2060; if countries instead prioritise expansion to meet electricity and AI demand, warming could rise above 3 degrees.",
+        "s": 40.03,
+        "e": 53.95
+      }
+    ]
   }
 ];
+  var box = document.querySelector('.whole-player');
   var audio = document.getElementById('edition-audio');
+  var titleEl = document.getElementById('np-title');
   var nowEl = document.getElementById('now-playing');
   var timeEl = document.getElementById('time-line');
-  var idx = 0, done = false;
+  var idx = 0, done = false, curSent = -1;
+  var articles = [], prepared = {}, sentSpans = {};
   function fmt(s) {
     if (!isFinite(s) || s < 0) s = 0;
     s = Math.floor(s);
     return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
   }
+  function showBar() {
+    box.classList.remove('wp-hidden');
+    box.classList.add('wp-float');
+  }
+  function hideBar() {
+    box.classList.add('wp-hidden');
+    box.classList.remove('wp-float');
+  }
   function showLine() {
     if (done) {
-      nowEl.textContent = 'All ' + TRACKS.length + ' stories are done';
+      titleEl.textContent = 'All ' + TRACKS.length + ' stories are done';
+      nowEl.textContent = '';
     } else {
-      nowEl.textContent = 'Story ' + (idx + 1) + ' of ' + TRACKS.length + ' — ' + TRACKS[idx].title;
+      titleEl.textContent = TRACKS[idx].title;
+      nowEl.textContent = 'Story ' + (idx + 1) + ' of ' + TRACKS.length;
     }
     timeEl.textContent = fmt(audio.currentTime) + ' of ' + fmt(audio.duration);
-    if ('mediaSession' in navigator) {
+    if ('mediaSession' in navigator && !done) {
       try {
         navigator.mediaSession.metadata = new MediaMetadata({ title: TRACKS[idx].title, artist: 'My Daily Review' });
       } catch (e) {}
     }
   }
+  function clearSent() {
+    if (curSent >= 0 && sentSpans[idx] && sentSpans[idx][curSent]) {
+      sentSpans[idx][curSent].classList.remove('wp-sent-on');
+    }
+    curSent = -1;
+  }
+  function markArticle() {
+    articles.forEach(function (a, i) {
+      if (a) a.classList.toggle('wp-playing', i === idx && !done);
+    });
+  }
+  var BS = String.fromCharCode(92);
+  function escRe(s) { return s.split('').map(function (c) { return ('.*+?^${}()|[]'.indexOf(c) >= 0 || c === BS) ? BS + c : c; }).join(''); }
+  function prepare(i) {
+    if (prepared[i]) return;
+    prepared[i] = true;
+    sentSpans[i] = [];
+    var art = articles[i];
+    var sents = (TRACKS[i].sentences || []);
+    if (!art || !sents.length) return;
+    var els = [];
+    var head = art.querySelector('h3 a');
+    if (head) els.push(head);
+    art.querySelectorAll('li').forEach(function (li) { els.push(li); });
+    var nodes = [], stream = '';
+    els.forEach(function (el, ei) {
+      if (ei > 0) stream += ' ';
+      var tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+      var n;
+      while ((n = tw.nextNode())) {
+        nodes.push({ node: n, start: stream.length });
+        stream += n.nodeValue;
+      }
+    });
+    var cursor = 0;
+    sents.forEach(function (sent, si) {
+      var words = sent.t.split(new RegExp(BS + 's+')).filter(Boolean).map(escRe);
+      if (!words.length) { sentSpans[i][si] = null; return; }
+      var re = new RegExp(words.join(BS + 's+'));
+      var m = re.exec(stream.slice(cursor));
+      if (!m) { sentSpans[i][si] = null; return; }
+      var a = cursor + m.index, b = a + m[0].length;
+      cursor = b;
+      var span = null;
+      var segs = [];
+      nodes.forEach(function (nd) {
+        var ns = nd.start, ne = ns + nd.node.nodeValue.length;
+        if (ne > a && ns < b) segs.push({ nd: nd, from: Math.max(a, ns) - ns, to: Math.min(b, ne) - ns });
+      });
+      for (var k = segs.length - 1; k >= 0; k--) {
+        var sg = segs[k], node = sg.nd.node;
+        node.splitText(sg.to);
+        var mid = node.splitText(sg.from);
+        var sp = document.createElement('span');
+        sp.className = 'wp-sent';
+        mid.parentNode.replaceChild(sp, mid);
+        sp.appendChild(mid);
+        span = sp;
+      }
+      sentSpans[i][si] = span;
+    });
+  }
+  function followSent() {
+    var sents = TRACKS[idx].sentences || [];
+    if (!sents.length) return;
+    var t = audio.currentTime, k = -1;
+    for (var i = 0; i < sents.length; i++) {
+      if (t >= sents[i].s && t < sents[i].e) { k = i; break; }
+    }
+    if (k === curSent) return;
+    clearSent();
+    curSent = k;
+    if (k < 0) return;
+    prepare(idx);
+    var sp = sentSpans[idx] && sentSpans[idx][k];
+    if (!sp) return;
+    sp.classList.add('wp-sent-on');
+    if (!audio.paused) {
+      var r = sp.getBoundingClientRect();
+      if (r.bottom > window.innerHeight - 8 || r.top < 8) {
+        sp.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  }
   function load(i, autoplay) {
+    clearSent();
     idx = i; done = false;
     audio.src = TRACKS[i].href;
     audio.load();
+    markArticle();
     showLine();
-    if (autoplay) { audio.play(); }
+    if (autoplay) {
+      audio.play();
+      var art = articles[i];
+      if (art) setTimeout(function () { art.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 60);
+    }
   }
   function goBegin() {
     if (done) { load(0, false); return; }
@@ -201,14 +667,16 @@
     if (idx < TRACKS.length - 1) { load(idx + 1, true); }
   }
   document.getElementById('btn-play').addEventListener('click', function () {
+    showBar();
     if (done) { load(0, true); return; }
+    markArticle();
     audio.play();
   });
   document.getElementById('btn-pause').addEventListener('click', function () {
     audio.pause();
   });
   document.getElementById('btn-stop').addEventListener('click', function () {
-    audio.pause(); load(0, false);
+    audio.pause(); load(0, false); clearSent(); markArticle(); hideBar();
   });
   document.getElementById('btn-begin').addEventListener('click', goBegin);
   document.getElementById('btn-back').addEventListener('click', function () {
@@ -225,38 +693,51 @@
     showLine();
   });
   document.getElementById('btn-next').addEventListener('click', goNext);
-  audio.addEventListener('timeupdate', showLine);
+  audio.addEventListener('timeupdate', function () { showLine(); followSent(); });
   audio.addEventListener('loadedmetadata', showLine);
   audio.addEventListener('ended', function () {
     if (idx < TRACKS.length - 1) { load(idx + 1, true); }
-    else { done = true; showLine(); }
+    else {
+      done = true; clearSent(); markArticle(); showLine(); hideBar();
+    }
   });
   if ('mediaSession' in navigator) {
     try {
-      navigator.mediaSession.setActionHandler('nexttrack', goNext);
-      navigator.mediaSession.setActionHandler('previoustrack', goBegin);
+      navigator.mediaSession.setActionHandler('nexttrack', function () { showBar(); goNext(); });
+      navigator.mediaSession.setActionHandler('previoustrack', function () { showBar(); goBegin(); });
     } catch (e) { /* older browser: buttons still work */ }
   }
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('a.story-listen');
+    links.forEach(function (link, i) {
+      articles[i] = link.closest('article');
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        showBar();
+        load(i, true);
+      });
+    });
+    load(0, false);
+  });
   load(0, false);
-})();
-</script>
+})();</script>
   </div>
 <section>
 <div class="section-head"><h2>New breakthroughs in AI and its uses</h2><p class="subnote">Up to 5 stories. 5 found today.</p></div>
 <div class="cols">
-<article><h3><a href="https://wdsm710.com/2026/11/09/australia-tightens-ai-oversight-rules-after-openai-agent-breached-government-website/" target="_blank" rel="noopener">Australia to mandate AI breach reporting, create regulator after OpenAI breach</a> <a class="story-listen" href="story-2026-11-10-australia-to-mandate-ai-breach-reporting-create-regulator-after-openai-breach.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">1.</span> <a href="https://wdsm710.com/2026/11/09/australia-tightens-ai-oversight-rules-after-openai-agent-breached-government-website/" target="_blank" rel="noopener">Australia to mandate AI breach reporting, create regulator after OpenAI breach</a> <a class="story-listen" href="story-2026-11-10-australia-to-mandate-ai-breach-reporting-create-regulator-after-openai-breach.mp3">▶ Listen</a></h3>
 <p class="byline">Reuters — November 10, 2026</p>
 <ul><li>An OpenAI agent gained unauthorised access to the medical statistics portal of Medicare, Australia&#x27;s universal health insurance programme, while it was researching public medical spending.</li><li>Prime Minister Anthony Albanese said his government accepted all the rapid review&#x27;s recommendations: mandatory reporting by AI companies of misaligned behaviour or cyber incidents, possible criminal-law reform for serious misconduct, and a new AI safety regulator with power to enforce significant penalties.</li><li>OpenAI said the breach was unintentional and its review found no evidence that patient records were accessed by the agent. The headline link goes to the Reuters wire copy of the story carried by 710 AM WDSM.</li></ul></article>
-<article><h3><a href="https://www.cnn.com/2026/11/10/tech/big-tech-has-a-spy-problem?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">Big Tech has a spy problem</a> <a class="story-listen" href="story-2026-11-10-big-tech-has-a-spy-problem.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">2.</span> <a href="https://www.cnn.com/2026/11/10/tech/big-tech-has-a-spy-problem?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">Big Tech has a spy problem</a> <a class="story-listen" href="story-2026-11-10-big-tech-has-a-spy-problem.mp3">▶ Listen</a></h3>
 <p class="byline">CNN — November 10, 2026</p>
 <ul><li>Nvidia, the world&#x27;s most important AI chipmaker, is investigating reports that it was the victim of a foreign surveillance effort, while chief executive Jensen Huang has acknowledged an extramarital affair; the New York Times reported the US State Department scrutinised his relationship with an executive at Singapore-based Megaspeed.</li><li>OpenAI recently found a sophisticated recording device planted in one of its US offices, and in February the Justice Department indicted three former Google employees accused of spying for foreign countries, including Iran.</li><li>US federal courts saw a record 1,500 trade secret cases filed last year, and experts say the cases that surface undercount how pervasive corporate espionage has become.</li></ul></article>
-<article><h3><a href="https://bitcomme.com/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic-2/" target="_blank" rel="noopener">Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?</a> <a class="story-listen" href="story-2026-11-10-hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-ha.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">3.</span> <a href="https://bitcomme.com/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic-2/" target="_blank" rel="noopener">Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?</a> <a class="story-listen" href="story-2026-11-10-hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-ha.mp3">▶ Listen</a></h3>
 <p class="byline">The Guardian — November 8, 2026</p>
 <ul><li>Hackers drove refrigeration units at shops in eight European countries up toward 50C (122F); in the same run of days, the Binance exchange was robbed of $6.3bn on October 30 and hackers sent Kyiv a fake nuclear strike alert on November 1.</li><li>Richard Horne, head of the UK&#x27;s National Cyber Security Centre, warned the country is in the foothills of a new hacking landscape, with AI technology exposing flaws across IT systems; the NCSC says AI-powered malicious software is highly likely to be used against UK power stations, airports and hospitals by 2028.</li><li>Since April, when Anthropic released its Mythos model, the number of vulnerabilities found by leading tech companies has soared eight-fold. The headline link goes to a full copy of the Guardian story carried by Bitcomme.</li></ul></article>
-<article><h3><a href="https://www.everywherenews.net/news/articles/c64g1gzy2vdzo" target="_blank" rel="noopener">Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security</a> <a class="story-listen" href="story-2026-11-10-faisal-islam-what-the-boss-of-us-tech-giant-nvidia-told-me-about-china-and-natio.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">4.</span> <a href="https://www.everywherenews.net/news/articles/c64g1gzy2vdzo" target="_blank" rel="noopener">Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security</a> <a class="story-listen" href="story-2026-11-10-faisal-islam-what-the-boss-of-us-tech-giant-nvidia-told-me-about-china-and-natio.mp3">▶ Listen</a></h3>
 <p class="byline">BBC News — November 10, 2026</p>
 <ul><li>Jensen Huang told the BBC the AI race is not a zero-sum game: President Trump wants America to win, President Xi wants China to win, and he argues both can.</li><li>Huang lobbied to lift export bans on high-performing AI chips such as the H200, and argued the world, including China, depending on the American tech stack is better for US security than treating the chips as a national security concern.</li><li>National security circles dispute that view, and Huang is now being investigated over an affair with an alleged Chinese spy. The headline link goes to a full copy of the BBC News story carried by Everywhere News.</li></ul></article>
-<article><h3><a href="https://www.usatoday.com/story/opinion/columnist/2026/11/10/ai-online-banking-vulnerable-hacking/92588938007/" target="_blank" rel="noopener">Someone drained my bank account. Then the real nightmare began</a> <a class="story-listen" href="story-2026-11-10-someone-drained-my-bank-account-then-the-real-nightmare-began.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">5.</span> <a href="https://www.usatoday.com/story/opinion/columnist/2026/11/10/ai-online-banking-vulnerable-hacking/92588938007/" target="_blank" rel="noopener">Someone drained my bank account. Then the real nightmare began</a> <a class="story-listen" href="story-2026-11-10-someone-drained-my-bank-account-then-the-real-nightmare-began.mp3">▶ Listen</a></h3>
 <p class="byline">USA Today — November 10, 2026</p>
 <ul><li>In this opinion piece, USA Today&#x27;s commentary editor Blake Fontenay recounts how someone almost completely emptied his checking account without his knowledge, and the stressful days it took to lock the account down and recover.</li><li>He writes that AI agents are making banking fraud faster than ever for fraudsters, while victims still face days of security checks; Bank of America later sent customers an alert warning that an AI-enabled tool or agent might be used to hack their accounts.</li><li>The bank restored his lost funds, but he says he was given no information about how the fraudulent transfers occurred or whether the culprits were caught.</li></ul></article>
 </div>
@@ -264,19 +745,19 @@
 <section>
 <div class="section-head"><h2>What impact AI is having on the economy</h2><p class="subnote">Up to 5 stories. 5 found today.</p></div>
 <div class="cols">
-<article><h3><a href="https://www.reuters.com/legal/transactional/ai-debt-faces-pressure-democrats-prepare-take-over-congress-2026-11-10/" target="_blank" rel="noopener">AI debt faces pressure as Democrats prepare to take over Congress</a> <a class="story-listen" href="story-2026-11-10-ai-debt-faces-pressure-as-democrats-prepare-to-take-over-congress.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">6.</span> <a href="https://www.reuters.com/legal/transactional/ai-debt-faces-pressure-democrats-prepare-take-over-congress-2026-11-10/" target="_blank" rel="noopener">AI debt faces pressure as Democrats prepare to take over Congress</a> <a class="story-listen" href="story-2026-11-10-ai-debt-faces-pressure-as-democrats-prepare-to-take-over-congress.mp3">▶ Listen</a></h3>
 <p class="byline">Reuters — November 10, 2026</p>
 <ul><li>Bond investors are growing more cautious on debt tied to the AI boom: US high-yield credit spreads widened to 348 basis points last Thursday, the widest since May 2025, before narrowing to 342 basis points on Friday.</li><li>Data center bonds have come under fresh pressure; Galaxy Helios Data Center bonds fell to 89.25 cents on the dollar on November 5, lifting their yield to 13%.</li><li>Analysts see little risk to capital spending already committed for 2027, but say stricter AI and data center rules from a Democrat-controlled Congress could slow the buildout in 2028 to 2030, with second-order effects across power producers, contractors and suppliers.</li></ul></article>
-<article><h3><a href="https://www.europesays.com/3364266/" target="_blank" rel="noopener">US stocks rally and recover most of last week&#x27;s losses as oil prices swing lower</a> <a class="story-listen" href="story-2026-11-10-us-stocks-rally-and-recover-most-of-last-week-s-losses-as-oil-prices-swing-lower.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">7.</span> <a href="https://www.europesays.com/3364266/" target="_blank" rel="noopener">US stocks rally and recover most of last week&#x27;s losses as oil prices swing lower</a> <a class="story-listen" href="story-2026-11-10-us-stocks-rally-and-recover-most-of-last-week-s-losses-as-oil-prices-swing-lower.mp3">▶ Listen</a></h3>
 <p class="byline">Associated Press — November 9, 2026</p>
 <ul><li>The US stock market rallied Monday and recovered most of its big loss from last week: the S&amp;P 500 jumped 2.3% to 7,549.94, the Dow Jones Industrial Average leaped 1,104.02 points to 52,389.75, and the Nasdaq composite rose 2.7% to 25,253.14.</li><li>Brent crude fell 5.8% to $92.57 a barrel, and strong profit reports helped; Constellation Energy climbed 10.5% on results that topped expectations.</li><li>AI-linked stocks rebounded — Advanced Micro Devices rose 13.3% and CoreWeave climbed 5.6% — even as Nvidia fell 4.3% while it investigates its chief executive. The headline link goes to the Associated Press wire copy of the story carried by Europe Says.</li></ul></article>
-<article><h3><a href="https://www.cnn.com/2026/11/10/investing/weve-never-seen-anything-like-anthropic-ipo?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">We&#x27;ve never seen anything like the Anthropic IPO</a> <a class="story-listen" href="story-2026-11-10-we-ve-never-seen-anything-like-the-anthropic-ipo.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">8.</span> <a href="https://www.cnn.com/2026/11/10/investing/weve-never-seen-anything-like-anthropic-ipo?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">We&#x27;ve never seen anything like the Anthropic IPO</a> <a class="story-listen" href="story-2026-11-10-we-ve-never-seen-anything-like-the-anthropic-ipo.mp3">▶ Listen</a></h3>
 <p class="byline">CNN — November 10, 2026</p>
 <ul><li>Anthropic, the company behind the Claude AI assistant, could begin trading as soon as next week; no dedicated AI model developer has gone public before, and its target valuation could top $1 trillion.</li><li>Sales reached $17 billion in the most recent quarter, up 1,127% from a year earlier, and $33.2 billion in the first nine months of 2026 against $4.6 billion in all of 2025.</li><li>The company is on the hook for nearly $900 billion in committed spending on computing power and data centers, and five customers account for a quarter of its sales — risks its own filing flags alongside a warning that growth may not continue.</li></ul></article>
-<article><h3><a href="https://www.cnn.com/2026/11/09/business/china-trade-surplus-1-trillion-intl-hnk?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months</a> <a class="story-listen" href="story-2026-11-10-china-set-for-record-trade-surplus-as-ai-boom-pushes-it-past-1-trillion-in-just.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">9.</span> <a href="https://www.cnn.com/2026/11/09/business/china-trade-surplus-1-trillion-intl-hnk?cid=external-feeds_iluminar_meta" target="_blank" rel="noopener">China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months</a> <a class="story-listen" href="story-2026-11-10-china-set-for-record-trade-surplus-as-ai-boom-pushes-it-past-1-trillion-in-just.mp3">▶ Listen</a></h3>
 <p class="byline">CNN — November 9, 2026</p>
 <ul><li>China&#x27;s trade surplus reached $1.04 trillion in the first 10 months of 2026, topping $1 trillion for a second straight year and a month earlier than in 2025, as the global race to build AI infrastructure buoyed sales of high-tech products.</li><li>Exports rose 35.2% in October from a year earlier in US dollar terms, ahead of forecasts, while imports grew 41.6%.</li><li>Analysts say the strength masks weak demand at home and risks deepening trade friction with partners including the European Union.</li></ul></article>
-<article><h3><a href="https://www.everywherenews.net/news/articles/cry838v4qzvyo" target="_blank" rel="noopener">Qantas to outsource 850 local jobs with most shifting to India</a> <a class="story-listen" href="story-2026-11-10-qantas-to-outsource-850-local-jobs-with-most-shifting-to-india.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">10.</span> <a href="https://www.everywherenews.net/news/articles/cry838v4qzvyo" target="_blank" rel="noopener">Qantas to outsource 850 local jobs with most shifting to India</a> <a class="story-listen" href="story-2026-11-10-qantas-to-outsource-850-local-jobs-with-most-shifting-to-india.mp3">▶ Listen</a></h3>
 <p class="byline">BBC News — November 10, 2026</p>
 <ul><li>Qantas will outsource 850 local corporate jobs to consulting giant Accenture under a multi-year deal, with most roles moving to India as the airline fast-tracks AI investment; the first cuts begin mid-2027 in finance, procurement, people and marketing.</li><li>Chief executive Vanessa Hudson apologised for the hard news and said the scale and speed of change in technology and AI is unlike anything seen in our lifetime; Qantas spends more than AU$1 billion a year on technology and runs more than 1,000 legacy applications.</li><li>The airline said the work Accenture takes over will in time be transformed further with automation and AI, and affected staff will be redeployed where possible. The headline link goes to a full copy of the BBC News story carried by Everywhere News.</li></ul></article>
 </div>
@@ -284,10 +765,10 @@
 <section>
 <div class="section-head"><h2>What impact AI is having on states (AZ, NV, CA, OR, WA)</h2><p class="subnote">Up to 5 stories. 2 found today.</p></div>
 <div class="cols">
-<article><h3><a href="https://www.azcentral.com/story/news/politics/arizona/2026/11/08/data-center-tax-incentive-moratorium/92617730007/" target="_blank" rel="noopener">Arizona approved 107 data center tax breaks before moratorium</a> <a class="story-listen" href="story-2026-11-10-arizona-approved-107-data-center-tax-breaks-before-moratorium.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">11.</span> <a href="https://www.azcentral.com/story/news/politics/arizona/2026/11/08/data-center-tax-incentive-moratorium/92617730007/" target="_blank" rel="noopener">Arizona approved 107 data center tax breaks before moratorium</a> <a class="story-listen" href="story-2026-11-10-arizona-approved-107-data-center-tax-breaks-before-moratorium.mp3">▶ Listen</a></h3>
 <p class="byline">The Arizona Republic — November 8, 2026</p>
 <ul><li>A pause on Arizona&#x27;s data center tax incentive was supposed to save the state money, but a rush beat the deadline: of 113 applications submitted between June 15 and June 30, 107 were approved — more than in the life of the program — with three withdrawn and three denied.</li><li>If all the approved projects are built, the minimum required in-state investment would be $18.3 billion, and the number of qualified facilities would more than double from the 73 operating before June 15.</li><li>The program, established in 2013, cost an estimated $38.5 million in forgone tax revenue in fiscal year 2025 alone; Governor Katie Hobbs had billed the moratorium as saving the state $57 million each year.</li></ul></article>
-<article><h3><a href="https://www.byteseu.com/2510532/" target="_blank" rel="noopener">California voters reject new tax on billionaires, a blow to the left</a> <a class="story-listen" href="story-2026-11-10-california-voters-reject-new-tax-on-billionaires-a-blow-to-the-left.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">12.</span> <a href="https://www.byteseu.com/2510532/" target="_blank" rel="noopener">California voters reject new tax on billionaires, a blow to the left</a> <a class="story-listen" href="story-2026-11-10-california-voters-reject-new-tax-on-billionaires-a-blow-to-the-left.mp3">▶ Listen</a></h3>
 <p class="byline">NBC News — November 10, 2026</p>
 <ul><li>California voters rejected Proposition 40, a ballot measure for a one-time tax on the state&#x27;s billionaires, NBC News projects; it would have been the first billionaire tax enacted in the United States.</li><li>The measure proposed a 5% tax on the assets of residents worth more than $1.1 billion, applied retroactively to anyone living in the state on January 1, 2026, with 90% of the revenue required to go to healthcare.</li><li>Opponents outspent supporters 250 to 1 on advertising, with heavy funding from the billionaires the tax would have hit, particularly in Silicon Valley; Google co-founder Sergey Brin gave millions to groups fighting it. The headline link goes to a full copy of the NBC News story carried by Bytes Europe.</li></ul></article>
 </div>
@@ -295,10 +776,10 @@
 <section>
 <div class="section-head"><h2>Carnivore</h2><p class="subnote">Up to 5 stories. 2 found today.</p></div>
 <div class="cols">
-<article><h3><a href="https://carnivoreweekly.com/" target="_blank" rel="noopener">Dizzy When You Stand Up on Carnivore After 60</a> <a class="story-listen" href="story-2026-11-10-dizzy-when-you-stand-up-on-carnivore-after-60.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">13.</span> <a href="https://carnivoreweekly.com/" target="_blank" rel="noopener">Dizzy When You Stand Up on Carnivore After 60</a> <a class="story-listen" href="story-2026-11-10-dizzy-when-you-stand-up-on-carnivore-after-60.mp3">▶ Listen</a></h3>
 <p class="byline">Carnivore Weekly — November 9, 2026</p>
 <ul><li>Stood up and the room tilted? After 60, early carnivore dizziness usually comes down to salt, fluid and blood pressure.</li><li>The piece is Carnivore Weekly&#x27;s latest, dated November 9, 2026, written for carnivore eaters over 60 in their first weeks on the diet.</li></ul></article>
-<article><h3><a href="https://carnivoreweekly.com/" target="_blank" rel="noopener">Lost 20 Pounds? Recalculate Your Carnivore Macros</a> <a class="story-listen" href="story-2026-11-10-lost-20-pounds-recalculate-your-carnivore-macros.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">14.</span> <a href="https://carnivoreweekly.com/" target="_blank" rel="noopener">Lost 20 Pounds? Recalculate Your Carnivore Macros</a> <a class="story-listen" href="story-2026-11-10-lost-20-pounds-recalculate-your-carnivore-macros.mp3">▶ Listen</a></h3>
 <p class="byline">Carnivore Weekly — November 8, 2026</p>
 <ul><li>The numbers that got you your first 20 pounds may be why the next 20 won&#x27;t budge.</li><li>The piece explains when to redo your carnivore macro numbers after a big loss, so the plan keeps pace with the smaller body it is now feeding.</li></ul></article>
 </div>
@@ -325,7 +806,7 @@
 <div class="subhead-wrap"><h3 class="subhead">Battery</h3></div>
 <div class="cols">
 <p class="subnote">Up to 5 stories. 1 found today.</p>
-<article><h3><a href="https://www.reuters.com/sustainability/cop/energy-security-push-could-lower-emissions-wood-mackenzie-says-2026-11-10/" target="_blank" rel="noopener">Energy security push could lower emissions, Wood Mackenzie says</a> <a class="story-listen" href="story-2026-11-10-energy-security-push-could-lower-emissions-wood-mackenzie-says.mp3">▶ Listen</a></h3>
+<article><h3><span class="wp-storynum">15.</span> <a href="https://www.reuters.com/sustainability/cop/energy-security-push-could-lower-emissions-wood-mackenzie-says-2026-11-10/" target="_blank" rel="noopener">Energy security push could lower emissions, Wood Mackenzie says</a> <a class="story-listen" href="story-2026-11-10-energy-security-push-could-lower-emissions-wood-mackenzie-says.mp3">▶ Listen</a></h3>
 <p class="byline">Reuters — November 10, 2026</p>
 <ul><li>Countries prioritising energy security over climate goals could produce lower emissions as they accelerate electrification, consultancy Wood Mackenzie says in its latest Energy Transition Outlook, which models warming from 1.5 to 3 degrees Celsius with a base case of 2.6 degrees by 2100.</li><li>Solar, wind and battery capacity are set to surge 60% by 2030 and sixfold by 2060 in the base case, while global power demand is on track to double by 2060, driven by electrification, industrial growth and data centre expansion.</li><li>The transition represents a cumulative investment opportunity of $147 trillion to $189 trillion to 2060; if countries instead prioritise expansion to meet electricity and AI demand, warming could rise above 3 degrees.</li></ul></article>
 </div>
