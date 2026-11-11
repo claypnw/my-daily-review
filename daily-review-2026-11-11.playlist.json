@@ -1,0 +1,358 @@
+[
+  {
+    "title": "Kazakhstan-linked hackers used AI to steal Tajik government documents, researchers say",
+    "href": "story-2026-11-11-kazakhstan-linked-hackers-used-ai-to-steal-tajik-government-documents-researcher.mp3",
+    "size_bytes": 365797,
+    "sentences": [
+      {
+        "t": "Kazakhstan-linked hackers used AI to steal Tajik government documents, researchers say",
+        "s": 0.0,
+        "e": 4.53
+      },
+      {
+        "t": "A hacking group tied to Kazakhstan, nicknamed \"Silent Lynx,\" used AI to steal more than 2,000 national security-related documents from neighboring Tajikistan, according to Singapore-based cybersecurity firm CloudSek.",
+        "s": 4.53,
+        "e": 16.06
+      },
+      {
+        "t": "CloudSek said the spies used Hermes, an open-source framework for autonomous AI agents, after inadvertently leaving a server exposed; the AI planned attacks, wrote rules, ran them, and wrote up reports instead of hackers typing commands by hand.",
+        "s": 16.06,
+        "e": 31.72
+      },
+      {
+        "t": "The hackers used Hermes for reconnaissance from around mid-August and broke into Tajikistan's electronic document system a couple of weeks later, with the AI writing a custom program to download and organize the files.",
+        "s": 31.72,
+        "e": 45.72
+      }
+    ]
+  },
+  {
+    "title": "Anthropic Unveils New Fable, Mythos AI Models Ahead of IPO",
+    "href": "story-2026-11-11-anthropic-unveils-new-fable-mythos-ai-models-ahead-of-ipo.mp3",
+    "size_bytes": 308773,
+    "sentences": [
+      {
+        "t": "Anthropic Unveils New Fable, Mythos AI Models Ahead of IPO",
+        "s": 0.0,
+        "e": 3.68
+      },
+      {
+        "t": "Anthropic unveiled new versions of its Fable and Mythos AI models in an effort to bolster its position as a leader in AI development on the eve of its Wall Street debut.",
+        "s": 3.68,
+        "e": 15.44
+      },
+      {
+        "t": "Fable 5.2, set to be released Monday, can tackle more difficult software engineering work, take on hardware-related tasks like controlling robots, handle long-running projects, and coordinate over 1,000 AI agents at a time.",
+        "s": 15.44,
+        "e": 27.57
+      },
+      {
+        "t": "Mythos 5.2 is the same model but with fewer safeguards for cybersecurity and life sciences work, and is being rolled out to select organizations through a previously announced verification program.",
+        "s": 27.57,
+        "e": 38.59
+      }
+    ]
+  },
+  {
+    "title": "Food delivery habits are giving cybercriminals personal info",
+    "href": "story-2026-11-11-food-delivery-habits-are-giving-cybercriminals-personal-info.mp3",
+    "size_bytes": 367717,
+    "sentences": [
+      {
+        "t": "Food delivery habits are giving cybercriminals personal info",
+        "s": 0.0,
+        "e": 3.14
+      },
+      {
+        "t": "Artificial intelligence is advancing cybercriminals' ability to gather and analyze personal information from food delivery orders and online shopping receipts, according to research released this month by Cisco Talos.",
+        "s": 3.14,
+        "e": 14.53
+      },
+      {
+        "t": "The Windows-based malware called \"VOLTA-AUTODOXER\" is augmented by a large language model that sorts through passwords, payment cards, WiFi profiles and conversations, and builds a victim profile that can include geolocation, home address, employer and inferred birth year.",
+        "s": 14.53,
+        "e": 29.46
+      },
+      {
+        "t": "Researcher Ryan Fetterman said this is the first time AI has been used to augment malware in this way, and that the AI integration prompts the model to guess what a potential victim is worth and assess security posture and password hygiene.",
+        "s": 29.46,
+        "e": 45.96
+      }
+    ]
+  },
+  {
+    "title": "AI phishing scams turn your social posts against you",
+    "href": "story-2026-11-11-ai-phishing-scams-turn-your-social-posts-against-you.mp3",
+    "size_bytes": 442981,
+    "sentences": [
+      {
+        "t": "AI phishing scams turn your social posts against you",
+        "s": 0.0,
+        "e": 3.86
+      },
+      {
+        "t": "Researchers at the University of Texas at Arlington found that widely available AI tools can gather personal details from public social media accounts and turn them into highly convincing personalized phishing emails; as few as 10 posts from one person provided enough information.",
+        "s": 3.86,
+        "e": 22.32
+      },
+      {
+        "t": "The team studied 200 public Instagram accounts and evaluated more than 18,000 AI-generated emails; in a user study, participants generally rated the AI-generated emails as more convincing and less suspicious than real-world phishing examples.",
+        "s": 22.32,
+        "e": 36.91
+      },
+      {
+        "t": "Three widely used AI safety tools \u2014 Llama Guard, ShieldGemma and WildGuard \u2014 detected only 0% to 19% of requests to create personalized phishing attacks at their default settings, though adjusted safeguards reached detection rates as high as 99% in the researchers' tests.",
+        "s": 36.91,
+        "e": 55.37
+      }
+    ]
+  },
+  {
+    "title": "Is AI deciding who's dangerous in Michigan prisons?",
+    "href": "story-2026-11-11-is-ai-deciding-who-s-dangerous-in-michigan-prisons.mp3",
+    "size_bytes": 447781,
+    "sentences": [
+      {
+        "t": "Is AI deciding who's dangerous in Michigan prisons?",
+        "s": 0.0,
+        "e": 3.09
+      },
+      {
+        "t": "Michigan plans to begin testing a new prisoner classification system on December 1 at selected men's prisons; the Michigan Department of Corrections says the redesigned system is expected to improve its ability to predict future violence by approximately 30%.",
+        "s": 3.09,
+        "e": 18.14
+      },
+      {
+        "t": "The software comes from Recidiviz, a nonprofit that supports criminal justice agencies in 19 states; it calculates security scores from prison records using a points-based formula chosen by Michigan corrections experts, and Recidiviz says AI plays no role in calculating the scores \u2014 corrections staff make the final decisions and can override a score.",
+        "s": 18.14,
+        "e": 38.98
+      },
+      {
+        "t": "The new system allows ongoing reassessment as prison records update, instead of reviews only at scheduled intervals; the corrections officers' union president warned the bigger problem is a shortage of higher-security beds, and the state plans 870 high-security beds under its Safe Prisons Initiative.",
+        "s": 38.98,
+        "e": 55.97
+      }
+    ]
+  },
+  {
+    "title": "Foreign investors pull out $50 billion from Asian equities in October on AI, cash burn woes",
+    "href": "story-2026-11-11-foreign-investors-pull-out-50-billion-from-asian-equities-in-october-on-ai-cash.mp3",
+    "size_bytes": 393253,
+    "sentences": [
+      {
+        "t": "Foreign investors pull out $50 billion from Asian equities in October on AI, cash burn woes",
+        "s": 0.0,
+        "e": 6.84
+      },
+      {
+        "t": "Foreign investors pulled nearly $50 billion out of Asian equities in October, the largest monthly outflow in four months, as concerns over hyperscalers' cash burn and fears of tougher AI regulations triggered a selloff in regional tech-linked stocks.",
+        "s": 6.84,
+        "e": 23.08
+      },
+      {
+        "t": "Investors withdrew a net $49.77 billion from equities in South Korea, Taiwan, India, Indonesia, Thailand, Vietnam and the Philippines, according to LSEG, and have offloaded a further $22.6 billion so far this month.",
+        "s": 23.08,
+        "e": 37.18
+      },
+      {
+        "t": "Foreign investors sold a net $30.68 billion of Taiwanese stocks last month, the most since at least January 2008, and a net $14.59 billion of South Korean shares.",
+        "s": 37.18,
+        "e": 49.15
+      }
+    ]
+  },
+  {
+    "title": "Anthropic to Seek $1.3 Trillion Valuation in IPO",
+    "href": "story-2026-11-11-anthropic-to-seek-1-3-trillion-valuation-in-ipo.mp3",
+    "size_bytes": 411301,
+    "sentences": [
+      {
+        "t": "Anthropic to Seek $1.3 Trillion Valuation in IPO",
+        "s": 0.0,
+        "e": 3.32
+      },
+      {
+        "t": "Anthropic will seek a valuation of around $1.33 trillion in its initial public offering, selling 825 million shares at a range of $70 to $78 apiece, giving it a valuation of roughly $1.26 trillion to $1.41 trillion.",
+        "s": 3.32,
+        "e": 18.66
+      },
+      {
+        "t": "At the midpoint price Anthropic is in line to raise more than $61 billion, and also plans to raise an additional $26 billion from big investors including Alphabet's Google and Advanced Micro Devices.",
+        "s": 18.66,
+        "e": 32.34
+      },
+      {
+        "t": "The targeted valuation is far below the roughly $2 trillion floated months ago, and the IPO is seen as a litmus test for markets on edge over the AI trade; shares are expected to start trading Thursday of next week on Nasdaq under the ticker \"ANT.\"",
+        "s": 32.34,
+        "e": 51.41
+      }
+    ]
+  },
+  {
+    "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
+    "href": "story-2026-11-11-anthropic-targets-valuation-of-up-to-1-4tn-in-stock-market-flotation.mp3",
+    "size_bytes": 302821,
+    "sentences": [
+      {
+        "t": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
+        "s": 0.0,
+        "e": 4.53
+      },
+      {
+        "t": "Anthropic is seeking a valuation of up to $1.4 trillion on a fully diluted basis in its stock market flotation, raising up to $64.4 billion by selling 825 million shares at up to $78 each.",
+        "s": 4.53,
+        "e": 18.92
+      },
+      {
+        "t": "The company also plans a $26 billion private placement with cornerstone investors including Alphabet and Nvidia, and reported an annual revenue run rate of $81 billion as of October 31.",
+        "s": 18.92,
+        "e": 31.27
+      },
+      {
+        "t": "The headline link goes to a full copy of the Guardian story carried by Richard Hartley.",
+        "s": 31.27,
+        "e": 37.85
+      }
+    ]
+  },
+  {
+    "title": "Carnivore in Senior Living: Ordering From the Dining Room",
+    "href": "story-2026-11-11-carnivore-in-senior-living-ordering-from-the-dining-room.mp3",
+    "size_bytes": 418213,
+    "sentences": [
+      {
+        "t": "Carnivore in Senior Living: Ordering From the Dining Room",
+        "s": 0.0,
+        "e": 3.16
+      },
+      {
+        "t": "The article says carnivore is doable in independent or assisted living because dining rooms already serve meat, eggs and fish daily; it advises starting with the dietitian or dining manager, not the server, and asking to swap vegetables and starches for extra protein.",
+        "s": 3.16,
+        "e": 18.24
+      },
+      {
+        "t": "It recommends a standing order on file \u2014 protein in place of starch and vegetables at every meal, butter on the side, eggs at breakfast, and a plain-protein backup such as grilled chicken, a hamburger patty, or eggs for pasta and casserole nights \u2014 aiming for roughly 30 to 40 grams of protein per meal.",
+        "s": 18.24,
+        "e": 37.54
+      },
+      {
+        "t": "For chewing and social ease, it lists soft options such as scrambled eggs, ground meat, braised beef, fish and strained stews, checking the week's posted menu on Sunday, and using a one-liner at a shared table: \"I just feel better eating simply.\"",
+        "s": 37.54,
+        "e": 52.27
+      }
+    ]
+  },
+  {
+    "title": "Tonto-TV News - Tuesday November 10th, 2026",
+    "href": "story-2026-11-11-tonto-tv-news-tuesday-november-10th-2026.mp3",
+    "size_bytes": 291301,
+    "sentences": [
+      {
+        "t": "Tonto-TV News - Tuesday November 10th, 2026",
+        "s": 0.0,
+        "e": 2.74
+      },
+      {
+        "t": "In Payson, a downtown intersection closes this morning for construction; the newscast gives the location and how long drivers can expect the disruption.",
+        "s": 2.74,
+        "e": 11.74
+      },
+      {
+        "t": "Payson, described as the Flag Capital of Arizona since the 1990s, has a flag event coming up in Payson next week.",
+        "s": 11.74,
+        "e": 19.97
+      },
+      {
+        "t": "Regional items in the same newscast: a suspect in a nearly 13-year-old Phoenix security-guard murder was arrested in Globe on new witness statements, and a temporary bridge reconnects Greer after flooding, while storm aftermath keeps some area lakes and forest roads closed.",
+        "s": 19.97,
+        "e": 36.41
+      }
+    ]
+  },
+  {
+    "title": "Botley West solar farm refused planning permission",
+    "href": "story-2026-11-11-botley-west-solar-farm-refused-planning-permission.mp3",
+    "size_bytes": 381157,
+    "sentences": [
+      {
+        "t": "Botley West solar farm refused planning permission",
+        "s": 0.0,
+        "e": 2.8
+      },
+      {
+        "t": "Plans to build a controversial \u00a3800m solar farm were refused by the government; the 840MW Botley West project in Oxfordshire would have spread across more than 2,000 acres north and west of Oxford.",
+        "s": 2.8,
+        "e": 16.01
+      },
+      {
+        "t": "Baroness Margaret Curran, for the Secretary of State for Energy Security and Net Zero, cited \"substantial\" harm to greenbelt and heritage assets and negative landscape impacts; consent was also refused over \"adverse impacts on aviation safety.\" Developer Photovolt Development Partners (PVDP) had said the project could power the equivalent of 330,000 homes; the company has six weeks to launch a judicial review.",
+        "s": 16.01,
+        "e": 40.83
+      },
+      {
+        "t": "The headline link goes to a full copy of the BBC News story carried by Stockwatch Index.",
+        "s": 40.83,
+        "e": 47.64
+      }
+    ]
+  },
+  {
+    "title": "Charity take steps to challenge solar farm decision",
+    "href": "story-2026-11-11-charity-take-steps-to-challenge-solar-farm-decision.mp3",
+    "size_bytes": 364453,
+    "sentences": [
+      {
+        "t": "Charity take steps to challenge solar farm decision",
+        "s": 0.0,
+        "e": 2.87
+      },
+      {
+        "t": "CPRE Northamptonshire said it had instigated a pre-action protocol letter for a judicial review to challenge the government's decision last month to approve the Green Hill Solar Farm.",
+        "s": 2.87,
+        "e": 12.91
+      },
+      {
+        "t": "Green Hill will be built over 2,965 acres (1,200 hectares) covering Buckinghamshire, the south and west of Wellingborough and north of Northampton; developer Island Green Power said it had not yet received the letter and could not comment.",
+        "s": 12.91,
+        "e": 26.54
+      },
+      {
+        "t": "Green Hill previously said it hoped construction would begin in 2027, aiming to provide electricity to homes by 2029; the Department for Energy Security and Net Zero said it could not comment on ongoing legal matters.",
+        "s": 26.54,
+        "e": 39.45
+      },
+      {
+        "t": "The headline link goes to a full copy of the BBC News story carried by Now Solar.",
+        "s": 39.45,
+        "e": 45.55
+      }
+    ]
+  },
+  {
+    "title": "India bans export of lithium-ion battery recycled material",
+    "href": "story-2026-11-11-india-bans-export-of-lithium-ion-battery-recycled-material.mp3",
+    "size_bytes": 417061,
+    "sentences": [
+      {
+        "t": "India bans export of lithium-ion battery recycled material",
+        "s": 0.0,
+        "e": 3.45
+      },
+      {
+        "t": "The Indian government on Tuesday banned the export of lithium-ion battery black mass, a recycled battery material containing metals such as lithium, cobalt, nickel and manganese, changing its export status from \"free\" to \"prohibited\" with immediate effect.",
+        "s": 3.45,
+        "e": 19.39
+      },
+      {
+        "t": "The ban prohibits Indian recyclers from exporting lithium-ion battery black mass and associated unsorted battery waste that does not contain lead, cadmium or mercury, encouraging domestic processing of critical battery materials and supporting India's electric-vehicle supply-chain ambitions.",
+        "s": 19.39,
+        "e": 35.33
+      },
+      {
+        "t": "The notification comes days after the Indian cabinet approved an incentive policy worth 28.14 billion rupees ($300.2 million) to boost domestic processing of lithium and nickel; India is targeting electric vehicles at 30% of new car sales by 2030.",
+        "s": 35.33,
+        "e": 52.13
+      }
+    ]
+  }
+]
