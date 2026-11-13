@@ -1,0 +1,346 @@
+[
+  {
+    "title": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development",
+    "href": "story-2026-11-13-openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development.mp3",
+    "size_bytes": 447397,
+    "sentences": [
+      {
+        "t": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development",
+        "s": 0.0,
+        "e": 5.2
+      },
+      {
+        "t": "A group of nonprofits sued OpenAI, Anthropic, SpaceX's AI division, Meta Platforms and Alphabet's Google on Thursday, seeking to block further development of the most advanced AI models over concerns the technology could pose a threat to humanity.",
+        "s": 5.2,
+        "e": 21.67
+      },
+      {
+        "t": "The nonprofits, including the Irreplaceable Education Fund, Public Citizen and Heat Initiative, sued in San Francisco, saying California's laws against unfair business practices provide grounds for a court order barring further development of products like ChatGPT, Gemini and Claude.",
+        "s": 21.67,
+        "e": 38.58
+      },
+      {
+        "t": "The lawsuit cites comments from company leaders, including Anthropic chief executive Dario Amodei and SpaceX chief executive Elon Musk, about AI's potential to cause the destruction of civilization, and accuses the companies of business practices that create a public nuisance.",
+        "s": 38.58,
+        "e": 55.92
+      }
+    ]
+  },
+  {
+    "title": "Is Microsoft down? Updates as users report issues with Outlook, 365",
+    "href": "story-2026-11-13-is-microsoft-down-updates-as-users-report-issues-with-outlook-365.mp3",
+    "size_bytes": 393061,
+    "sentences": [
+      {
+        "t": "Is Microsoft down? Updates as users report issues with Outlook, 365",
+        "s": 0.0,
+        "e": 4.5
+      },
+      {
+        "t": "A widespread Microsoft outage affected tens of thousands of users across the United States for about 10 hours on November 12, disrupting access to Outlook, Microsoft 365, Copilot and other platforms; Outlook outage reports approached 130,000 at the peak.",
+        "s": 4.5,
+        "e": 20.47
+      },
+      {
+        "t": "Microsoft said it was making progress restoring services, but its efforts to improve serviceability were not taking as expected, and more than 18,000 users were still reporting Outlook issues around 11:30 p.m.",
+        "s": 20.47,
+        "e": 33.57
+      },
+      {
+        "t": "ET.",
+        "s": 33.57,
+        "e": 33.98
+      },
+      {
+        "t": "The outage also affected connectors used by OpenAI and Anthropic to power their artificial intelligence services; OpenAI said new connections may be broken and Anthropic identified an issue with an upstream provider affecting its Microsoft 365 connector.",
+        "s": 33.98,
+        "e": 49.13
+      }
+    ]
+  },
+  {
+    "title": "African writing award probe finds 'no evidence' winning story was AI generated",
+    "href": "story-2026-11-13-african-writing-award-probe-finds-no-evidence-winning-story-was-ai-generated.mp3",
+    "size_bytes": 347173,
+    "sentences": [
+      {
+        "t": "African writing award probe finds 'no evidence' winning story was AI generated",
+        "s": 0.0,
+        "e": 4.45
+      },
+      {
+        "t": "The Caine Prize for African Writing said an internal review found no evidence that Zimbabwean writer Simbarashe Kundizeza used generative AI to write his winning short story, and confirmed him as the winner of this year's \u00a310,000 award.",
+        "s": 4.45,
+        "e": 18.54
+      },
+      {
+        "t": "The inquiry followed an article in the US magazine The Atlantic alleging that AI-detection software Pangram had shown the story, The Blue Fighter, was entirely AI generated; Kundizeza vehemently denied the allegation.",
+        "s": 18.54,
+        "e": 30.41
+      },
+      {
+        "t": "Board chair Ellah Wakatama said the review, which included interviews with the author, the judging panel and the magazine where the story was first published, found the evidence clear that the story was human written.",
+        "s": 30.41,
+        "e": 43.39
+      }
+    ]
+  },
+  {
+    "title": "The AI boom was built around Jensen Huang. Now what?",
+    "href": "story-2026-11-13-the-ai-boom-was-built-around-jensen-huang-now-what.mp3",
+    "size_bytes": 348517,
+    "sentences": [
+      {
+        "t": "The AI boom was built around Jensen Huang. Now what?",
+        "s": 0.0,
+        "e": 3.69
+      },
+      {
+        "t": "Jensen Huang's resignation from Nvidia leaves the company without its visionary leader and leaves a major void for the AI industry, where Huang was a kingmaker in inking deals to support the tech boom, CNN reports.",
+        "s": 3.69,
+        "e": 16.98
+      },
+      {
+        "t": "Under Huang, Nvidia guaranteed deals for data centers, invested heavily in AI startups and backed the companies that bought its products, including a $105 billion commitment in August for an OpenAI data center; analysts called Nvidia the central bank of AI.",
+        "s": 16.98,
+        "e": 32.12
+      },
+      {
+        "t": "Analysts told CNN that replacing Huang's dealmaking will be a much bigger challenge than naming interim chief executive Colette Kress, and that a slowdown in dealmaking could hamper the AI trade.",
+        "s": 32.12,
+        "e": 43.56
+      }
+    ]
+  },
+  {
+    "title": "Hospitals, schools and police hit by global Microsoft outage, Guardian reports",
+    "href": "story-2026-11-13-hospitals-schools-and-police-hit-by-global-microsoft-outage-guardian-reports.mp3",
+    "size_bytes": 322597,
+    "sentences": [
+      {
+        "t": "Hospitals, schools and police hit by global Microsoft outage, Guardian reports",
+        "s": 0.0,
+        "e": 4.35
+      },
+      {
+        "t": "Hospitals, general practices, pharmacies, schools and police forces in the United Kingdom reported major disruptions during the global Microsoft services outage, according to Guardian reporting on Friday morning, including email and IT systems used by healthcare workers.",
+        "s": 4.35,
+        "e": 18.97
+      },
+      {
+        "t": "Microsoft reported early signs of stabilization and said it had no indication of a cyberattack at the time; the company had not yet established a definitive public root cause in the cited report.",
+        "s": 18.97,
+        "e": 32.02
+      },
+      {
+        "t": "Some critical emergency ambulance calls appeared unaffected.",
+        "s": 32.02,
+        "e": 34.79
+      },
+      {
+        "t": "The headline link goes to a summary of the Guardian's story carried by INGOAMPT.",
+        "s": 34.79,
+        "e": 40.32
+      }
+    ]
+  },
+  {
+    "title": "Fed's Barr: US should prepare for 'serious' AI job disruption, widening inequality",
+    "href": "story-2026-11-13-fed-s-barr-us-should-prepare-for-serious-ai-job-disruption-widening-inequality.mp3",
+    "size_bytes": 393061,
+    "sentences": [
+      {
+        "t": "Fed's Barr: US should prepare for 'serious' AI job disruption, widening inequality",
+        "s": 0.0,
+        "e": 4.47
+      },
+      {
+        "t": "The United States should be prepared for serious short-term disruptions to the job market because of artificial intelligence, which could begin displacing workers at scale and widening inequality in favor of investors, Fed Governor Michael Barr said on Thursday.",
+        "s": 4.47,
+        "e": 18.98
+      },
+      {
+        "t": "Barr, speaking in remarks prepared for Yale University, said much rides on whether competition keeps AI a cheap and ubiquitous commodity with gains widely shared, as with the internet, or whether market power concentrates among a few winning companies.",
+        "s": 18.98,
+        "e": 33.5
+      },
+      {
+        "t": "Labor's share of national income hit a record low 52.8% in the second quarter of 2026, Barr noted, and while there has been relatively little worker displacement so far, he warned that if labor market changes happen quickly, dislocations might be large.",
+        "s": 33.5,
+        "e": 49.13
+      }
+    ]
+  },
+  {
+    "title": "Sex, spies, and exits rock Nvidia, but analysts say AI is safe",
+    "href": "story-2026-11-13-sex-spies-and-exits-rock-nvidia-but-analysts-say-ai-is-safe.mp3",
+    "size_bytes": 382501,
+    "sentences": [
+      {
+        "t": "Sex, spies, and exits rock Nvidia, but analysts say AI is safe",
+        "s": 0.0,
+        "e": 4.9
+      },
+      {
+        "t": "Nvidia has lost more than $1.2 trillion in value in the past two weeks; its shares have shed about 25% and closed down 4.34% at $166.19 on Thursday, after chief executive Jensen Huang resigned following reports of affairs, including one with a woman reported to be an alleged Chinese spy.",
+        "s": 4.9,
+        "e": 25.33
+      },
+      {
+        "t": "The company named chief financial officer Colette Kress as interim chief executive and Harvey Jones as its first-ever board chair, while the board continues to investigate.",
+        "s": 25.33,
+        "e": 35.96
+      },
+      {
+        "t": "Analysts said the leadership issue is primarily Nvidia-specific rather than a change in the long-term AI investment thesis, and investors will look to Nvidia's November 17 earnings for guidance.",
+        "s": 35.96,
+        "e": 47.81
+      }
+    ]
+  },
+  {
+    "title": "Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him",
+    "href": "story-2026-11-13-jensen-huang-built-the-company-that-powers-ai-now-nvidia-must-find-a-way-forward.mp3",
+    "size_bytes": 416677,
+    "sentences": [
+      {
+        "t": "Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him",
+        "s": 0.0,
+        "e": 6.56
+      },
+      {
+        "t": "Nvidia chief executive Jensen Huang resigned Thursday, capping a downfall for a poster boy of the AI boom whose exit following reports of extramarital affairs thrusts the chipmaker into an uncertain future, the Associated Press reports.",
+        "s": 6.56,
+        "e": 20.45
+      },
+      {
+        "t": "The resignation sent Nvidia shares plummeting 14% at the opening bell before they stabilized, closing down about 4% on Thursday; the company named chief financial officer Colette Kress as interim chief executive and Harvey C.",
+        "s": 20.45,
+        "e": 33.95
+      },
+      {
+        "t": "Jones as its first-ever chairman.",
+        "s": 33.95,
+        "e": 35.88
+      },
+      {
+        "t": "Nvidia had no succession plan for the departure of Huang, who was synonymous with the company for more than 30 years; its board will consider internal and external candidates.",
+        "s": 35.88,
+        "e": 47.06
+      },
+      {
+        "t": "The headline link goes to the Associated Press story as carried by TechXplore.",
+        "s": 47.06,
+        "e": 52.08
+      }
+    ]
+  },
+  {
+    "title": "Nvidia needs new front man to stay on top after Huang's ousting, experts say",
+    "href": "story-2026-11-13-nvidia-needs-new-front-man-to-stay-on-top-after-huang-s-ousting-experts-say.mp3",
+    "size_bytes": 397861,
+    "sentences": [
+      {
+        "t": "Nvidia needs new front man to stay on top after Huang's ousting, experts say",
+        "s": 0.0,
+        "e": 5.16
+      },
+      {
+        "t": "Jensen Huang spent 33 years at the helm of Nvidia, co-founding the AI infrastructure company in 1993; on November 12 his reign ended when he resigned amid pressure over an extramarital affair with an alleged Chinese spy and a subsequent board investigation.",
+        "s": 5.16,
+        "e": 20.63
+      },
+      {
+        "t": "As investors pull back, with Nvidia shares down 25%, and politicians call for Huang's testimony before Congress, experts are split on whether Nvidia can replace his vision; Huang agreed to testify before Congress ahead of Thanksgiving, House Foreign Affairs Chair Brian Mast said.",
+        "s": 20.63,
+        "e": 36.47
+      },
+      {
+        "t": "Huang was a leading advocate of open-source AI models, and analysts said his ousting could affect policy around open-weight models and fragment the chip industry as AMD, Google and Intel try to move into the space.",
+        "s": 36.47,
+        "e": 49.73
+      }
+    ]
+  },
+  {
+    "title": "Anthropic IPO: 825 million shares at $70 to $78, Nasdaq ticker ANT, pricing expected 18 November",
+    "href": "story-2026-11-13-anthropic-ipo-825-million-shares-at-70-to-78-nasdaq-ticker-ant-pricing-expected.mp3",
+    "size_bytes": 509221,
+    "sentences": [
+      {
+        "t": "Anthropic IPO: 825 million shares at $70 to $78, Nasdaq ticker ANT, pricing expected 18 November",
+        "s": 0.0,
+        "e": 6.49
+      },
+      {
+        "t": "Anthropic's roadshow is under way for 825 million Class A shares at an expected $70 to $78 each; the company has applied to list on the Nasdaq Global Select Market under the symbol ANT, with pricing expected on November 18 and trading on November 19.",
+        "s": 6.49,
+        "e": 24.73
+      },
+      {
+        "t": "CNBC reported that at the top of the range Anthropic could raise up to $64.35 billion and be valued at up to about $1.405 trillion on a fully diluted basis, and that the company is targeting a retail allocation of about 20%.",
+        "s": 24.73,
+        "e": 41.76
+      },
+      {
+        "t": "According to the filing as described by CNBC, chip and cloud partners including AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC have agreed to buy $26 billion of a separate class of stock in a private placement at the IPO price.",
+        "s": 41.76,
+        "e": 58.38
+      },
+      {
+        "t": "The headline link goes to a report of CNBC's coverage carried by FiscalHour.",
+        "s": 58.38,
+        "e": 63.65
+      }
+    ]
+  },
+  {
+    "title": "SpaceX to invest over $74 billion in supercompute facilities in Texas, Arizona",
+    "href": "story-2026-11-13-spacex-to-invest-over-74-billion-in-supercompute-facilities-in-texas-arizona.mp3",
+    "size_bytes": 303973,
+    "sentences": [
+      {
+        "t": "SpaceX to invest over $74 billion in supercompute facilities in Texas, Arizona",
+        "s": 0.0,
+        "e": 4.85
+      },
+      {
+        "t": "SpaceX said on Thursday it plans to invest more than $74 billion in two supercomputing campuses, one at its Starbase site in Texas and another in Cochise County, Arizona.",
+        "s": 4.85,
+        "e": 16.57
+      },
+      {
+        "t": "The company expects to spend $24 billion on the Starbase site and roughly $50 billion on the Arizona campus; the Arizona campus, which needs approval from Cochise County, would create about 5,500 construction jobs and 1,000 permanent jobs.",
+        "s": 16.57,
+        "e": 31.93
+      },
+      {
+        "t": "The Starbase facility would generate its own electricity rather than draw from the public grid.",
+        "s": 31.93,
+        "e": 37.99
+      }
+    ]
+  },
+  {
+    "title": "What a 2,000 Calorie Carnivore Day Looks Like",
+    "href": "story-2026-11-13-what-a-2-000-calorie-carnivore-day-looks-like.mp3",
+    "size_bytes": 181861,
+    "sentences": [
+      {
+        "t": "What a 2,000 Calorie Carnivore Day Looks Like",
+        "s": 0.0,
+        "e": 2.98
+      },
+      {
+        "t": "Carnivore Weekly's latest piece, dated November 12, 2026, lays out a 2,000 calorie carnivore day with breakfast, lunch and dinner and exact ounces, as a day readers can shop for this week.",
+        "s": 2.98,
+        "e": 14.9
+      },
+      {
+        "t": "The headline link goes to Carnivore Weekly's home page, where this story stands as its latest item, dated November 12, 2026.",
+        "s": 14.9,
+        "e": 22.73
+      }
+    ]
+  }
+]
