@@ -1,0 +1,410 @@
+[
+  {
+    "title": "New awards show celebrates AI music and its creators",
+    "href": "story-2026-11-14-new-awards-show-celebrates-ai-music-and-its-creators.mp3",
+    "size_bytes": 438757,
+    "sentences": [
+      {
+        "t": "New awards show celebrates AI music and its creators",
+        "s": 0.0,
+        "e": 3.25
+      },
+      {
+        "t": "The first AI Music Awards ceremony in the United States, held Friday in downtown Los Angeles, celebrated people who created songs at least partly with AI, a field that has sparked criticism and lawsuits while gaining millions of streams and landing on music charts.",
+        "s": 3.25,
+        "e": 19.12
+      },
+      {
+        "t": "Presenters and winners argued that AI-created music should be viewed as a new genre that requires real artistry and hours of prompting; the top awards for AI artist, song and album of the year went to Xania Monet, an AI-generated avatar whose R&B song was the first by an AI-based act to earn a spot on a Billboard radio chart.",
+        "s": 19.12,
+        "e": 40.77
+      },
+      {
+        "t": "Record labels have sued AI companies including Anthropic and OpenAI over the use of copyrighted works to train models, and musicians worry AI-generated music blocks human artists from gaining traction and takes work from producers, singers, engineers and songwriters.",
+        "s": 40.77,
+        "e": 54.84
+      }
+    ]
+  },
+  {
+    "title": "Trump says Jensen Huang is going 'through hell' amid scandal",
+    "href": "story-2026-11-14-trump-says-jensen-huang-is-going-through-hell-amid-scandal.mp3",
+    "size_bytes": 412261,
+    "sentences": [
+      {
+        "t": "Trump says Jensen Huang is going 'through hell' amid scandal",
+        "s": 0.0,
+        "e": 3.44
+      },
+      {
+        "t": "President Donald Trump said former Nvidia chief executive Jensen Huang is going 'through hell' after his extramarital affair with a businesswoman suspected of being a Chinese spy, telling ESPN commentator Stephen A.",
+        "s": 3.44,
+        "e": 14.43
+      },
+      {
+        "t": "Smith in an interview published November 12 that Huang feels worst about what he has done to his wife and family.",
+        "s": 14.43,
+        "e": 21.64
+      },
+      {
+        "t": "Huang acknowledged the affair with Singaporean tech executive Alice Huang days before stepping down as CEO on November 12; Nvidia, the world's largest maker of AI chips, has opened an investigation, and its stock price has tanked since the news broke on October 29.",
+        "s": 21.64,
+        "e": 36.76
+      },
+      {
+        "t": "Asked whether Huang should have resigned, Trump said the big question is whether the woman was a spy, called Huang a tremendous talent, and stood by his suggestion that Apple executive chairman Tim Cook should be tapped as Nvidia's new president and CEO.",
+        "s": 36.76,
+        "e": 51.53
+      }
+    ]
+  },
+  {
+    "title": "Colette Kress becomes Nvidia's interim CEO after Jensen Huang resigns",
+    "href": "story-2026-11-14-colette-kress-becomes-nvidia-s-interim-ceo-after-jensen-huang-resigns.mp3",
+    "size_bytes": 487717,
+    "sentences": [
+      {
+        "t": "Colette Kress becomes Nvidia's interim CEO after Jensen Huang resigns",
+        "s": 0.0,
+        "e": 3.88
+      },
+      {
+        "t": "Nvidia's chief financial officer, Colette Kress, is stepping in as interim CEO while the board searches for a permanent replacement for Jensen Huang, NPR reported; Kress joined Nvidia 13 years ago and has appeared on dozens of earnings calls alongside Huang.",
+        "s": 3.88,
+        "e": 19.8
+      },
+      {
+        "t": "Nvidia is a linchpin of the AI economy, with an 80% to 90% share of the graphics processing units AI runs on, and professor Tammy Madsen told NPR a major task for Kress is reassuring the market that Nvidia still has its mojo while its share price falls.",
+        "s": 19.8,
+        "e": 38.44
+      },
+      {
+        "t": "Kress must also tend the partner relationships and circular-financing deals Huang handled, in which Nvidia invests in companies that then buy chips for data centers; the board said it has full confidence in her and expects operations, customer commitments and the product roadmap to continue without interruption.",
+        "s": 38.44,
+        "e": 56.69
+      },
+      {
+        "t": "The headline link goes to NPR's story as carried by WRUR.",
+        "s": 56.69,
+        "e": 60.96
+      }
+    ]
+  },
+  {
+    "title": "Nvidia: How the Jensen Huang scandal exposed a headache for business-friendly Singapore",
+    "href": "story-2026-11-14-nvidia-how-the-jensen-huang-scandal-exposed-a-headache-for-business-friendly-sin.mp3",
+    "size_bytes": 471973,
+    "sentences": [
+      {
+        "t": "Nvidia: How the Jensen Huang scandal exposed a headache for business-friendly Singapore",
+        "s": 0.0,
+        "e": 4.54
+      },
+      {
+        "t": "A major scandal involving Nvidia founder Jensen Huang and a suspected Chinese spy based in Singapore has cast a spotlight on the city-state's success as a global chip hub, and as a location for alleged illicit trade, BBC News reports.",
+        "s": 4.54,
+        "e": 19.66
+      },
+      {
+        "t": "Huang stepped down after admitting an affair with Alice Huang, who ran Singaporean data centre company Megaspeed, a major buyer of Nvidia's chips that is suspected of giving Chinese companies backdoor access to the chips through data centres in Malaysia, Indonesia and Thailand.",
+        "s": 19.66,
+        "e": 35.92
+      },
+      {
+        "t": "Singapore was Nvidia's second-largest billing centre last year, accounting for nearly a fifth of its earnings, yet less than 1% of those earnings were for chips that actually entered Singapore; Singapore and US investigations into Megaspeed are still ongoing, and no charges have been brought against the company.",
+        "s": 35.92,
+        "e": 54.08
+      },
+      {
+        "t": "The headline link goes to the BBC News story as carried by WSInsider.",
+        "s": 54.08,
+        "e": 58.99
+      }
+    ]
+  },
+  {
+    "title": "AI datacentres plan on-site power stations on huge scale despite climate risks, research reveals",
+    "href": "story-2026-11-14-ai-datacentres-plan-on-site-power-stations-on-huge-scale-despite-climate-risks-r.mp3",
+    "size_bytes": 554341,
+    "sentences": [
+      {
+        "t": "AI datacentres plan on-site power stations on huge scale despite climate risks, research reveals",
+        "s": 0.0,
+        "e": 6.03
+      },
+      {
+        "t": "Datacentres planned across the United States, the United Kingdom and mainland Europe have proposals to build fossil fuel plants on site to create 181 gigawatts of gas-fired capacity because of delays in connecting to national grids, The Guardian reported, citing BloombergNEF research; that is almost four times the total peak electricity demand of Great Britain.",
+        "s": 6.03,
+        "e": 29.69
+      },
+      {
+        "t": "More than 90% of the planned on-site gas capacity is in the United States, and BloombergNEF estimates the US plants would emit about 345 million tonnes of carbon dioxide equivalent a year if built and run, roughly the output of 72.8 million fossil fuel cars.",
+        "s": 29.69,
+        "e": 49.06
+      },
+      {
+        "t": "The research expects AI datacentre electricity demand to almost quadruple to 2,354 terawatt-hours by 2035, about 7% of global demand, and warns that plants described as temporary may keep running once built.",
+        "s": 49.06,
+        "e": 62.83
+      },
+      {
+        "t": "The headline link goes to a report of The Guardian's story carried by Startup Fortune.",
+        "s": 62.83,
+        "e": 69.29
+      }
+    ]
+  },
+  {
+    "title": "AI rockets to top of worries about financial system in latest Fed survey",
+    "href": "story-2026-11-14-ai-rockets-to-top-of-worries-about-financial-system-in-latest-fed-survey.mp3",
+    "size_bytes": 971173,
+    "sentences": [
+      {
+        "t": "AI rockets to top of worries about financial system in latest Fed survey",
+        "s": 0.0,
+        "e": 11.96
+      },
+      {
+        "t": "Risks tied to the artificial intelligence sector surged to become the top-cited concern for financial stability in the Federal Reserve's semi-annual Financial Stability Report, released Friday; 87% of contacts surveyed cited AI as a salient risk, up from 50% in the May survey.",
+        "s": 11.96,
+        "e": 51.5
+      },
+      {
+        "t": "Respondents pointed to cyberattacks, complex AI-related financing, and the possibility of an AI earnings slowdown sparking a broad market correction; the second most-cited concern, a broad correction in risk assets, was named by 52%.",
+        "s": 51.5,
+        "e": 82.77
+      },
+      {
+        "t": "The Fed found advanced computing-related debt issuance had surged to $680 billion by October 2026, a fivefold increase on all of 2023, and that debt, guarantees and not-yet-commenced leases on this infrastructure could exceed $3 trillion, creating vulnerabilities that need close monitoring.",
+        "s": 82.77,
+        "e": 121.39
+      }
+    ]
+  },
+  {
+    "title": "Wholesale inflation rose in October to highest annual rate in nearly four years",
+    "href": "story-2026-11-14-wholesale-inflation-rose-in-october-to-highest-annual-rate-in-nearly-four-years.mp3",
+    "size_bytes": 472933,
+    "sentences": [
+      {
+        "t": "Wholesale inflation rose in October to highest annual rate in nearly four years",
+        "s": 0.0,
+        "e": 5.41
+      },
+      {
+        "t": "Wholesale inflation accelerated in October to its highest annual rate in nearly four years, Bureau of Labor Statistics data showed Friday: the Producer Price Index rose 0.3% in the month and 6.5% over the 12 months ended in October, the highest since November 2022.",
+        "s": 5.41,
+        "e": 23.73
+      },
+      {
+        "t": "Massive investment in artificial intelligence technology and equipment is contributing another layer of inflationary pressure for businesses and consumers, CNN reported; electronic components and accessories rose 4.2% in the month, up 31.7% from a year before, the highest annual rate on record.",
+        "s": 23.73,
+        "e": 41.21
+      },
+      {
+        "t": "Economist Matt Bush of Guggenheim Investments told CNN those costs show up indirectly in computer, television and software prices, and Friday's PPI data, with the hotter October CPI, are expected to bring a Federal Reserve rate hike when policymakers meet in early December.",
+        "s": 41.21,
+        "e": 59.11
+      }
+    ]
+  },
+  {
+    "title": "Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+    "href": "story-2026-11-14-howard-lutnick-agrees-to-testify-as-bipartisan-pressure-grows-over-nvidia-scanda.mp3",
+    "size_bytes": 426853,
+    "sentences": [
+      {
+        "t": "Howard Lutnick agrees to testify as bipartisan pressure grows over Nvidia scandal",
+        "s": 0.0,
+        "e": 4.33
+      },
+      {
+        "t": "Commerce Secretary Howard Lutnick agreed to testify before Congress as bipartisan pressure grew over the Nvidia scandal, NBC News reported; senators from both parties said he should appear voluntarily or face a subpoena, and asked whether export controls were relaxed.",
+        "s": 4.33,
+        "e": 18.75
+      },
+      {
+        "t": "Lawmakers' concerns center on whether Nvidia chips were smuggled or illegally accessed by AI companies in China; Nvidia has said it complies with US laws on exports, and the White House said the president maintains complete confidence in Lutnick.",
+        "s": 18.75,
+        "e": 32.8
+      },
+      {
+        "t": "House Foreign Affairs Chairman Brian Mast said Jensen Huang had agreed to brief lawmakers and asked him to appear for a closed-door interview on December 1, while some senators pressed Lutnick to come before Thanksgiving rather than wait for next month's scheduled hearings.",
+        "s": 32.8,
+        "e": 48.31
+      },
+      {
+        "t": "The headline link goes to the NBC News story as carried by Hometown Post.",
+        "s": 48.31,
+        "e": 53.35
+      }
+    ]
+  },
+  {
+    "title": "Microsoft services mostly fixed after 24-hour outage",
+    "href": "story-2026-11-14-microsoft-services-mostly-fixed-after-24-hour-outage.mp3",
+    "size_bytes": 398821,
+    "sentences": [
+      {
+        "t": "Microsoft services mostly fixed after 24-hour outage",
+        "s": 0.0,
+        "e": 2.88
+      },
+      {
+        "t": "A worldwide Microsoft outage stabilized after more than 24 hours, during which thousands of users could not access email, apps and other services; Outlook reports fell to 1,600 by Friday afternoon from about 130,000 when the outage began on Thursday, November 12.",
+        "s": 2.88,
+        "e": 20.19
+      },
+      {
+        "t": "Microsoft said the outage was a technical issue not related to cyber or AI/agents, introduced during an earlier network capacity upgrade, and apologized for the disruption; some Copilot users could not load chats or reach email, calendars and files through the AI tool while services were degraded.",
+        "s": 20.19,
+        "e": 39.55
+      },
+      {
+        "t": "Experts said losses from the downtime are likely in the billions, and businesses are assessing damage and possible insurance claims as services are restored gradually.",
+        "s": 39.55,
+        "e": 49.85
+      }
+    ]
+  },
+  {
+    "title": "US public workers are fighting to protect their jobs from AI \u2013 and some are winning",
+    "href": "story-2026-11-14-us-public-workers-are-fighting-to-protect-their-jobs-from-ai-and-some-are-winnin.mp3",
+    "size_bytes": 502693,
+    "sentences": [
+      {
+        "t": "US public workers are fighting to protect their jobs from AI \u2013 and some are winning",
+        "s": 0.0,
+        "e": 6.02
+      },
+      {
+        "t": "Workers for the city of Oakland, California, worried the region would deploy AI systems that could increase surveillance and inaccurately evaluate their performance, voted on October 22 to authorize a strike, with 94.1% in favor, The Guardian reports.",
+        "s": 6.02,
+        "e": 20.32
+      },
+      {
+        "t": "The vote had an impact: Oakland and the union reached a tentative three-year agreement that includes AI-related protections, such as requiring the city to retrain or reassign workers displaced by AI rather than firing them, and the November 5 strike was put on hold.",
+        "s": 20.32,
+        "e": 36.87
+      },
+      {
+        "t": "Nearly 70% of state and local government agencies say they have adopted or are implementing generative AI, according to an Ernst and Young survey from July and August 2026, and unions in California also backed the No Robo Bosses law, signed September 30, barring employers from relying solely on automated systems to discipline or fire workers.",
+        "s": 36.87,
+        "e": 57.94
+      },
+      {
+        "t": "The headline link goes to The Guardian's story as carried by Richard Hartley.",
+        "s": 57.94,
+        "e": 62.83
+      }
+    ]
+  },
+  {
+    "title": "Gaining Weight on Carnivore in Menopause? Read This",
+    "href": "story-2026-11-14-gaining-weight-on-carnivore-in-menopause-read-this.mp3",
+    "size_bytes": 200677,
+    "sentences": [
+      {
+        "t": "Gaining Weight on Carnivore in Menopause? Read This",
+        "s": 0.0,
+        "e": 2.95
+      },
+      {
+        "t": "Carnivore Weekly's latest piece, dated November 13, 2026, takes up gaining weight on carnivore in menopause: you cut the carbs and the scale went up, which in menopause is more common than you would think, and usually not fat.",
+        "s": 2.95,
+        "e": 17.33
+      },
+      {
+        "t": "The headline link goes to Carnivore Weekly's home page, where this story stands as its latest item, dated November 13, 2026.",
+        "s": 17.33,
+        "e": 25.08
+      }
+    ]
+  },
+  {
+    "title": "Some ketogenic diets found to cause mitochondrial stress and lead to inflammation",
+    "href": "story-2026-11-14-some-ketogenic-diets-found-to-cause-mitochondrial-stress-and-lead-to-inflammatio.mp3",
+    "size_bytes": 434341,
+    "sentences": [
+      {
+        "t": "Some ketogenic diets found to cause mitochondrial stress and lead to inflammation",
+        "s": 0.0,
+        "e": 4.56
+      },
+      {
+        "t": "New University of Cincinnati Cancer Center research found that a ketogenic diet high in long-chain saturated fatty acids can increase inflammation; the study, led by Cancer Center Director David Gius, was published November 13 in the journal Science Advances.",
+        "s": 4.56,
+        "e": 19.36
+      },
+      {
+        "t": "The team gave ketogenic diets made of different fatty acids to mouse models and individual fatty acids to tissue culture models, and found long-chain saturated fatty acids favor an inflammatory immune response, while unsaturated and medium-chain fatty acids tend to favor anti-inflammatory characteristics.",
+        "s": 19.36,
+        "e": 35.69
+      },
+      {
+        "t": "The increase in inflammation is mediated through mitochondrial stress signaling and activation of immune cells, and the findings suggest the source of fat matters for the outcome of a ketogenic diet; a clinical trial is underway at UT Health San Antonio and will open soon at the Cancer Center.",
+        "s": 35.69,
+        "e": 54.29
+      }
+    ]
+  },
+  {
+    "title": "West Lindsey solar project latest to be announced in Lincolnshire",
+    "href": "story-2026-11-14-west-lindsey-solar-project-latest-to-be-announced-in-lincolnshire.mp3",
+    "size_bytes": 409381,
+    "sentences": [
+      {
+        "t": "West Lindsey solar project latest to be announced in Lincolnshire",
+        "s": 0.0,
+        "e": 3.48
+      },
+      {
+        "t": "A public consultation has been launched on proposals for a large-scale solar farm in West Lindsey, BBC News reports: developer Elgin's 99 megawatt Stone Pit Lane Solar Farm, planned on land south of Keelby, could generate enough renewable electricity to power up to 40,000 homes.",
+        "s": 3.48,
+        "e": 19.14
+      },
+      {
+        "t": "The company is seeking feedback from residents before submitting a planning application to West Lindsey District Council; the consultation runs from November 12 to December 10, with drop-in sessions at Keelby Village Hall on November 18 and 19, and the developer has pledged a Community Benefit Fund for local groups and projects.",
+        "s": 19.14,
+        "e": 37.24
+      },
+      {
+        "t": "Senior development manager Jamie Andrews said the plans are at an early stage and local expertise will play an important role in the final scheme.",
+        "s": 37.24,
+        "e": 45.95
+      },
+      {
+        "t": "The headline link goes to the BBC News story as carried by GA Daily Post.",
+        "s": 45.95,
+        "e": 51.17
+      }
+    ]
+  },
+  {
+    "title": "Greece approves 4.7-gigawatt battery storage for grid connection",
+    "href": "story-2026-11-14-greece-approves-4-7-gigawatt-battery-storage-for-grid-connection.mp3",
+    "size_bytes": 179173,
+    "sentences": [
+      {
+        "t": "Greece approves 4.7-gigawatt battery storage for grid connection",
+        "s": 0.0,
+        "e": 2.99
+      },
+      {
+        "t": "Greece said power storage projects totalling 4.7 gigawatts have qualified for connection to its electricity grid, Reuters reported.",
+        "s": 2.99,
+        "e": 9.7
+      },
+      {
+        "t": "The approvals come as Greece moves to overcome approval delays that have thwarted the use of solar power amid high energy costs.",
+        "s": 9.7,
+        "e": 17.91
+      },
+      {
+        "t": "The headline link goes to the Reuters story as carried by TradingView.",
+        "s": 17.91,
+        "e": 22.39
+      }
+    ]
+  }
+]
