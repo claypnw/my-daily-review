@@ -1,0 +1,307 @@
+[
+  {
+    "title": "AI is disrupting math. Is science next?",
+    "href": "story-2026-11-15-ai-is-disrupting-math-is-science-next.mp3",
+    "size_bytes": 425701,
+    "sentences": [
+      {
+        "t": "AI is disrupting math. Is science next?",
+        "s": 0.0,
+        "e": 3.03
+      },
+      {
+        "t": "In May, OpenAI models guided by humans disproved a long-standing conjecture posed by Paul Erd\u0151s, in August AI models effectively solved the Navier-Stokes problem, and in October OpenAI released 722 AI-generated preprints on some 370 open problems, including a partial solution to the Riemann hypothesis.",
+        "s": 3.03,
+        "e": 22.49
+      },
+      {
+        "t": "Scientists now routinely use AI for coding and increasingly for analysis, and in late October OpenAI and Anthropic both announced progress on a thorny problem underpinning the math of the Standard Model of particle physics.",
+        "s": 22.49,
+        "e": 37.63
+      },
+      {
+        "t": "Researchers interviewed showed little consensus on what AI will be able to do in science, but all agreed science was on the cusp of massive change, with theoretical physics \u2014 closest to math \u2014 possibly next.",
+        "s": 37.63,
+        "e": 53.21
+      }
+    ]
+  },
+  {
+    "title": "AI may spot clues in heart scans that doctors miss, study suggests",
+    "href": "story-2026-11-15-ai-may-spot-clues-in-heart-scans-that-doctors-miss-study-suggests.mp3",
+    "size_bytes": 379237,
+    "sentences": [
+      {
+        "t": "AI may spot clues in heart scans that doctors miss, study suggests",
+        "s": 0.0,
+        "e": 4.9
+      },
+      {
+        "t": "A study in The Lancet Digital Health of 27,382 patients in the UK and US found AI measurements of ejection fraction from cardiac MRI scans were slightly but significantly better than experienced clinicians at identifying patients at increased risk of death, over an average follow-up of more than 5 years (3,458 deaths recorded).",
+        "s": 4.9,
+        "e": 26.56
+      },
+      {
+        "t": "The AI tool analysed a scan in approximately 2 to 3 seconds per patient, compared with around 13 minutes for expert clinician analysis.",
+        "s": 26.56,
+        "e": 35.96
+      },
+      {
+        "t": "The tool had an approximately 1% error rate at patient level, and researchers propose AI as a first-line measurement tool with clinicians still reviewing and interpreting every result.",
+        "s": 35.96,
+        "e": 47.4
+      }
+    ]
+  },
+  {
+    "title": "AI discovers a hidden heart signal that could predict sudden death",
+    "href": "story-2026-11-15-ai-discovers-a-hidden-heart-signal-that-could-predict-sudden-death.mp3",
+    "size_bytes": 318757,
+    "sentences": [
+      {
+        "t": "AI discovers a hidden heart signal that could predict sudden death",
+        "s": 0.0,
+        "e": 4.38
+      },
+      {
+        "t": "UC Berkeley researchers trained AI on more than 440,000 electrocardiograms collected in Sweden, linked to death certificates, and tested it on additional patient records from the United States and Taiwan.",
+        "s": 4.38,
+        "e": 16.33
+      },
+      {
+        "t": "The AI identified a group with an annual sudden cardiac death rate of 7%, versus 4.6% for the group identified by traditional screening based on how much blood the heart pumps.",
+        "s": 16.33,
+        "e": 28.68
+      },
+      {
+        "t": "The system works with ordinary EKG images already routinely collected in hospitals, and the findings, published in Nature, could help physicians decide who should receive an implanted defibrillator.",
+        "s": 28.68,
+        "e": 39.84
+      }
+    ]
+  },
+  {
+    "title": "Artificial Intelligence: Why are traditional industries adopting it?",
+    "href": "story-2026-11-15-artificial-intelligence-why-are-traditional-industries-adopting-it.mp3",
+    "size_bytes": 355621,
+    "sentences": [
+      {
+        "t": "Artificial Intelligence: Why are traditional industries adopting it?",
+        "s": 0.0,
+        "e": 2.99
+      },
+      {
+        "t": "Kukoon Rugs, a family-owned carpet firm in Northern Ireland, says every department \u2014 finance, commercial, marketing, supply chain and product \u2014 uses AI extensively, daily, allowing it to scale up parts of the business and remove boring office tasks.",
+        "s": 2.99,
+        "e": 17.56
+      },
+      {
+        "t": "Seating Matters, a manufacturer of specialist clinical seating exported worldwide, says AI has revolutionised back-office functions such as accounting, finance and pulling together information from many sources, and has led to new jobs being created.",
+        "s": 17.56,
+        "e": 30.63
+      },
+      {
+        "t": "Both firms say they operate with guardrails \u2014 no patient or financial information put into the tools, and always a human checking the output.",
+        "s": 30.63,
+        "e": 39.59
+      },
+      {
+        "t": "The headline link goes to a full-text republication of the BBC News story.",
+        "s": 39.59,
+        "e": 44.45
+      }
+    ]
+  },
+  {
+    "title": "Top scorer on South Korean tax exam confesses to cheating with AI",
+    "href": "story-2026-11-15-top-scorer-on-south-korean-tax-exam-confesses-to-cheating-with-ai.mp3",
+    "size_bytes": 327013,
+    "sentences": [
+      {
+        "t": "Top scorer on South Korean tax exam confesses to cheating with AI",
+        "s": 0.0,
+        "e": 4.3
+      },
+      {
+        "t": "The top scorer on South Korea's national exam for aspiring tax accountants, identified by the surname Han, confessed on Sunday to using generative AI to cheat, after scoring near-perfect marks on hundreds of questions over exams in April and July.",
+        "s": 4.3,
+        "e": 18.64
+      },
+      {
+        "t": "Han said he took photos of exam questions with a microcamera, sent them to an AI tool, and checked the answers on a smartphone, and that he had submitted a written confession to Seoul police.",
+        "s": 18.64,
+        "e": 31.19
+      },
+      {
+        "t": "Prime Minister Han Seok-sook acknowledged public concerns over AI-assisted cheating ahead of South Korea's high-stakes annual college entrance exam this Thursday, with the government promising thorough oversight.",
+        "s": 31.19,
+        "e": 40.87
+      }
+    ]
+  },
+  {
+    "title": "US stocks tumble as Nvidia slides 4.3%, triggering fresh selloff in technology shares",
+    "href": "story-2026-11-15-us-stocks-tumble-as-nvidia-slides-4-3-triggering-fresh-selloff-in-technology-sha.mp3",
+    "size_bytes": 591781,
+    "sentences": [
+      {
+        "t": "US stocks tumble as Nvidia slides 4.3%, triggering fresh selloff in technology shares",
+        "s": 0.0,
+        "e": 6.63
+      },
+      {
+        "t": "Nvidia shares plunged 4.3%, on track for their longest streak of weekly losses since October 2012 after CEO Jensen Huang's resignation on Thursday, leading a selloff in technology shares; the Philadelphia semiconductor index fell 6%, with AMD down 10% and Broadcom down 7%.",
+        "s": 6.63,
+        "e": 28.57
+      },
+      {
+        "t": "Reuters said the turmoil raised concerns about the AI trade, given Nvidia's central role in the industry's boom and its financial ties to several companies in the sector; neoclouds CoreWeave and Nebius each shed 10%.",
+        "s": 28.57,
+        "e": 46.42
+      },
+      {
+        "t": "At 11:23 a.m.",
+        "s": 46.42,
+        "e": 47.95
+      },
+      {
+        "t": "ET the Dow fell 0.23% to 52,174.97, the S&P 500 lost 1.01% to 7,515.49, and the Nasdaq dropped 1.74% to 24,923.79, while October producer prices rose 6.5% year over year, the largest annual gain since November 2022.",
+        "s": 47.95,
+        "e": 66.83
+      },
+      {
+        "t": "The headline link goes to the Reuters story as carried by The Hindu BusinessLine.",
+        "s": 66.83,
+        "e": 73.97
+      }
+    ]
+  },
+  {
+    "title": "Jensen Huang\u2019s Nvidia Resignation Leaves An Opening For Hungry Rivals",
+    "href": "story-2026-11-15-jensen-huang-s-nvidia-resignation-leaves-an-opening-for-hungry-rivals.mp3",
+    "size_bytes": 399781,
+    "sentences": [
+      {
+        "t": "Jensen Huang\u2019s Nvidia Resignation Leaves An Opening For Hungry Rivals",
+        "s": 0.0,
+        "e": 4.06
+      },
+      {
+        "t": "Forbes reported Nvidia's stock dropped more than 10 percent after Huang's resignation, pushing it to the second most valuable company in the world behind Apple, while still holding around 75 percent of the market in AI chips, as a nearly $4 trillion company with $215 billion in annual revenue.",
+        "s": 4.06,
+        "e": 23.97
+      },
+      {
+        "t": "AMD is called Nvidia's most formidable foe, put at $957 billion in value with almost $35 billion in annual revenue last year and major compute deals with OpenAI and Anthropic.",
+        "s": 23.97,
+        "e": 36.16
+      },
+      {
+        "t": "Cerebras, put at a $23 billion market capitalisation, saw its stock up almost 13 percent since Monday, the day after Huang's admission.",
+        "s": 36.16,
+        "e": 45.09
+      },
+      {
+        "t": "The headline link goes to the Forbes story as carried by RamaOnHealthcare.",
+        "s": 45.09,
+        "e": 49.97
+      }
+    ]
+  },
+  {
+    "title": "DUI suspect released after officer used AI in arrest report: Judge",
+    "href": "story-2026-11-15-dui-suspect-released-after-officer-used-ai-in-arrest-report-judge.mp3",
+    "size_bytes": 582757,
+    "sentences": [
+      {
+        "t": "DUI suspect released after officer used AI in arrest report: Judge",
+        "s": 0.0,
+        "e": 3.99
+      },
+      {
+        "t": "Maricopa County Superior Court Commissioner Daniel Fenzel ordered Anthony Edward Rene Quidera, 37, released at his initial hearing because the Oct.",
+        "s": 3.99,
+        "e": 11.6
+      },
+      {
+        "t": "29 arrest report on Interstate 10 in Phoenix ended with the disclaimer \"This report was generated with assistance from Truleo AI,\" and the court could not tell which allegations the trooper authored and which generative AI produced \u2014 so probable cause could not be determined at that time.",
+        "s": 11.6,
+        "e": 28.99
+      },
+      {
+        "t": "The trooper alleged Quidera drove 100 mph in a 65 mph zone, showed \"six out of six\" intoxication cues in field sobriety tests, and had several open containers in the car; DPS spokesman Raul Garcia said department policy allows AI only as a drafting aid, the trooper remains the author, and the draft must be checked against body-camera footage and reviewed by a supervisor.",
+        "s": 28.99,
+        "e": 52.18
+      },
+      {
+        "t": "The ruling did not end the case (an arraignment was scheduled), and it follows an Arizona Court of Appeals ruling weeks earlier ordering resentencing in a manslaughter case after a victim's sister used an AI-generated video of the slain victim at sentencing.",
+        "s": 52.18,
+        "e": 67.4
+      },
+      {
+        "t": "The headline link goes to the ABC News story as carried by Delta Daily News.",
+        "s": 67.4,
+        "e": 72.84
+      }
+    ]
+  },
+  {
+    "title": "Eating Carnivore on a Cruise After 60",
+    "href": "story-2026-11-15-eating-carnivore-on-a-cruise-after-60.mp3",
+    "size_bytes": 77221,
+    "sentences": [
+      {
+        "t": "Eating Carnivore on a Cruise After 60",
+        "s": 0.0,
+        "e": 2.33
+      },
+      {
+        "t": "Seven days, a buffet the size of a parking lot, and you eat carnivore.",
+        "s": 2.33,
+        "e": 6.99
+      },
+      {
+        "t": "Here's how readers over 60 make it easy.",
+        "s": 6.99,
+        "e": 9.65
+      }
+    ]
+  },
+  {
+    "title": "Legal challenge to UK's largest approved solar farm rejected",
+    "href": "story-2026-11-15-legal-challenge-to-uk-s-largest-approved-solar-farm-rejected.mp3",
+    "size_bytes": 610021,
+    "sentences": [
+      {
+        "t": "Legal challenge to UK's largest approved solar farm rejected",
+        "s": 0.0,
+        "e": 3.69
+      },
+      {
+        "t": "The High Court rejected a legal challenge to the UK's largest currently approved solar farm: Lincolnshire County Council and North Kesteven District Council sought to overturn the Department for Energy Security and Net Zero's April approval of Springwell Solar Farm, between Lincoln and Sleaford, arguing it would harm rural communities and landscapes, and the court dismissed their request to move forward with a judicial review.",
+        "s": 3.69,
+        "e": 30.34
+      },
+      {
+        "t": "Developer EDF said the 800 MW project will cover 1,280 hectares (3,163 acres) and power 180,000 homes, making a major contribution to the UK's future energy mix; a project spokesperson said it would create up to 600 jobs at peak construction plus a lifetime community benefit fund.",
+        "s": 30.34,
+        "e": 49.6
+      },
+      {
+        "t": "Council leaders Sean Matthews and Richard Wright said they were disappointed; a DESNZ spokesperson welcomed the decision, calling solar one of the cheapest and quickest forms of energy to build.",
+        "s": 49.6,
+        "e": 61.9
+      },
+      {
+        "t": "A separate legal challenge against the Beacon Fen Solar Farm near Sleaford was announced by Lincolnshire County Council last month.",
+        "s": 61.9,
+        "e": 70.1
+      },
+      {
+        "t": "The headline link goes to the BBC News story as carried by its republication page.",
+        "s": 70.1,
+        "e": 76.25
+      }
+    ]
+  }
+]
