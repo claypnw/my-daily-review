@@ -1,0 +1,307 @@
+[
+  {
+    "title": "Papa John's turns to AI to check pizzas from customers' photos",
+    "href": "story-2026-11-16-papa-john-s-turns-to-ai-to-check-pizzas-from-customers-photos.mp3",
+    "size_bytes": 402277,
+    "sentences": [
+      {
+        "t": "Papa John's turns to AI to check pizzas from customers' photos",
+        "s": 0.0,
+        "e": 3.98
+      },
+      {
+        "t": "Papa John's is offering a free pizza to customers who send in a photo of their delivered order, as part of an AI-based quality-control campaign to help make sure each pizza is properly cooked and cut.",
+        "s": 3.98,
+        "e": 17.0
+      },
+      {
+        "t": "CEO Todd Penegor told Reuters the promotion will help improve pizza quality across franchised restaurants, mirroring in-store cameras that use AI to check that cheese is not burnt, pepperoni is cut smoothly and the crust is shaped well; those cameras stand in only a few hundred of the chain's 6,000 locations worldwide.",
+        "s": 17.0,
+        "e": 35.81
+      },
+      {
+        "t": "The promotion began on November 9, runs until November 20, generated thousands of photos in its first few days, and was built in-house with Google Cloud technology; the company reported a 6.5% decline in quarterly same-store sales on November 5.",
+        "s": 35.81,
+        "e": 50.28
+      }
+    ]
+  },
+  {
+    "title": "Meet the miso-making engineer behind Anthropic's biggest hit",
+    "href": "story-2026-11-16-meet-the-miso-making-engineer-behind-anthropic-s-biggest-hit.mp3",
+    "size_bytes": 415141,
+    "sentences": [
+      {
+        "t": "Meet the miso-making engineer behind Anthropic's biggest hit",
+        "s": 0.0,
+        "e": 3.01
+      },
+      {
+        "t": "Boris Cherny, 35, is the creator of Claude Code, Anthropic's wildly popular coding agent that can write code, run commands and access files to accomplish work on a user's behalf, giving Anthropic an early foothold in the workplace.",
+        "s": 3.01,
+        "e": 17.3
+      },
+      {
+        "t": "Claude Code surpassed $2.5 billion in run-rate revenue in February, and Anthropic built its general office agent Claude Cowork in 10 days using Claude Code; enterprise AI spending accelerated in late 2025 after Claude Code's release to the general public in May.",
+        "s": 17.3,
+        "e": 33.09
+      },
+      {
+        "t": "Cherny said software engineering jobs will start disappearing by the end of this year in their current form, with engineers becoming 'builders' who do much more than coding, while six in 10 tech workers in a Stack Overflow survey of 30,000 programmers said they actively try to avoid using AI.",
+        "s": 33.09,
+        "e": 51.89
+      }
+    ]
+  },
+  {
+    "title": "Students must adapt to AI, says Guernsey education boss",
+    "href": "story-2026-11-16-students-must-adapt-to-ai-says-guernsey-education-boss.mp3",
+    "size_bytes": 384037,
+    "sentences": [
+      {
+        "t": "Students must adapt to AI, says Guernsey education boss",
+        "s": 0.0,
+        "e": 3.06
+      },
+      {
+        "t": "The head of The Guernsey Institute, Dr Louise Misselke, said students will need to adapt to changing employer demands due to new technology and artificial intelligence, as the institute launched its first survey of employer skills needs in 12 years.",
+        "s": 3.06,
+        "e": 16.68
+      },
+      {
+        "t": "AI featured in 80% of responses to a previous survey of the finance sector by the Guernsey International Business Association in October, and Misselke said people will need to change, adapt, upskill and retrain, with a lot of opportunity in those changes.",
+        "s": 16.68,
+        "e": 30.98
+      },
+      {
+        "t": "Business school chief Simon Le Tocq said the half-life of skills is decreasing \u2014 a skill that would last five years now lasts about a year and a half \u2014 and that Guernsey must compete on capability.",
+        "s": 30.98,
+        "e": 43.57
+      },
+      {
+        "t": "The headline link goes to a full-text republication of the BBC News story.",
+        "s": 43.57,
+        "e": 48.0
+      }
+    ]
+  },
+  {
+    "title": "AI cheating fears spook South Korea ahead of high-stakes college entrance exam",
+    "href": "story-2026-11-16-ai-cheating-fears-spook-south-korea-ahead-of-high-stakes-college-entrance-exam.mp3",
+    "size_bytes": 420133,
+    "sentences": [
+      {
+        "t": "AI cheating fears spook South Korea ahead of high-stakes college entrance exam",
+        "s": 0.0,
+        "e": 4.57
+      },
+      {
+        "t": "South Korean officials are scrambling to prevent cheating on Thursday's national college entrance exam, taken by more than half a million students, as AI and smart devices make fraud harder to detect.",
+        "s": 4.57,
+        "e": 16.74
+      },
+      {
+        "t": "The worries intensified after Han Won-seok, the top scorer on a national tax accountant exam, admitted in a Sunday video to using a concealed camera to photograph questions, sending the images to a generative AI tool and receiving answers on a smartphone.",
+        "s": 16.74,
+        "e": 32.72
+      },
+      {
+        "t": "Education authorities will deploy at least one specially trained supervisor at each of 1,300 test sites to identify AI-powered smart glasses, and are considering requiring students to hand over smart devices and shutting down public Wi-Fi at test sites.",
+        "s": 32.72,
+        "e": 47.57
+      },
+      {
+        "t": "The headline link goes to the Associated Press story as carried by Phys.org.",
+        "s": 47.57,
+        "e": 52.51
+      }
+    ]
+  },
+  {
+    "title": "AI bubble will likely burst and cause a recession by 2028 election, Wall Street's former top cop says",
+    "href": "story-2026-11-16-ai-bubble-will-likely-burst-and-cause-a-recession-by-2028-election-wall-street-s.mp3",
+    "size_bytes": 414373,
+    "sentences": [
+      {
+        "t": "AI bubble will likely burst and cause a recession by 2028 election, Wall Street's former top cop says",
+        "s": 0.0,
+        "e": 6.91
+      },
+      {
+        "t": "Former SEC chairman Gary Gensler told CNN the artificial intelligence boom is already a bubble that will likely burst and cause a recession before the 2028 presidential election, pointing to an estimated $800 billion a year being plowed into AI infrastructure.",
+        "s": 6.91,
+        "e": 22.64
+      },
+      {
+        "t": "Gensler said Big Tech companies are spending five times more in 2026 than three years ago, warned of circular and off-balance-sheet financing, and said neocloud companies are where breakage and bankruptcies are most likely, while major companies will survive.",
+        "s": 22.64,
+        "e": 37.6
+      },
+      {
+        "t": "Ed Yardeni countered that the air is coming out of the bubble in a self-correcting way, that there is no irrational exuberance in valuations, and that Gensler's warning is a plausible scenario that helps keep investors grounded.",
+        "s": 37.6,
+        "e": 51.79
+      }
+    ]
+  },
+  {
+    "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
+    "href": "story-2026-11-16-s-p-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom.mp3",
+    "size_bytes": 517093,
+    "sentences": [
+      {
+        "t": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
+        "s": 0.0,
+        "e": 5.39
+      },
+      {
+        "t": "Futures tracking the S&P 500 and Nasdaq 100 fell on Monday as AI-linked stocks came under pressure ahead of Nvidia's results on Tuesday, with the chipmaker slipping 2.2% in premarket trading after its longest weekly losing streak since October 2012, following founder Jensen Huang's exit as chief executive.",
+        "s": 5.39,
+        "e": 28.89
+      },
+      {
+        "t": "Other chipmakers fell between 3.5% and 5% \u2014 Intel, AMD, Broadcom and Micron \u2014 while neoclouds CoreWeave and Nebius slipped 5.4% and 5.5%, and server makers Dell and HP dropped 5.1% each.",
+        "s": 28.89,
+        "e": 44.56
+      },
+      {
+        "t": "At 5:08 a.m.",
+        "s": 44.56,
+        "e": 46.03
+      },
+      {
+        "t": "ET the Dow E-minis rose 0.02%, S&P 500 E-minis fell 0.36% and Nasdaq 100 E-minis lost 0.97%; investors await Federal Reserve Chair Kevin Warsh's speech and Wednesday's FOMC minutes, with markets fully pricing in a December rate hike.",
+        "s": 46.03,
+        "e": 64.63
+      }
+    ]
+  },
+  {
+    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "href": "story-2026-11-16-how-nvidia-turmoil-and-a-democratic-congress-could-reshape-the-ai-trade-accordin.mp3",
+    "size_bytes": 547237,
+    "sentences": [
+      {
+        "t": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+        "s": 0.0,
+        "e": 6.76
+      },
+      {
+        "t": "Investing experts told CNBC that technology stocks linked to AI may benefit from Nvidia's challenges and a Democratic-controlled Congress potentially slowing data center expansion, as other AI players could fill chip demand if trust in Nvidia declines after Jensen Huang's resignation.",
+        "s": 6.76,
+        "e": 24.07
+      },
+      {
+        "t": "The Roundhill Magnificent Seven ETF ended the week up less than 1% and the Neocloud ETF rose over 1%, while the tech-heavy Nasdaq recorded its best week since August; AMD shares finished the week up nearly 13%, with Broadcom posting similar gains.",
+        "s": 24.07,
+        "e": 41.8
+      },
+      {
+        "t": "Yorkville Ives lowered its Nvidia price target to $225 from $300 but kept a buy rating, noting Nvidia remains roughly 2 to 3 years ahead of competitors, and estimated the political shift could keep 10% to 20% of planned data centers from materializing, though demand still outstrips supply four to one.",
+        "s": 41.8,
+        "e": 63.33
+      },
+      {
+        "t": "The headline link goes to the CNBC story as carried by Newsfilter.",
+        "s": 63.33,
+        "e": 68.4
+      }
+    ]
+  },
+  {
+    "title": "Anthropic Reports Complex Financial Situation Heading Up To IPO",
+    "href": "story-2026-11-16-anthropic-reports-complex-financial-situation-heading-up-to-ipo.mp3",
+    "size_bytes": 352357,
+    "sentences": [
+      {
+        "t": "Anthropic Reports Complex Financial Situation Heading Up To IPO",
+        "s": 0.0,
+        "e": 3.74
+      },
+      {
+        "t": "Forbes reported Anthropic's October 26 S-1 filing shows $16 billion in revenue and an $80 billion loss, a strange kind of accounting that experts say is almost all from convertible notes whose fair value rises with the company's valuation.",
+        "s": 3.74,
+        "e": 19.94
+      },
+      {
+        "t": "Anthropic previously had outstanding convertible notes with approximately $6.2 billion in principal, but the company has estimated their fair value at $108.6 billion, with some notes held by Amazon.",
+        "s": 19.94,
+        "e": 31.99
+      },
+      {
+        "t": "Anthropic is growing rapidly, but its costs are potentially enormous, ahead of an IPO expected in November.",
+        "s": 31.99,
+        "e": 39.05
+      },
+      {
+        "t": "The headline link goes to the Forbes story as carried by RamaOnHealthcare.",
+        "s": 39.05,
+        "e": 44.04
+      }
+    ]
+  },
+  {
+    "title": "Questions swirl around FAA's new SMART AI system, though officials say no link to ground stop",
+    "href": "story-2026-11-16-questions-swirl-around-faa-s-new-smart-ai-system-though-officials-say-no-link-to.mp3",
+    "size_bytes": 583333,
+    "sentences": [
+      {
+        "t": "Questions swirl around FAA's new SMART AI system, though officials say no link to ground stop",
+        "s": 0.0,
+        "e": 6.34
+      },
+      {
+        "t": "The nationwide airline ground stop since Friday was not related to the FAA's new $875 million AI-powered SMART system, according to government officials and Air Space Intelligence, the company behind the technology, though the timing \u2014 SMART expanded nationwide on November 10 for all 22 air traffic control centers, three days before the ground stop \u2014 has raised questions.",
+        "s": 6.34,
+        "e": 29.72
+      },
+      {
+        "t": "SMART, which stands for Strategic Management of Airspace, Routes and Trajectories, centralizes 200 data streams including weather, flight paths and staffing, and makes recommendations to humans rather than running flight control; in its Washington-area test it helped reroute 180 flights, saving an average of 10 minutes and 80 gallons of fuel per flight.",
+        "s": 29.72,
+        "e": 50.72
+      },
+      {
+        "t": "House Democrats asked the Government Accountability Office in October for an audit, raising safety and guardrail concerns, and a former top FAA official said the agency must make sure SMART is just a tool in the toolbox, with ways to verify its information.",
+        "s": 50.72,
+        "e": 67.76
+      },
+      {
+        "t": "The headline link goes to the Associated Press story as carried by TechXplore.",
+        "s": 67.76,
+        "e": 72.91
+      }
+    ]
+  },
+  {
+    "title": "Norfolk council considers 'unfair burden' of major energy schemes",
+    "href": "story-2026-11-16-norfolk-council-considers-unfair-burden-of-major-energy-schemes.mp3",
+    "size_bytes": 542053,
+    "sentences": [
+      {
+        "t": "Norfolk council considers 'unfair burden' of major energy schemes",
+        "s": 0.0,
+        "e": 3.52
+      },
+      {
+        "t": "Nearly 50,000 people have signed a petition opposing plans for a huge data centre and solar farm in the Norfolk countryside, as the Borough Council of King's Lynn and West Norfolk considers what it can do to oppose a number of major schemes, including the Longmarsh Green Energy Project.",
+        "s": 3.52,
+        "e": 22.71
+      },
+      {
+        "t": "Developer Evolution Power Limited wants to build a 1.3GW solar farm alongside a data centre needing up to 1 gigawatt of power, covering almost 4,700 acres across two sites near Tilney St Lawrence and Fincham and Barton Bendish, in a \u00a325bn proposal; decisions rest with central government.",
+        "s": 22.71,
+        "e": 41.12
+      },
+      {
+        "t": "An extraordinary meeting on Monday evening will decide how the council responds to seven major infrastructure projects; council leader Alistair Beales's report calls for Norfolk councils to lobby the energy secretary to ensure the region is not unfairly burdened, and to oppose developments that lack meaningful local support or threaten farmland and wildlife.",
+        "s": 41.12,
+        "e": 61.88
+      },
+      {
+        "t": "The headline link goes to the BBC News story as carried by its republication page.",
+        "s": 61.88,
+        "e": 67.75
+      }
+    ]
+  }
+]
