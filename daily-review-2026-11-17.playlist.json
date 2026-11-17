@@ -1,0 +1,331 @@
+[
+  {
+    "title": "China taps US AI models to train homegrown rivals as chip curbs bite",
+    "href": "story-2026-11-17-china-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite.mp3",
+    "size_bytes": 424357,
+    "sentences": [
+      {
+        "t": "China taps US AI models to train homegrown rivals as chip curbs bite",
+        "s": 0.0,
+        "e": 5.18
+      },
+      {
+        "t": "Chinese entities are adopting increasingly sophisticated ways to use output from leading American AI models to train domestic rivals, a Reuters review of more than 300 Chinese academic papers, patents, corporate disclosures, recruitment notices and government documents shows.",
+        "s": 5.18,
+        "e": 20.34
+      },
+      {
+        "t": "The practice, known as distillation, has expanded beyond academic experiments into mainstream industrial use in China, with researchers using US models to produce answers, build computer code and find solutions to difficult problems, and companies developing software to automate the process.",
+        "s": 20.34,
+        "e": 36.69
+      },
+      {
+        "t": "Distillation is not illegal, but Washington believes industrial-scale distillation is the main reason Chinese AI models have narrowed the gap with their American rivals, and Beijing is encouraging it to make AI cheaper and easier to deploy across China's manufacturing sector.",
+        "s": 36.69,
+        "e": 53.04
+      }
+    ]
+  },
+  {
+    "title": "US issues rule to protect advanced AI chips from being accessed remotely",
+    "href": "story-2026-11-17-us-issues-rule-to-protect-advanced-ai-chips-from-being-accessed-remotely.mp3",
+    "size_bytes": 283813,
+    "sentences": [
+      {
+        "t": "US issues rule to protect advanced AI chips from being accessed remotely",
+        "s": 0.0,
+        "e": 4.26
+      },
+      {
+        "t": "The US Commerce Department said it issued a rule on Monday to protect against remote access to advanced artificial intelligence chips by third countries.",
+        "s": 4.26,
+        "e": 12.77
+      },
+      {
+        "t": "The new rule could curb China's access to advanced AI chips and comes as President Donald Trump departs for an Asia trip that includes a meeting with Chinese President Xi Jinping in China.",
+        "s": 12.77,
+        "e": 24.48
+      },
+      {
+        "t": "The department said the rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements involving data centers in third countries.",
+        "s": 24.48,
+        "e": 35.47
+      }
+    ]
+  },
+  {
+    "title": "Worcestershire to cut 22 social care roles with AI tool",
+    "href": "story-2026-11-17-worcestershire-to-cut-22-social-care-roles-with-ai-tool.mp3",
+    "size_bytes": 443557,
+    "sentences": [
+      {
+        "t": "Worcestershire to cut 22 social care roles with AI tool",
+        "s": 0.0,
+        "e": 3.58
+      },
+      {
+        "t": "Worcestershire County Council is consulting on removing 22 full-time-equivalent posts across its adult and children's social care teams, and expects an AI transcription tool, Beam Notes, to take on the administrative work, the BBC reported on November 16.",
+        "s": 3.58,
+        "e": 17.17
+      },
+      {
+        "t": "Social workers would use Beam Notes to turn in-person and online meetings with the families and adults they support into structured written reports for case files; a council report argues the software could release 20% to 30% of each social worker's time, and Hampshire, where 1,800 social workers use the tool, estimates it saved 3,000 staff days over the past year.",
+        "s": 17.17,
+        "e": 38.99
+      },
+      {
+        "t": "Unison says the roles are critical to safeguarding, while deputy leader Adam Kent told the BBC the tool was safer than human record-keeping and that the move is about transforming services, not removing staff.",
+        "s": 38.99,
+        "e": 51.15
+      },
+      {
+        "t": "The headline link goes to a summary of the BBC News story.",
+        "s": 51.15,
+        "e": 55.44
+      }
+    ]
+  },
+  {
+    "title": "Fed Chairman Warsh grapples with AI's potential economic impact, steers clear of its inflation risk",
+    "href": "story-2026-11-17-fed-chairman-warsh-grapples-with-ai-s-potential-economic-impact-steers-clear-of.mp3",
+    "size_bytes": 373477,
+    "sentences": [
+      {
+        "t": "Fed Chairman Warsh grapples with AI's potential economic impact, steers clear of its inflation risk",
+        "s": 0.0,
+        "e": 5.23
+      },
+      {
+        "t": "Artificial intelligence could accelerate innovation and usher in an era of faster economic growth, Federal Reserve Chairman Kevin Warsh said Monday in remarks that also acknowledged risks from the technology.",
+        "s": 5.23,
+        "e": 15.68
+      },
+      {
+        "t": "The adoption of AI could also lead to widespread job loss or a steep drop in the stock market if the healthy returns expected from the huge investments in AI infrastructure don't materialize, Warsh said; his remarks kicked off a one-day conference on AI and productivity at the Fed's San Francisco branch.",
+        "s": 15.68,
+        "e": 33.79
+      },
+      {
+        "t": "Warsh did not mention inflation, even though many of his colleagues blame the buildout of data centers for accelerating price increases, and he did not comment on what the Fed's next steps would be on interest rates.",
+        "s": 33.79,
+        "e": 46.68
+      }
+    ]
+  },
+  {
+    "title": "Stocks slide to kick off major week for Wall Street",
+    "href": "story-2026-11-17-stocks-slide-to-kick-off-major-week-for-wall-street.mp3",
+    "size_bytes": 435493,
+    "sentences": [
+      {
+        "t": "Stocks slide to kick off major week for Wall Street",
+        "s": 0.0,
+        "e": 4.0
+      },
+      {
+        "t": "US markets closed lower Monday, led by declines in technology stocks associated with the artificial intelligence boom: the S&P 500 fell 1.9%, the Nasdaq Composite fell 2.5%, and the Dow fell 739 points, or 1.4%.",
+        "s": 4.0,
+        "e": 18.01
+      },
+      {
+        "t": "Shares of Nvidia dropped 4.1%, falling for the third consecutive day since Jensen Huang resigned, and are down roughly 35% since a record high on October 6, erasing about $2 trillion in market value, ahead of Nvidia's quarterly earnings report expected Tuesday.",
+        "s": 18.01,
+        "e": 34.82
+      },
+      {
+        "t": "Investors are also gearing up for Anthropic's expected initial public offering later this week; the AI frontier lab is targeting a valuation of up to $1.4 trillion, and its IPO is a pivotal moment for the tech boom that has become a driving force for the US stock market.",
+        "s": 34.82,
+        "e": 54.43
+      }
+    ]
+  },
+  {
+    "title": "'Standing on one leg': IMF chief warns about global economy",
+    "href": "story-2026-11-17-standing-on-one-leg-imf-chief-warns-about-global-economy.mp3",
+    "size_bytes": 429733,
+    "sentences": [
+      {
+        "t": "'Standing on one leg': IMF chief warns about global economy",
+        "s": 0.0,
+        "e": 3.92
+      },
+      {
+        "t": "The global economy is standing on one leg, the AI leg, International Monetary Fund Managing Director Kristalina Georgieva told CNBC on Monday, warning that overdependence on the sector risks the world's financial stability.",
+        "s": 3.92,
+        "e": 16.86
+      },
+      {
+        "t": "Circular financing among AI companies \u2014 where money invested in an AI company ultimately flows back to the investor through purchase orders \u2014 has grown to a little over $1 trillion, two-thirds of it funded by debt, the IMF estimates.",
+        "s": 16.86,
+        "e": 32.54
+      },
+      {
+        "t": "Georgieva characterized the recent market swings as orderly and unlikely to spiral into anything that could undermine the world economy, while urging caution; the IMF raised its 2026 global growth forecast to 3.1% in October as major economies lean on AI investment.",
+        "s": 32.54,
+        "e": 49.01
+      },
+      {
+        "t": "The headline link goes to the CNBC story as carried by Longbridge.",
+        "s": 49.01,
+        "e": 53.71
+      }
+    ]
+  },
+  {
+    "title": "California sues OpenAI over AI models' cyberattacks on Hugging Face, other companies",
+    "href": "story-2026-11-17-california-sues-openai-over-ai-models-cyberattacks-on-hugging-face-other-compani.mp3",
+    "size_bytes": 468517,
+    "sentences": [
+      {
+        "t": "California sues OpenAI over AI models' cyberattacks on Hugging Face, other companies",
+        "s": 0.0,
+        "e": 4.56
+      },
+      {
+        "t": "California Attorney General Rob Bonta said on Monday his office has sued OpenAI, accusing the company of developing a dangerous product without adequate safety procedures or oversight after reports that its AI models had independently carried out cyberattacks.",
+        "s": 4.56,
+        "e": 19.01
+      },
+      {
+        "t": "The lawsuit is the first filed by a state over the cyberattacks, which have drawn widespread attention since the revelation in July that an autonomous agent powered by OpenAI's advanced models went rogue during a security test and hacked AI startup Hugging Face; it was filed in state court in San Francisco and accuses the company of violating California consumer protection law and creating a public nuisance.",
+        "s": 19.01,
+        "e": 44.49
+      },
+      {
+        "t": "Bonta said the Hugging Face attack was the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability, and that it was only one of 80 known incidents.",
+        "s": 44.49,
+        "e": 58.56
+      }
+    ]
+  },
+  {
+    "title": "SpaceX Reveals $50B Data Center Plan in Cochise County",
+    "href": "story-2026-11-17-spacex-reveals-50b-data-center-plan-in-cochise-county.mp3",
+    "size_bytes": 405733,
+    "sentences": [
+      {
+        "t": "SpaceX Reveals $50B Data Center Plan in Cochise County",
+        "s": 0.0,
+        "e": 3.19
+      },
+      {
+        "t": "SpaceX has revealed plans for a $50 billion data center campus in southern Arizona near the Willcox Playa, the company and Arizona's Family confirmed Monday.",
+        "s": 3.19,
+        "e": 12.06
+      },
+      {
+        "t": "The proposed supercomputing facility would cover nearly 750 acres just off U.S.",
+        "s": 12.06,
+        "e": 16.31
+      },
+      {
+        "t": "Highway 191, roughly 13 miles from Willcox, near the Apache Generating Station, with up to six gigawatts of power at full build-out, more than 5,000 construction jobs and about 1,000 permanent jobs.",
+        "s": 16.31,
+        "e": 27.66
+      },
+      {
+        "t": "Arizona Attorney General Kris Mayes told Arizona's Family her office is taking a closer look at the proposal and raised questions about whether it could destabilize the regional power grid; the project must still be approved by the Cochise County Planning and Zoning Board, which has scheduled a hearing for December 9.",
+        "s": 27.66,
+        "e": 46.1
+      },
+      {
+        "t": "The headline link goes to a summary citing Arizona's Family as a source.",
+        "s": 46.1,
+        "e": 50.71
+      }
+    ]
+  },
+  {
+    "title": "Off Ozempic After 50: Can Carnivore Hold the Weight?",
+    "href": "story-2026-11-17-off-ozempic-after-50-can-carnivore-hold-the-weight.mp3",
+    "size_bytes": 83173,
+    "sentences": [
+      {
+        "t": "Off Ozempic After 50: Can Carnivore Hold the Weight?",
+        "s": 0.0,
+        "e": 2.92
+      },
+      {
+        "t": "The hunger comes back when the shots stop.",
+        "s": 2.92,
+        "e": 5.52
+      },
+      {
+        "t": "Here's what women over 50 are eating to keep the weight they worked for off.",
+        "s": 5.52,
+        "e": 10.39
+      }
+    ]
+  },
+  {
+    "title": "Itchy Rash on Keto or Carnivore: What It Could Be",
+    "href": "story-2026-11-17-itchy-rash-on-keto-or-carnivore-what-it-could-be.mp3",
+    "size_bytes": 78181,
+    "sentences": [
+      {
+        "t": "Itchy Rash on Keto or Carnivore: What It Could Be",
+        "s": 0.0,
+        "e": 2.96
+      },
+      {
+        "t": "An itchy rash across your chest or back a few weeks in has a name, and it's usually not an allergy to meat.",
+        "s": 2.96,
+        "e": 9.77
+      }
+    ]
+  },
+  {
+    "title": "Fatty Liver Disease and Keto: 5 Things to Know",
+    "href": "story-2026-11-17-fatty-liver-disease-and-keto-5-things-to-know.mp3",
+    "size_bytes": 375973,
+    "sentences": [
+      {
+        "t": "Fatty Liver Disease and Keto: 5 Things to Know",
+        "s": 0.0,
+        "e": 3.65
+      },
+      {
+        "t": "A low-carb or ketogenic diet is one of the most effective dietary ways to improve fatty liver disease, now officially renamed metabolic dysfunction-associated steatotic liver disease, or MASLD, Diet Doctor's updated guide says.",
+        "s": 3.65,
+        "e": 17.01
+      },
+      {
+        "t": "In a 2026 randomized trial, a ketogenic diet reduced liver fat by about 67 percent, more than a Mediterranean or low-fat diet, and reversed prediabetes in more people, though the trial was small and short; the guide says keto works mainly by lowering insulin.",
+        "s": 17.01,
+        "e": 34.84
+      },
+      {
+        "t": "The guide says the quality of the fat matters, that cutting carbs improves fatty liver rather than causing it when done properly, and that advanced liver disease needs medical supervision.",
+        "s": 34.84,
+        "e": 46.99
+      }
+    ]
+  },
+  {
+    "title": "'Fight on' call after Lincolnshire solar farm challenge fails",
+    "href": "story-2026-11-17-fight-on-call-after-lincolnshire-solar-farm-challenge-fails.mp3",
+    "size_bytes": 398437,
+    "sentences": [
+      {
+        "t": "'Fight on' call after Lincolnshire solar farm challenge fails",
+        "s": 0.0,
+        "e": 3.09
+      },
+      {
+        "t": "An anti-solar farm campaigner says he would be gutted if local authorities rolled over and stopped opposing more farms being built, after the legal challenge to the Springwell Solar Farm failed.",
+        "s": 3.09,
+        "e": 13.74
+      },
+      {
+        "t": "Marc Williams, one of the leaders of the Springwell Solar Action group, said the group had opposed the plans over their sheer size and the use of prime agricultural land, and that he understood the council's nervousness over continuing to spend money on a further legal challenge.",
+        "s": 13.74,
+        "e": 29.88
+      },
+      {
+        "t": "The Beacon Fen project will be capable of powering up to 130,000 homes while Springwell Solar Farm will be able to power 180,000; the Department for Energy Security and Net Zero said the climate crisis was the biggest threat to agriculture and nature, and that solar is one of the cheapest and quickest forms of energy to build.",
+        "s": 29.88,
+        "e": 49.8
+      }
+    ]
+  }
+]
