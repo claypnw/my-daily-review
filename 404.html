@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My Daily Review has moved</title>
+<script>
+  (function () {
+    var prefix = "/my-daily-review";
+    var path = window.location.pathname;
+    if (path.indexOf(prefix) === 0) {
+      path = path.slice(prefix.length);
+    }
+    if (path === "" || path === "/") {
+      path = "/";
+    }
+    var target = "https://my-daily-review.pages.dev" + path + window.location.search + window.location.hash;
+    window.location.replace(target);
+  })();
+</script>
+<meta http-equiv="refresh" content="0; url=https://my-daily-review.pages.dev/">
+</head>
+<body>
+<p>My Daily Review has moved. You are being taken to its new home:
+<a href="https://my-daily-review.pages.dev/">my-daily-review.pages.dev</a></p>
+</body>
+</html>
