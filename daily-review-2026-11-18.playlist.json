@@ -1,0 +1,356 @@
+[
+  {
+    "title": "As Meta bets big on Muse AI agent, early safety mishaps surface",
+    "href": "story-2026-11-18-as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface.mp3",
+    "size_bytes": 457573,
+    "sentences": [
+      {
+        "t": "As Meta bets big on Muse AI agent, early safety mishaps surface",
+        "s": 0.0,
+        "e": 4.64
+      },
+      {
+        "t": "Meta's AI agent Muse has burrowed into encrypted personal messages, supplied made-up information about purchases and sent users chats seemingly meant for other people, according to internal company posts reviewed by Reuters.",
+        "s": 4.64,
+        "e": 17.0
+      },
+      {
+        "t": "Muse, embodied by a smiley, fuzzy mascot named Jolly, has more than 10 million downloads since its September launch and is the centerpiece of Meta's plan to generate billions of dollars in AI revenue; staff reported messages about childcare requests they had not made, product orders they had not placed and bank account balances that were not theirs.",
+        "s": 17.0,
+        "e": 39.42
+      },
+      {
+        "t": "Meta spokesperson Daniel Roberts described the Reuters examples as isolated incidents, saying the company prioritizes safety and continuously updates products; Reuters worked with staff at Signal and the AI Now Institute to replicate Muse's access to Signal messages, and the tests indicated the issue was ongoing.",
+        "s": 39.42,
+        "e": 57.19
+      }
+    ]
+  },
+  {
+    "title": "US government confirms investigation into tech firm Megaspeed",
+    "href": "story-2026-11-18-us-government-confirms-investigation-into-tech-firm-megaspeed.mp3",
+    "size_bytes": 400741,
+    "sentences": [
+      {
+        "t": "US government confirms investigation into tech firm Megaspeed",
+        "s": 0.0,
+        "e": 3.11
+      },
+      {
+        "t": "The US government says it has been investigating Singapore-based computing company Megaspeed since 2024 over suspected export control violations involving Nvidia chips potentially shipped to China, the BBC reported.",
+        "s": 3.11,
+        "e": 14.37
+      },
+      {
+        "t": "In a joint statement on Monday, the US Department of Justice and Department of Commerce said Commerce investigators requested records from Nvidia in May 2025 concerning direct or indirect sales to Megaspeed, and Nvidia put Megaspeed on its 'no sell' list in June 2025.",
+        "s": 14.37,
+        "e": 31.45
+      },
+      {
+        "t": "Megaspeed, described as the biggest buyer of Nvidia chips in South East Asia, said on Sunday it had launched an internal investigation into its business; the company is suspected of helping divert advanced chips to China.",
+        "s": 31.45,
+        "e": 45.43
+      },
+      {
+        "t": "The headline link goes to a summary of the BBC News story.",
+        "s": 45.43,
+        "e": 50.09
+      }
+    ]
+  },
+  {
+    "title": "Critical flaw found in vital internet platform Java through AI",
+    "href": "story-2026-11-18-critical-flaw-found-in-vital-internet-platform-java-through-ai.mp3",
+    "size_bytes": 403237,
+    "sentences": [
+      {
+        "t": "Critical flaw found in vital internet platform Java through AI",
+        "s": 0.0,
+        "e": 3.68
+      },
+      {
+        "t": "A cyber-security firm has used artificial intelligence to uncover a critical flaw in Java, the hugely popular computer programming language used by 90% of the world's Fortune 500 companies and many banks, hospitals and governments, the BBC reported.",
+        "s": 3.68,
+        "e": 17.66
+      },
+      {
+        "t": "Tech start-up Calif, which recently identified a flaw in another language, PHP, found the bug in Java's memory functions with the help of AI; the vulnerability, called Java4Shell, allowed an adversary to remotely execute unwanted commands to Java's memory system.",
+        "s": 17.66,
+        "e": 32.37
+      },
+      {
+        "t": "Oracle, the owner of Java, has not acknowledged the bug, but released a critical patch update on Tuesday which it said contained security vulnerability fixes, and it is unclear if any platforms or companies have been affected.",
+        "s": 32.37,
+        "e": 45.99
+      },
+      {
+        "t": "The headline link goes to a summary of the BBC News story.",
+        "s": 45.99,
+        "e": 50.4
+      }
+    ]
+  },
+  {
+    "title": "Cambridge Dictionary chooses 'human' as word of the year in response to AI fears",
+    "href": "story-2026-11-18-cambridge-dictionary-chooses-human-as-word-of-the-year-in-response-to-ai-fears.mp3",
+    "size_bytes": 378853,
+    "sentences": [
+      {
+        "t": "Cambridge Dictionary chooses 'human' as word of the year in response to AI fears",
+        "s": 0.0,
+        "e": 5.06
+      },
+      {
+        "t": "Fears of artificial intelligence inspired the Cambridge Dictionary to flip back to the 15th century for the word that best captures the 2026 cultural zeitgeist: 'human,' defined as having the qualities, faults and feelings that people have, as opposed to gods, animals or machines.",
+        "s": 5.06,
+        "e": 20.97
+      },
+      {
+        "t": "'AI is changing how we talk about being human,' said Colin McIntosh, the dictionary's lexicographer, adding that fears about what humans may lose when we outsource our thinking have made us reconsider the extent to which we rely on AI.",
+        "s": 20.97,
+        "e": 35.42
+      },
+      {
+        "t": "Other word contenders for 2026 included 'agent,' for an AI system that can make decisions and operate without human control, and 'analog' for experiences or objects not involving the internet or digital technology.",
+        "s": 35.42,
+        "e": 47.35
+      }
+    ]
+  },
+  {
+    "title": "Actors in UK to get more rights over their 'digital replicas' in deal on AI protections",
+    "href": "story-2026-11-18-actors-in-uk-to-get-more-rights-over-their-digital-replicas-in-deal-on-ai-protec.mp3",
+    "size_bytes": 407653,
+    "sentences": [
+      {
+        "t": "Actors in UK to get more rights over their 'digital replicas' in deal on AI protections",
+        "s": 0.0,
+        "e": 5.91
+      },
+      {
+        "t": "UK film and TV performers could soon have a say, and a pay claim, when producers use their digital replicas, under a proposed three-year agreement between performers' union Equity and producers' body Pact reported by The Guardian.",
+        "s": 5.91,
+        "e": 19.57
+      },
+      {
+        "t": "The agreement would make permission specific to a project rather than grant blanket consent, and still needs approval from 8,000 Equity members; it also requires an actor's approval for substantive digital changes to scenes involving agreed levels of nudity or simulated sexual activity.",
+        "s": 19.57,
+        "e": 35.44
+      },
+      {
+        "t": "Equity says the deal does not give explicit contractual protection for using performances to train artificial intelligence, and replicas can be generated from existing production photography even without a body scan.",
+        "s": 35.44,
+        "e": 46.89
+      },
+      {
+        "t": "The headline link goes to a summary of The Guardian story.",
+        "s": 46.89,
+        "e": 50.95
+      }
+    ]
+  },
+  {
+    "title": "Nvidia rules out Jensen Huang's return as CEO, tells investors 'we've got this'",
+    "href": "story-2026-11-18-nvidia-rules-out-jensen-huang-s-return-as-ceo-tells-investors-we-ve-got-this.mp3",
+    "size_bytes": 418021,
+    "sentences": [
+      {
+        "t": "Nvidia rules out Jensen Huang's return as CEO, tells investors 'we've got this'",
+        "s": 0.0,
+        "e": 5.39
+      },
+      {
+        "t": "Nvidia's board unanimously accepted former CEO Jensen Huang's resignation and does not intend to reinstate him as chief executive, board chair Harvey Jones said at the start of the company's earnings call Tuesday night.",
+        "s": 5.39,
+        "e": 19.49
+      },
+      {
+        "t": "Nvidia more than doubled its quarterly revenue and profit from a year prior, posting $115.8 billion in quarterly revenue, up 103% year-on-year, and profits of more than $65 billion, up 105%; it expects fourth-quarter revenue of around $130 billion.",
+        "s": 19.49,
+        "e": 35.66
+      },
+      {
+        "t": "Nvidia shares were coming off their worst week in 19 months heading into the report, down 16.7% since Huang admitted to an extramarital affair, erasing $751 billion in market value, but shares moved higher in after-hours trading, gaining roughly 5%.",
+        "s": 35.66,
+        "e": 52.25
+      }
+    ]
+  },
+  {
+    "title": "Four takeaways from Nvidia's first earnings report after Jensen Huang scandal",
+    "href": "story-2026-11-18-four-takeaways-from-nvidia-s-first-earnings-report-after-jensen-huang-scandal.mp3",
+    "size_bytes": 412453,
+    "sentences": [
+      {
+        "t": "Four takeaways from Nvidia's first earnings report after Jensen Huang scandal",
+        "s": 0.0,
+        "e": 4.14
+      },
+      {
+        "t": "Nvidia's leadership sought to set a path forward on Tuesday's earnings call in the wake of former CEO Jensen Huang's departure, defying calls to re-hire him and reassuring investors that demand for Nvidia's products remains strong; shares ticked up nearly 5% in after-hours trading.",
+        "s": 4.14,
+        "e": 20.7
+      },
+      {
+        "t": "Interim CEO Colette Kress said the company has committed more than $100 billion to financing and investment deals for customers as of the end of the quarter ended in October, but will carefully evaluate future deals, which analysts have criticized as circular financing.",
+        "s": 20.7,
+        "e": 36.88
+      },
+      {
+        "t": "The company earned $2.4 billion in sales of licensed chips to China during the third quarter, but has ceased shipments to the country, and is assuming no revenue from sales of licensed chips to China in the fourth quarter.",
+        "s": 36.88,
+        "e": 51.55
+      }
+    ]
+  },
+  {
+    "title": "Nvidia leaves the AI trade hanging in purgatory",
+    "href": "story-2026-11-18-nvidia-leaves-the-ai-trade-hanging-in-purgatory.mp3",
+    "size_bytes": 375397,
+    "sentences": [
+      {
+        "t": "Nvidia leaves the AI trade hanging in purgatory",
+        "s": 0.0,
+        "e": 3.32
+      },
+      {
+        "t": "Nvidia's first earnings call without its once-outspoken rock-star CEO was mostly notable for what wasn't said, Reuters Breakingviews wrote: new chairman Harvey Jones declared the circumstances around former boss Jensen Huang's departure off-limits.",
+        "s": 3.32,
+        "e": 17.02
+      },
+      {
+        "t": "Reported results were astonishingly good: third-quarter revenue of $116 billion rose 103% from the same period last year, earnings more than doubled to $65 billion, and the company raised its forecast, anticipating 75% top-line expansion.",
+        "s": 17.02,
+        "e": 31.56
+      },
+      {
+        "t": "Fund managers surveyed by Bank of America say the top risk facing investors is an AI bubble, and over half expect a so-called hyperscaler like Microsoft to cut back on capital spending in the next 12 months.",
+        "s": 31.56,
+        "e": 46.92
+      }
+    ]
+  },
+  {
+    "title": "CoreWeave shares fall 5% as Nvidia and regulatory scrutiny weigh on AI stocks",
+    "href": "story-2026-11-18-coreweave-shares-fall-5-as-nvidia-and-regulatory-scrutiny-weigh-on-ai-stocks.mp3",
+    "size_bytes": 437413,
+    "sentences": [
+      {
+        "t": "CoreWeave shares fall 5% as Nvidia and regulatory scrutiny weigh on AI stocks",
+        "s": 0.0,
+        "e": 5.19
+      },
+      {
+        "t": "CoreWeave shares fell 5% in trading on Monday, November 16, in a session when AI-linked stocks declined, according to the Associated Press; the company buys Nvidia chips and then leases its customers access to them through the cloud.",
+        "s": 5.19,
+        "e": 20.35
+      },
+      {
+        "t": "Nvidia shares fell 2.5% in the same session, after its CEO Jensen Huang resigned the previous week, and the Nasdaq Composite was down 1.6% at 11 a.m.",
+        "s": 20.35,
+        "e": 31.13
+      },
+      {
+        "t": "Eastern time, the biggest decline among the major US indexes at that point.",
+        "s": 31.13,
+        "e": 36.31
+      },
+      {
+        "t": "CoreWeave's third-quarter revenue reached $3.7 billion, up 168% year over year, while it reported a net loss of $709 million in the third quarter, compared with a loss of $110 million a year earlier.",
+        "s": 36.31,
+        "e": 49.88
+      },
+      {
+        "t": "The headline link goes to a summary of the Associated Press story.",
+        "s": 49.88,
+        "e": 54.67
+      }
+    ]
+  },
+  {
+    "title": "JPMorgan Tests AI-Agent Transactions Without Human Intervention",
+    "href": "story-2026-11-18-jpmorgan-tests-ai-agent-transactions-without-human-intervention.mp3",
+    "size_bytes": 329701,
+    "sentences": [
+      {
+        "t": "JPMorgan Tests AI-Agent Transactions Without Human Intervention",
+        "s": 0.0,
+        "e": 2.67
+      },
+      {
+        "t": "JPMorgan Chase and South Korea's Hyundai Card completed an initial proof of concept involving a simulated foreign exchange transaction to test how AI agents can handle financial transactions without direct human intervention, according to CNBC.",
+        "s": 2.67,
+        "e": 16.03
+      },
+      {
+        "t": "The companies are targeting the first half of 2027 for a more complex phase involving multiple agents that could negotiate and make payments with one another.",
+        "s": 16.03,
+        "e": 25.95
+      },
+      {
+        "t": "Kinexys has developed controls that limit agents to predefined transaction parameters; for example, an agent authorized to transact up to $5 million would be blocked from exceeding that amount.",
+        "s": 25.95,
+        "e": 37.01
+      },
+      {
+        "t": "The headline link goes to a summary of the CNBC story.",
+        "s": 37.01,
+        "e": 41.21
+      }
+    ]
+  },
+  {
+    "title": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+    "href": "story-2026-11-18-pakistan-s-solar-revolution-is-so-successful-the-national-grid-is-lagging-behind.mp3",
+    "size_bytes": 468901,
+    "sentences": [
+      {
+        "t": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+        "s": 0.0,
+        "e": 4.6
+      },
+      {
+        "t": "Pakistan has seen a boom in imported solar panels, which glisten from the rooftops of homes and hospitals, from farmers' fields to industrial complexes; from 2018 to 2025, the share of electricity generated from solar energy in the country rose from 1% to 28%, according to think tank Renewables First, with some seven million households now owning panels.",
+        "s": 4.6,
+        "e": 26.81
+      },
+      {
+        "t": "Most people the BBC spoke to said they installed panels to escape soaring electricity prices from an often unreliable national grid; electricity tariffs have more than doubled in a few years, while the cost of Chinese solar panels has decreased by 93%.",
+        "s": 26.81,
+        "e": 42.9
+      },
+      {
+        "t": "When people buy less energy from the national grid, fewer customers are left to cover the fixed costs of maintaining it, which can force prices up and encourage even more people to switch to solar \u2014 the so-called utility death spiral.",
+        "s": 42.9,
+        "e": 58.61
+      }
+    ]
+  },
+  {
+    "title": "Can COP31's proposed 'age of electricity' slow global warming?",
+    "href": "story-2026-11-18-can-cop31-s-proposed-age-of-electricity-slow-global-warming.mp3",
+    "size_bytes": 406117,
+    "sentences": [
+      {
+        "t": "Can COP31's proposed 'age of electricity' slow global warming?",
+        "s": 0.0,
+        "e": 3.94
+      },
+      {
+        "t": "More than 30 countries have joined COP31 host Turkey's voluntary pledge to boost global electrification; Turkey hopes the pledge will raise power's share of final energy demand worldwide to 35% by 2035, from just over a fifth today.",
+        "s": 3.94,
+        "e": 20.57
+      },
+      {
+        "t": "Electrification, particularly using domestic renewable energy and batteries, can help reduce import dependence and exposure to fossil fuel price shocks, COP31 leaders have said.",
+        "s": 20.57,
+        "e": 31.07
+      },
+      {
+        "t": "In sunny regions, the lifecycle cost of building and operating solar-plus-batteries projects ranges from $54 to $82 per megawatt hour, according to the International Renewable Energy Agency, and managing fluctuating wind and solar output requires massive power grid upgrades and battery storage investments, analysts said.",
+        "s": 31.07,
+        "e": 50.76
+      }
+    ]
+  }
+]
