@@ -1,0 +1,169 @@
+[
+  {
+    "title": "AI may not work like the human brain after all, scientists discover",
+    "href": "story-2026-11-22-ai-may-not-work-like-the-human-brain-after-all-scientists-discover.mp3",
+    "size_bytes": 302821,
+    "sentences": [
+      {
+        "t": "AI may not work like the human brain after all, scientists discover",
+        "s": 0.0,
+        "e": 4.17
+      },
+      {
+        "t": "A York University study found that AI models widely used to understand how the brain processes visual information may work in a very different way from the brain itself.",
+        "s": 4.17,
+        "e": 14.24
+      },
+      {
+        "t": "Using a new method called reverse predictivity testing, the team found that AI models could predict recorded neuron responses, but the neuron responses were much less able to predict the models' internal features.",
+        "s": 14.24,
+        "e": 25.69
+      },
+      {
+        "t": "The researchers say matching the brain's responses does not mean the underlying processes are the same, and they released a testing toolkit so developers can check which parts of a model truly match brain activity.",
+        "s": 25.69,
+        "e": 37.85
+      }
+    ]
+  },
+  {
+    "title": "Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+    "href": "story-2026-11-22-like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers.mp3",
+    "size_bytes": 380197,
+    "sentences": [
+      {
+        "t": "Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+        "s": 0.0,
+        "e": 3.9
+      },
+      {
+        "t": "Bankers and lawyers took home more than half a billion dollars in fees from Anthropic's record IPO, dubbed Project Lantern, and some complained in private that the process was riddled with complications unlike any they had worked on.",
+        "s": 3.9,
+        "e": 17.38
+      },
+      {
+        "t": "Anthropic instructed some of its 22 underwriters to limit the number of bankers on the deal to four senior staff, and asked some senior bankers to sign documents restricting them from working with rivals including OpenAI, Cursor, DeepSeek and Hugging Face for six months.",
+        "s": 17.38,
+        "e": 32.98
+      },
+      {
+        "t": "Reuters says the complaints point to a new power dynamic: AI companies such as SpaceX, Anthropic and potentially OpenAI can tell Wall Street it will not be business as usual, and banks appear to have little choice but to play along.",
+        "s": 32.98,
+        "e": 47.52
+      }
+    ]
+  },
+  {
+    "title": "The AI boom had a really bad week \u2014 and it's raising loud alarms",
+    "href": "story-2026-11-22-the-ai-boom-had-a-really-bad-week-and-it-s-raising-loud-alarms.mp3",
+    "size_bytes": 331621,
+    "sentences": [
+      {
+        "t": "The AI boom had a really bad week \u2014 and it's raising loud alarms",
+        "s": 0.0,
+        "e": 4.84
+      },
+      {
+        "t": "A yearslong AI boom showed signs of unraveling: the Nasdaq dropped 10% for the week, its worst performance since March 2020, and both the S&P 500 and the Dow entered a correction.",
+        "s": 4.84,
+        "e": 15.89
+      },
+      {
+        "t": "NPR points to higher interest rates, Democrats taking both chambers of Congress with a tougher approach to AI and data centers, and turmoil at Nvidia after CEO Jensen Huang resigned, as the fears behind the sell-off.",
+        "s": 15.89,
+        "e": 28.32
+      },
+      {
+        "t": "Analysts quoted disagree on whether this is a bursting bubble: some fear the close-knit, circular financing among AI companies could set off a chain reaction, while others say top companies are unlikely to fail the way dot-coms did.",
+        "s": 28.32,
+        "e": 41.45
+      }
+    ]
+  },
+  {
+    "title": "Anthropic closes first day of trading at $97.17 share price with jaw-dropping $1.77 trillion valuation",
+    "href": "story-2026-11-22-anthropic-closes-first-day-of-trading-at-97-17-share-price-with-jaw-dropping-1-7.mp3",
+    "size_bytes": 429157,
+    "sentences": [
+      {
+        "t": "Anthropic closes first day of trading at $97.17 share price with jaw-dropping $1.77 trillion valuation",
+        "s": 0.0,
+        "e": 6.6
+      },
+      {
+        "t": "Anthropic had the biggest stock market debut in history on Thursday, closing at $97.17 a share at a $1.77 trillion valuation after raising about $81 billion, bigger than SpaceX's historic IPO in June.",
+        "s": 6.6,
+        "e": 21.1
+      },
+      {
+        "t": "After hitting a $2 trillion valuation at the open, Anthropic pared gains to close a bit behind SpaceX's $1.88 trillion market cap, while the Nasdaq fell 2.2% and both the Dow and the S&P 500 fell 2%.",
+        "s": 21.1,
+        "e": 37.37
+      },
+      {
+        "t": "The debut is expected to make millionaires of some 4,250 stock-holding employees, and the seven cofounders were estimated to be worth a combined $140 billion at the IPO price, though they cannot sell shares for a year.",
+        "s": 37.37,
+        "e": 53.64
+      }
+    ]
+  },
+  {
+    "title": "How a $1B Obama-era solar plant went bankrupt twice, leaving taxpayers with the tab",
+    "href": "story-2026-11-22-how-a-1b-obama-era-solar-plant-went-bankrupt-twice-leaving-taxpayers-with-the-ta.mp3",
+    "size_bytes": 470437,
+    "sentences": [
+      {
+        "t": "How a $1B Obama-era solar plant went bankrupt twice, leaving taxpayers with the tab",
+        "s": 0.0,
+        "e": 5.88
+      },
+      {
+        "t": "The Crescent Dunes Solar Energy Project near Tonopah, Nevada, backed by more than $1 billion in federal support, has gone bankrupt for a second time and was sold for just $7 million, with the estimated taxpayer tab potentially reaching $507.6 million.",
+        "s": 5.88,
+        "e": 23.1
+      },
+      {
+        "t": "The plant's more than 10,000 mirrors focus sunlight on a central tower, heating molten salt to about 1,050 degrees so it can generate electricity after sunset, but leaks and equipment failures repeatedly knocked it offline after operations began in late 2015.",
+        "s": 23.1,
+        "e": 40.32
+      },
+      {
+        "t": "Fox News Digital says the plant generated just 41% of its projected output in 2018, its best full year through 2025, lost its sole customer in 2019, and was bought in July by Mississippi-based Sons of Liberty Construction, which is attempting to revive it.",
+        "s": 40.32,
+        "e": 58.8
+      }
+    ]
+  },
+  {
+    "title": "Will County again stalls on Manhattan solar facility, battery storage project",
+    "href": "story-2026-11-22-will-county-again-stalls-on-manhattan-solar-facility-battery-storage-project.mp3",
+    "size_bytes": 397861,
+    "sentences": [
+      {
+        "t": "Will County again stalls on Manhattan solar facility, battery storage project",
+        "s": 0.0,
+        "e": 4.34
+      },
+      {
+        "t": "For the second month in a row, the Will County Board on Thursday postponed action on a proposed solar facility and battery storage project in Manhattan Township that local officials oppose.",
+        "s": 4.34,
+        "e": 16.58
+      },
+      {
+        "t": "Cultivate Power is asking to build a 5-megawatt commercial solar farm and a battery energy storage system on 153 acres at 15520 W.",
+        "s": 16.58,
+        "e": 25.65
+      },
+      {
+        "t": "Baker Road, Manhattan; the solar facility would occupy about 52 acres and the battery system about 10 acres.",
+        "s": 25.65,
+        "e": 32.76
+      },
+      {
+        "t": "Manhattan Township voted 4-0 to object, citing a township policy that permits no battery storage facilities, and board members said the application was incomplete and had not won approval from the county's Land Use and Development Committee or its Planning and Zoning Commission.",
+        "s": 32.76,
+        "e": 49.73
+      }
+    ]
+  }
+]
