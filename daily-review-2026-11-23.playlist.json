@@ -1,0 +1,240 @@
+[
+  {
+    "title": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+    "href": "story-2026-11-23-ai-uncovers-hidden-bladder-cancer-warning-signs-years-before-diagnosis.mp3",
+    "size_bytes": 347173,
+    "sentences": [
+      {
+        "t": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+        "s": 0.0,
+        "e": 3.68
+      },
+      {
+        "t": "Researchers at the University of Plymouth built an AI system that examines electronic health records for combinations of symptoms, conditions and risk factors that can point to bladder cancer years before diagnosis.",
+        "s": 3.68,
+        "e": 15.44
+      },
+      {
+        "t": "In a study of nearly 70,000 patients, the model correctly identified 85% of bladder cancer cases and 91% of people who did not have the disease, and some warning signals could be traced back as far as five years.",
+        "s": 15.44,
+        "e": 29.79
+      },
+      {
+        "t": "The team says the system, called PRECISE-AGZ, could sort patients into low, uncertain and high risk groups so doctors can focus invasive cystoscopy testing on those most likely to need it, though wider validation is still needed.",
+        "s": 29.79,
+        "e": 43.39
+      }
+    ]
+  },
+  {
+    "title": "OpenAI scientist proposes industry AI limits tied to model intelligence metric",
+    "href": "story-2026-11-23-openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric.mp3",
+    "size_bytes": 343141,
+    "sentences": [
+      {
+        "t": "OpenAI scientist proposes industry AI limits tied to model intelligence metric",
+        "s": 0.0,
+        "e": 4.14
+      },
+      {
+        "t": "OpenAI chief scientist Jakub Pachocki proposed that AI developers adopt common limits on increasingly powerful models, using perplexity \u2014 how well a model predicts the next token \u2014 as a shared measure of progress.",
+        "s": 4.14,
+        "e": 16.93
+      },
+      {
+        "t": "Under the proposal, developers would commit not to cross agreed capability limits until the ability to understand and monitor AI behavior reaches a concrete milestone, with a first industry limit and the milestones needed to pass it defined in advance.",
+        "s": 16.93,
+        "e": 31.98
+      },
+      {
+        "t": "CEO Sam Altman backed the proposal, calling Pachocki's essay the most important thing OpenAI has published in a while and saying common limits would help ensure safety and control.",
+        "s": 31.98,
+        "e": 42.89
+      }
+    ]
+  },
+  {
+    "title": "US futures bounce while Asia markets brace for AI wipeout",
+    "href": "story-2026-11-23-us-futures-bounce-while-asia-markets-brace-for-ai-wipeout.mp3",
+    "size_bytes": 365221,
+    "sentences": [
+      {
+        "t": "US futures bounce while Asia markets brace for AI wipeout",
+        "s": 0.0,
+        "e": 3.84
+      },
+      {
+        "t": "US stock futures bounced at Monday's open, with Nasdaq 100 futures up about 2% and S&P 500 futures up around 1%, while Asian markets braced for more selling after last week's wipeout in tech and chip stocks at the centre of the AI boom.",
+        "s": 3.84,
+        "e": 20.71
+      },
+      {
+        "t": "Last week's 10% drop in the Nasdaq was its largest weekly fall since March 2020, and investors are questioning whether the vast, mostly borrowed sums spent building data centres will generate returns fast enough to repay lenders.",
+        "s": 20.71,
+        "e": 34.91
+      },
+      {
+        "t": "Taiwanese shares fell 17% for the week, and authorities in Taiwan, China and South Korea moved to tighten short-selling rules, ease margin financing or ready market stabilisation funds.",
+        "s": 34.91,
+        "e": 45.65
+      }
+    ]
+  },
+  {
+    "title": "US stocks set to rebound after bruising sell-off",
+    "href": "story-2026-11-23-us-stocks-set-to-rebound-after-bruising-sell-off.mp3",
+    "size_bytes": 358501,
+    "sentences": [
+      {
+        "t": "US stocks set to rebound after bruising sell-off",
+        "s": 0.0,
+        "e": 2.96
+      },
+      {
+        "t": "US stocks looked set for a sharp bounce back on Monday after a punishing tech sell-off driven by fears about the durability of the AI investment boom, with Nasdaq-100 futures jumping 3.6% in premarket trading and Nvidia and CoreWeave each gaining more than 8%.",
+        "s": 2.96,
+        "e": 19.26
+      },
+      {
+        "t": "All three major US indexes lost 8% or more the week before, the S&P 500 posted its seventh straight day of losses, and the Nasdaq fell into the red for the year.",
+        "s": 19.26,
+        "e": 31.11
+      },
+      {
+        "t": "Analysts quoted by CNN called the rebound largely mechanical and warned another substantial sell-off is quite likely, citing the Democratic blue wave in the midterms, the troubles at Nvidia and doubts over valuations and data center investment.",
+        "s": 31.11,
+        "e": 44.81
+      }
+    ]
+  },
+  {
+    "title": "Anthropic's record IPO raises hopes for a charitable windfall that has nonprofits preparing to scale",
+    "href": "story-2026-11-23-anthropic-s-record-ipo-raises-hopes-for-a-charitable-windfall-that-has-nonprofit.mp3",
+    "size_bytes": 401701,
+    "sentences": [
+      {
+        "t": "Anthropic's record IPO raises hopes for a charitable windfall that has nonprofits preparing to scale",
+        "s": 0.0,
+        "e": 5.84
+      },
+      {
+        "t": "Anthropic's stock market debut at a record $1.5 trillion valuation has nonprofits preparing for a possible charitable windfall: the company plans to dedicate 5% of its shares to a new Anthropic Public Benefit Fund, and its seven co-founders say they will give away 80% of their equity, a $112 billion commitment at the IPO price.",
+        "s": 5.84,
+        "e": 27.24
+      },
+      {
+        "t": "Nonprofits are not counting on an immediate windfall, since many Anthropic employees cannot sell or gift the bulk of their shares until next spring, and questions persist about the new donors' priorities.",
+        "s": 27.24,
+        "e": 39.7
+      },
+      {
+        "t": "Groups such as GiveDirectly and Coefficient Giving are already building capacity, with GiveDirectly preparing phone supply chains for a possible large expansion of its direct cash transfers.",
+        "s": 39.7,
+        "e": 50.21
+      }
+    ]
+  },
+  {
+    "title": "\u2018Little room for error\u2019: what a debt-laden cloud computing company says about the AI boom",
+    "href": "story-2026-11-23-little-room-for-error-what-a-debt-laden-cloud-computing-company-says-about-the-a.mp3",
+    "size_bytes": 355237,
+    "sentences": [
+      {
+        "t": "\u2018Little room for error\u2019: what a debt-laden cloud computing company says about the AI boom",
+        "s": 0.0,
+        "e": 5.79
+      },
+      {
+        "t": "The Guardian examined CoreWeave, the AI cloud computing company called a poster child of the AI bubble, which rents out computing power from 52 data centres and has built that capacity with heavy borrowing.",
+        "s": 5.79,
+        "e": 18.92
+      },
+      {
+        "t": "CoreWeave owes about $47 billion, including $10 billion due next year, and lost $709 million last quarter on revenues of $3.6 billion, though its recent earnings briefly eased creditors' concerns.",
+        "s": 18.92,
+        "e": 30.5
+      },
+      {
+        "t": "Nvidia owns about 11% of CoreWeave, backs its financing and has agreed to buy computing capacity it cannot sell, creating circular ties that the Guardian says leave the AI boom's structure with little room for error.",
+        "s": 30.5,
+        "e": 44.4
+      }
+    ]
+  },
+  {
+    "title": "Anthropic's IPO was great for the tech elite \u2013 and not so great for the rest of us",
+    "href": "story-2026-11-23-anthropic-s-ipo-was-great-for-the-tech-elite-and-not-so-great-for-the-rest-of-us.mp3",
+    "size_bytes": 369637,
+    "sentences": [
+      {
+        "t": "Anthropic's IPO was great for the tech elite \u2013 and not so great for the rest of us",
+        "s": 0.0,
+        "e": 7.17
+      },
+      {
+        "t": "Steven Greenhouse writes in The Guardian that Anthropic's $81 billion IPO, valuing the company at $1.5 trillion, made its seven co-founders worth about $20 billion each, with an estimated 600 employees holding assets above $100 million and 2,800 others above $10 million.",
+        "s": 7.17,
+        "e": 23.9
+      },
+      {
+        "t": "Against that wealth, he notes, many Americans distrust AI over fears of harm to workers, the economy and humankind, and resent data centres that raise electricity prices, disrupt communities and receive tax breaks.",
+        "s": 23.9,
+        "e": 37.04
+      },
+      {
+        "t": "The piece argues the IPO spotlights wealth and income inequality, including worries about retirement accounts holding AI investments without clear awareness or choice.",
+        "s": 37.04,
+        "e": 46.2
+      }
+    ]
+  },
+  {
+    "title": "Osteopenia on Your Scan After 60: Is Carnivore Safe?",
+    "href": "story-2026-11-23-osteopenia-on-your-scan-after-60-is-carnivore-safe.mp3",
+    "size_bytes": 194917,
+    "sentences": [
+      {
+        "t": "Osteopenia on Your Scan After 60: Is Carnivore Safe?",
+        "s": 0.0,
+        "e": 3.32
+      },
+      {
+        "t": "Carnivore Weekly's latest article, published November 22, takes up the bone scan result many readers over 60 receive: osteopenia, and asks how a carnivore way of eating fits with it.",
+        "s": 3.32,
+        "e": 14.39
+      },
+      {
+        "t": "The article notes that half of women on Medicare skip the bone scan, and walks through what the osteopenia finding means for readers who did get theirs.",
+        "s": 14.39,
+        "e": 24.36
+      }
+    ]
+  },
+  {
+    "title": "Low Carbon unveils plan for solar farms on Essex Dengie Peninsula",
+    "href": "story-2026-11-23-low-carbon-unveils-plan-for-solar-farms-on-essex-dengie-peninsula.mp3",
+    "size_bytes": 380197,
+    "sentences": [
+      {
+        "t": "Low Carbon unveils plan for solar farms on Essex Dengie Peninsula",
+        "s": 0.0,
+        "e": 4.25
+      },
+      {
+        "t": "Plans have been unveiled to build one of the biggest solar farms in the UK across Essex's Dengie Peninsula, where Low Carbon wants to install panels across 4,200 acres between Burnham-on-Crouch and Bradwell-on-Sea.",
+        "s": 4.25,
+        "e": 17.0
+      },
+      {
+        "t": "The developer says the seven sites could generate 1GW of power, enough to supply 250,000 homes, and the plans include battery energy storage systems; the scheme is a nationally significant infrastructure project, so the government has the final say.",
+        "s": 17.0,
+        "e": 32.07
+      },
+      {
+        "t": "Critics, including Maldon District Council leader Simon Morgan, questioned the impact on wildlife and local roads, and Low Carbon aims to consult residents by summer 2027 and submit the plan to the Planning Inspectorate by the end of that year.",
+        "s": 32.07,
+        "e": 47.52
+      }
+    ]
+  }
+]
